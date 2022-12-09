@@ -1,0 +1,95 @@
+type Query {
+	categories: [Category]
+	categoryById(id: ID!): Category
+	quizes: [Quiz]
+	quizById(id: ID!): Quiz
+	players: [Player]
+	playerById(id: ID!): Player
+	questions: [Question]
+	questionById(id: ID!): Question
+	suggestions: [Suggestion]
+	suggestionById(id: ID!): Suggestion
+}
+
+type Mutation {
+	addCategory(category: CategoryInput): Category
+	updateCategory(id: ID!, newCategory: CategoryInput): Category
+	deleteCategoryById(id: ID!): Boolean
+	
+	addQuestion(question: QuestionInput): Question
+	updateQuestion(id: ID!, newQuestion: QuestionInput): Question
+	deleteQuestionById(id: ID!): Boolean
+	
+	addQuiz(quiz: QuizInput): Quiz
+	updateQuiz(id: ID!, newQuiz: QuizInput): Quiz
+	deleteQuizById(id: ID!): Boolean
+	
+	addSuggestion(suggestion: SuggestionInput): Suggestion
+	updateSuggestion(id: ID!, newSuggestion: SuggestionInput): Suggestion
+	deleteSuggestionById(id: ID!): Boolean
+	
+	addPlayer(player: PlayerInput): Player
+	updatePlayer(id: ID!, newPlayer: PlayerInput): Player
+	deletePlayerById(id: ID!): Boolean
+}
+
+input CategoryInput {
+	categoryName: String!
+}
+
+input PlayerInput {
+	playerName: String!
+	scoreQuizes: Int!
+}
+
+input QuizInput {
+	name: String
+	playDate: String!
+	maxScore: Int!
+	fkPlayer: ID!
+}
+
+input QuestionInput {
+	content: String!
+	points: Int!
+	questionImage: String
+	categoryID: ID!
+}
+
+input SuggestionInput {
+	suggestionContent: String!
+}
+
+type Category {
+	id: ID!
+	categoryName: String!
+	questions: [Question]
+}
+
+type Quiz {
+	id: ID!
+	name: String
+	playDate: String!
+	score: Int!
+	player: ID!
+}
+
+type Player {
+	id: ID!
+	playerName: String!
+	scoreQuizes: Int!
+	quizes: [Quiz]
+}
+
+type Question {
+	id: ID!
+	content: String!
+	points: Int!
+	questionImage: String
+	category: Category
+}
+
+type Suggestion {
+	id: ID!
+	suggestionContent: String!
+}

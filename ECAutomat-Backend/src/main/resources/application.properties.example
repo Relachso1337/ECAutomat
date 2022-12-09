@@ -1,0 +1,9 @@
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://MYSQLSERVER:3306/MYSQLTABLE
+spring.datasource.username=MYSQLUSERNAME
+spring.datasource.password=MYSQLPASSWORD
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+logging.level.org.springframework.web=debug
+server.port=8888
+server.servlet.context-path=/api/v1
+spring.graphql.graphiql.enabled=true
