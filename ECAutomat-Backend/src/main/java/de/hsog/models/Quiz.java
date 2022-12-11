@@ -1,6 +1,7 @@
 package de.hsog.models;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,8 +36,8 @@ public class Quiz {
 	private String name;
 
 	@ManyToOne
-	@JoinColumn(name="fkPlayer", referencedColumnName="idPlayer")
-	private Player fkPlayer;
+	@JoinColumn(name="player", referencedColumnName="idPlayer")
+	private Player player;
 	
 	@ManyToMany
 	@JoinTable(
@@ -53,17 +54,18 @@ public class Quiz {
 		this.questions = new ArrayList<>();
 	}
 	
-	public Quiz(LocalDateTime playdate, Integer maxScore, Player user) {
-		this.playdate = playdate;
+	public Quiz(String name, String playdate, Integer maxScore, Player user) {
+		this.name = name;
 		this.maxScore = maxScore;
-		this.fkPlayer = user;		
+		this.player = user;
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+		this.playdate = LocalDateTime.parse(playdate, formatter);
 	}
 	
-	public Quiz(String name, LocalDateTime playdate, Integer maxScore, Player user, List<Question> questions) {
-		this.name = name;
-		this.playdate = playdate;
+	public Quiz(String name, String playdate, Integer maxScore, Player user, List<Question> questions) {
+		this.name = name; 
 		this.maxScore = maxScore;
-		this.fkPlayer = user;
+		this.player = user;
 		this.questions = questions;
 	}
 	
@@ -82,6 +84,11 @@ public class Quiz {
 	public void setPlaydate(LocalDateTime playdate) {
 		this.playdate = playdate;
 	}
+	
+	public void setStringPlayDate(String playdate) {
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+		this.playdate = LocalDateTime.parse(playdate, formatter); 
+	}
 
 	public Integer getMaxScore() {
 		return maxScore;
@@ -99,12 +106,12 @@ public class Quiz {
 		this.name = name;
 	}
 
-	public Player getFkUser() {
-		return fkPlayer;
+	public Player getPlayer() {
+		return player;
 	}
 
-	public void setFKPlayer(Player fkPlayer) {
-		this.fkPlayer = fkPlayer;
+	public void setPlayer(Player fkPlayer) {
+		this.player = fkPlayer;
 	}
 
 	public List<Question> getQuestions() {

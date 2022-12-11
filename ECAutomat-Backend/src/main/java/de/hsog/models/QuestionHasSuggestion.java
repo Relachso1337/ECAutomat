@@ -30,6 +30,12 @@ public class QuestionHasSuggestion {
 
 	@Column(name = "isCorrect", nullable = false)
 	private boolean isCorrect;
+	
+	public QuestionHasSuggestion(Question question, Suggestion suggestion, boolean isCorrect) {
+		this.questionId = question;
+		this.suggestionId = suggestion;
+		this.isCorrect = isCorrect;
+	}
 
 	public QuestionHasSuggestionKey getId() {
 		return id;

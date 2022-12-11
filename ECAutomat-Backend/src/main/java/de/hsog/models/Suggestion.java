@@ -24,6 +24,10 @@ public class Suggestion {
 	@OneToMany(mappedBy = "suggestionId")
 	List<QuestionHasSuggestion> questions = new ArrayList<>();
 	
+	public Suggestion() {
+		this.suggestionContent = "N/A";
+	}
+	
 	public Suggestion(String suggestionContent) {
 		this.suggestionContent = suggestionContent;
 	}
