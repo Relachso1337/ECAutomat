@@ -26,7 +26,7 @@ public class Player {
 	@Column(nullable = false, columnDefinition = "integer default 0")
 	private Integer scoreQuizes;
 	
-	@OneToMany(mappedBy = "fkPlayer", cascade = CascadeType.ALL)
+	@OneToMany(mappedBy = "player", cascade = CascadeType.ALL)
 	private List<Quiz> quizes = new ArrayList<>();
 	
 	public Player() {

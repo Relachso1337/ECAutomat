@@ -29,8 +29,8 @@ public class Question {
 	private Integer points;
 	
 	@ManyToOne
-	@JoinColumn(name="fkCategory", referencedColumnName="idCategory")
-	private Category fkCategory;
+	@JoinColumn(name="category", referencedColumnName="idCategory")
+	private Category category;
 	
 	@OneToMany(mappedBy = "questionId")
 	List<QuestionHasSuggestion> suggestions = new ArrayList<>();
@@ -45,20 +45,18 @@ public class Question {
 	public Question() {
 		this.content = "N/A";
 		this.points = 0;
-		this.fkCategory = new Category();
-		this.questionImage = null;
 	}
 	
-	public Question(String content, Integer points, Category category) {
+	public Question(String content, Integer points, Category fkCategory) {
 		this.content = content;
 		this.points = points;
-		this.fkCategory = category;
+		this.category = fkCategory;
 	}
 	
-	public Question(String content, Integer points, Category category, List<QuestionHasSuggestion> suggestions, List<Quiz> quizes) {
+	public Question(String content, Integer points, Category fkCategory, List<QuestionHasSuggestion> suggestions, List<Quiz> quizes) {
 		this.content = content;
 		this.points = points;
-		this.fkCategory = category;
+		this.category = fkCategory;
 		this.suggestions = suggestions;
 		this.quizes = quizes;
 	}
