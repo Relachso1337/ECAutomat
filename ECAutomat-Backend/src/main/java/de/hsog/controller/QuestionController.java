@@ -39,7 +39,7 @@ public class QuestionController {
 	@MutationMapping
 	public Question addQuestion(@Argument QuestionInput question) {
 		Category c = this.categoryRepository.findById(question.categoryID()).orElseThrow(() -> new IllegalArgumentException());
-		Question q = new Question(question.content(), question.points(), c);
+		Question q = new Question(question.content(), question.points(), c, null); // TODO: Fix me
 		return this.questionRepository.save(q);
 	}
 	

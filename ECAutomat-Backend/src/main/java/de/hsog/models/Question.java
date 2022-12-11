@@ -6,6 +6,8 @@ import java.util.List;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -33,10 +35,13 @@ public class Question {
 	private Category category;
 	
 	@OneToMany(mappedBy = "questionId")
-	List<QuestionHasSuggestion> suggestions = new ArrayList<>();
+	List<Suggestion> suggestions = new ArrayList<>();
 	
 	@ManyToMany(mappedBy = "questions")
 	List<Quiz> quizes = new ArrayList<>();
+	
+//	@Enumerated(EnumType.STRING)
+//	QuestionType questiontype;
 	
 	/*TODO Maybe obsolete because of implementation issues */
 	@Column(nullable = true)
@@ -45,19 +50,22 @@ public class Question {
 	public Question() {
 		this.content = "N/A";
 		this.points = 0;
+//		this.questiontype = QuestionType.SIMPLE;
 	}
 	
-	public Question(String content, Integer points, Category fkCategory) {
+	public Question(String content, Integer points, Category fkCategory, QuestionType qType) {
 		this.content = content;
 		this.points = points;
 		this.category = fkCategory;
+//		this.questiontype = qType;  // TODO: Fix me
 	}
 	
-	public Question(String content, Integer points, Category fkCategory, List<QuestionHasSuggestion> suggestions, List<Quiz> quizes) {
+	public Question(String content, Integer points, Category fkCategory, List<Suggestion> suggestions, List<Quiz> quizes, QuestionType qType) {
 		this.content = content;
 		this.points = points;
 		this.category = fkCategory;
 		this.suggestions = suggestions;
+//		this.questiontype = qType;  // TODO: Fix me
 		this.quizes = quizes;
 	}
 
@@ -85,11 +93,11 @@ public class Question {
 		this.points = points;
 	}
 
-	public List<QuestionHasSuggestion> getSuggestions() {
+	public List<Suggestion> getSuggestions() {
 		return suggestions;
 	}
 
-	public void setSuggestions(List<QuestionHasSuggestion> suggestions) {
+	public void setSuggestions(List<Suggestion> suggestions) {
 		this.suggestions = suggestions;
 	}
 
