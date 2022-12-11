@@ -34,11 +34,10 @@ public class QuestionController {
 	}
 
 	/*TODO: do record + add content to schema.gql*/
-	record QuestionInput(String content, Integer points, Integer categoryID) {};
+	record QuestionInput(String content, Integer points, String questionImage, Integer categoryID) {};
 	
 	@MutationMapping
 	public Question addQuestion(@Argument QuestionInput question) {
-		// TODO: test add
 		Category c = this.categoryRepository.findById(question.categoryID()).orElseThrow(() -> new IllegalArgumentException());
 		Question q = new Question(question.content(), question.points(), c);
 		return this.questionRepository.save(q);
@@ -46,7 +45,6 @@ public class QuestionController {
 	
 	@MutationMapping
 	public Question updateQuestion(@Argument Integer id, @Argument QuestionInput newQuestion) {
-		// TODO: test update
 		Question question = this.questionRepository.findById(id).orElseThrow(() -> new IllegalArgumentException());
 		question.setContent(newQuestion.content());
 		question.setPoints(newQuestion.points());
@@ -55,7 +53,6 @@ public class QuestionController {
 	
 	@MutationMapping
 	public boolean deleteQuestionById(@Argument Integer id) {
-		// TODO: test delete
 		try {
 			this.questionRepository.deleteById(id);
 		}  catch (Exception e) {
