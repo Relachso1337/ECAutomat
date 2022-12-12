@@ -8,7 +8,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 
 @Entity
 public class Suggestion {
@@ -21,8 +22,9 @@ public class Suggestion {
 	@Column(nullable = false, columnDefinition = "varchar(999) default 'N/A'")
 	private String suggestionContent;
 	
-	@OneToMany(mappedBy = "suggestionId")
-	List<QuestionHasSuggestion> questions = new ArrayList<>();
+	@ManyToOne
+	@JoinColumn(name="question", referencedColumnName = "idQuestion")
+	private Question question;
 	
 	public Suggestion() {
 		this.suggestionContent = "N/A";
@@ -32,9 +34,9 @@ public class Suggestion {
 		this.suggestionContent = suggestionContent;
 	}
 	
-	public Suggestion(String suggestionContent, List<QuestionHasSuggestion> questions) {
+	public Suggestion(String suggestionContent, Question quest) {
 		this.suggestionContent = suggestionContent;
-		this.questions = questions;
+		this.question = quest;
 	}
 
 	public Integer getId() {
@@ -53,12 +55,12 @@ public class Suggestion {
 		this.suggestionContent = suggestionContent;
 	}
 
-	public List<QuestionHasSuggestion> getQuestions() {
-		return questions;
+	public Question getQuestion() {
+		return question;
 	}
 
-	public void setQuestions(List<QuestionHasSuggestion> questions) {
-		this.questions = questions;
+	public void setQuestions(Question question) {
+		this.question = question;
 	}
 	
 	

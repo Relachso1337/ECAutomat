@@ -8,9 +8,12 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.MapsId;
 
+/*TODO: ManyToMany-Relation between Question and Suggestion - became obsolete */
+
 @Entity
 public class QuestionHasSuggestion {
 
+	
 	@EmbeddedId
 	private QuestionHasSuggestionKey id;
 

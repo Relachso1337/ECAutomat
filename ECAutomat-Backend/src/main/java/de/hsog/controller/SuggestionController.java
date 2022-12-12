@@ -45,15 +45,6 @@ public class SuggestionController {
 	}
 	
 	@MutationMapping
-	/*TODO: Fix graphQL errors*/
-	public Suggestion addSuggestionToQuestion(@Argument Integer suggestionID, @Argument Integer questionID, @Argument boolean isCorrect) {
-		Suggestion suggestion = this.suggestionRepository.findById(suggestionID).orElseThrow(() -> new IllegalAccessError("Suggestion not found"));
-		Question question = this.questionRepository.findById(questionID).orElseThrow(() -> new IllegalArgumentException("Question not found"));
-		suggestion.getQuestions().add(new QuestionHasSuggestion(question, suggestion, isCorrect));
-		return this.suggestionRepository.save(suggestion);
-	}
-	
-	@MutationMapping
 	public Suggestion updateSuggestion(@Argument Integer id, @Argument Suggestion newSuggestion) {
 		// TODO: test update
 		Suggestion suggestion = this.suggestionRepository.findById(id).orElseThrow(() -> new IllegalArgumentException());

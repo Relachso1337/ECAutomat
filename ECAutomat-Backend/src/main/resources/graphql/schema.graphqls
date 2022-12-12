@@ -30,7 +30,6 @@ type Mutation {
 	deleteQuizById(id: ID!): Boolean
 	
 	addSuggestion(suggestion: SuggestionInput): Suggestion
-	addSuggestionToQuestion(suggestionID: ID!, questionID: ID!, isCorrect: Boolean): Suggestion
 	updateSuggestion(id: ID!, newSuggestion: SuggestionInput): Suggestion
 	deleteSuggestionById(id: ID!): Boolean
 	
@@ -60,6 +59,7 @@ input QuestionInput {
 	points: Int!
 	questionImage: String
 	categoryID: ID!
+	questionType: String
 }
 
 input SuggestionInput {
@@ -95,6 +95,7 @@ type Question {
 	questionImage: String
 	category: Category
 	quizes: [Quiz]
+	questiontype: String
 }
 
 type Suggestion {

@@ -34,14 +34,14 @@ public class Question {
 	@JoinColumn(name="category", referencedColumnName="idCategory")
 	private Category category;
 	
-	@OneToMany(mappedBy = "questionId")
+	@OneToMany(mappedBy = "question")
 	List<Suggestion> suggestions = new ArrayList<>();
 	
 	@ManyToMany(mappedBy = "questions")
 	List<Quiz> quizes = new ArrayList<>();
 	
-//	@Enumerated(EnumType.STRING)
-//	QuestionType questiontype;
+	@Enumerated(EnumType.STRING)
+	QuestionType questiontype;
 	
 	/*TODO Maybe obsolete because of implementation issues */
 	@Column(nullable = true)
@@ -50,14 +50,14 @@ public class Question {
 	public Question() {
 		this.content = "N/A";
 		this.points = 0;
-//		this.questiontype = QuestionType.SIMPLE;
+		this.questiontype = QuestionType.SIMPLE;
 	}
 	
 	public Question(String content, Integer points, Category fkCategory, QuestionType qType) {
 		this.content = content;
 		this.points = points;
 		this.category = fkCategory;
-//		this.questiontype = qType;  // TODO: Fix me
+		this.questiontype = qType;  // TODO: Fix me
 	}
 	
 	public Question(String content, Integer points, Category fkCategory, List<Suggestion> suggestions, List<Quiz> quizes, QuestionType qType) {
@@ -65,7 +65,7 @@ public class Question {
 		this.points = points;
 		this.category = fkCategory;
 		this.suggestions = suggestions;
-//		this.questiontype = qType;  // TODO: Fix me
+		this.questiontype = qType;  // TODO: Fix me
 		this.quizes = quizes;
 	}
 

@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 
 import de.hsog.models.Category;
 import de.hsog.models.Question;
+import de.hsog.models.QuestionType;
 import de.hsog.repositories.CategoryRepository;
 import de.hsog.repositories.QuestionRepository;
 
@@ -34,12 +35,13 @@ public class QuestionController {
 	}
 
 	/*TODO: do record + add content to schema.gql*/
-	record QuestionInput(String content, Integer points, String questionImage, Integer categoryID) {};
+	record QuestionInput(String content, Integer points, String questionImage, Integer categoryID, QuestionType questionType) {};
 	
 	@MutationMapping
 	public Question addQuestion(@Argument QuestionInput question) {
+		/*TODO: Test Me */
 		Category c = this.categoryRepository.findById(question.categoryID()).orElseThrow(() -> new IllegalArgumentException());
-		Question q = new Question(question.content(), question.points(), c, null); // TODO: Fix me
+		Question q = new Question(question.content(), question.points(), c, question.questionType());
 		return this.questionRepository.save(q);
 	}
 	
