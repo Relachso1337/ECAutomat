@@ -1,4 +1,4 @@
-package de.hsog.controller;
+package de.hsog.graphqlcontroller;
 
 import java.util.Optional;
 

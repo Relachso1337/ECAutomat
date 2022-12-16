@@ -1,4 +1,4 @@
-package de.hsog.controller;
+package de.hsog.graphqlcontroller;
 
 import java.util.Optional;
 
@@ -17,11 +17,9 @@ import de.hsog.repositories.SuggestionRepository;
 public class SuggestionController {
 	
 	private final SuggestionRepository suggestionRepository;
-	private final QuestionRepository questionRepository;
 	
-	public SuggestionController(SuggestionRepository suggestionRepo, QuestionRepository questionRepo) {
+	public SuggestionController(SuggestionRepository suggestionRepo) {
 		this.suggestionRepository = suggestionRepo;
-		this.questionRepository = questionRepo;
 	}
 	
 	@QueryMapping
