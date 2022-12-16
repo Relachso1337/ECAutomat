@@ -1,19 +1,29 @@
-const startButton = document.getElementById('start-btn')
+const k1button = document.getElementById('k1-btn')
+const k2button = document.getElementById('k2-btn')
+const k3button = document.getElementById('k3-btn')
 const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
+let k1 = false;
+let k2 = false;
+let k3 = false;
+
 let shuffledQuestions, currentQuestionIndex
 
-startButton.addEventListener('click', startGame)
+k1button.addEventListener('click', startGame)
+k2button.addEventListener('click', startGame)
+k3button.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
   setNextQuestion()
 })
 
 function startGame() {
-  startButton.classList.add('hide')
+  k1button.classList.add('hide')
+  k2button.classList.add('hide')
+  k3button.classList.add('hide')
   shuffledQuestions = questions.sort(() => Math.random() - .5)
   currentQuestionIndex = 0
   questionContainerElement.classList.remove('hide')
@@ -96,3 +106,45 @@ const questions = [
     ]
   },
 ]
+
+const questions2 = [
+    {
+      question: 'Who is the best YouTuber2?',
+      answers: [
+        { text: 'Web Dev Simplified', correct: true },
+        { text: 'Traversy Media', correct: true },
+        { text: 'Dev Ed', correct: true },
+        { text: 'Fun Fun Function', correct: true }
+      ]
+    },
+    {
+      question: 'Is web development fun2?',
+      answers: [
+        { text: 'Kinda', correct: false },
+        { text: 'YES!!!', correct: true },
+        { text: 'Um no', correct: false },
+        { text: 'IDK', correct: false }
+      ]
+    },
+  ]
+
+  const questions3 = [
+    {
+      question: 'Who is the best YouTuber3?',
+      answers: [
+        { text: 'Web Dev Simplified', correct: true },
+        { text: 'Traversy Media', correct: true },
+        { text: 'Dev Ed', correct: true },
+        { text: 'Fun Fun Function', correct: true }
+      ]
+    },
+    {
+      question: 'Is web development fun3?',
+      answers: [
+        { text: 'Kinda', correct: false },
+        { text: 'YES!!!', correct: true },
+        { text: 'Um no', correct: false },
+        { text: 'IDK', correct: false }
+      ]
+    },
+  ]
