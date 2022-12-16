@@ -1,4 +1,3 @@
-/*Mensaplan Truong*/
 const puppeteer = require('puppeteer');
 const fs = require('fs/promises');
 
@@ -15,7 +14,9 @@ async function scrapeProduct(url) {
     const menu2 = await el2.getProperty('textContent');
     const menuTxt2 = await menu2.jsonValue();
 
-    console.log(menuTxt, menuTxt2);
+    const [el3] = await page.$x('//*[@id="tab-fri"]/div/div[3]/small');
+    const menu3 = await el3.getProperty('textContent');
+    const menuTxt3 = await menu3.jsonValue();
 
     var obj = {
         menu: []
@@ -23,6 +24,7 @@ async function scrapeProduct(url) {
 
     obj.menu.push({id: 1, essen: menuTxt});
     obj.menu.push({id: 2, essen: menuTxt2});
+    obj.menu.push({id: 3, essen: menuTxt3});
 
     var json = JSON.stringify(obj);
 
