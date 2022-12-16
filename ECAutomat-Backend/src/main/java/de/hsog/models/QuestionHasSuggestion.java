@@ -8,9 +8,12 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.MapsId;
 
+/*TODO: ManyToMany-Relation between Question and Suggestion - became obsolete */
+
 @Entity
 public class QuestionHasSuggestion {
 
+	
 	@EmbeddedId
 	private QuestionHasSuggestionKey id;
 
@@ -30,6 +33,12 @@ public class QuestionHasSuggestion {
 
 	@Column(name = "isCorrect", nullable = false)
 	private boolean isCorrect;
+	
+	public QuestionHasSuggestion(Question question, Suggestion suggestion, boolean isCorrect) {
+		this.questionId = question;
+		this.suggestionId = suggestion;
+		this.isCorrect = isCorrect;
+	}
 
 	public QuestionHasSuggestionKey getId() {
 		return id;

@@ -1,0 +1,16 @@
+{
+	"menu": [
+		{
+			"id": 1,
+			"essen": "Tortellini mit Gemüsefüllung TomatensauceGeriebener KäseBeilagensalat oder Regio-Apfel"
+		},
+		{
+			"id": 2,
+			"essen": "Schlemmerfilet BordelaisePetersiliensauceRisoleekartoffelnBuntes Marktgemüse"
+		},
+		{
+			"id": 3,
+			"essen": "Schlemmerfilet BordelaisePetersiliensauceRisoleekartoffelnBuntes Marktgemüse"
+		}
+	]
+}

@@ -1,1 +1,11 @@
 Falls es wichtige Hinweise bezüglich dem Code gibt, dann einfach hier reinschreiben.
+
+
+!!!Die Dateien die später dargestellt werden sollen, werden in Verzeichnis src/main/java/resource gespeichert.
+
+!!!Die nicht für den Server vorbereiten, (aber lokal funktionierenden) Dateien werden in dafür vorgesehenen Ordner in rawContent gespeichert.
+
+Falls es Routing wünsche gibt z.B. vorlesungsplan.html für 127.0.0.1/vorlesungsplan, dann kann das in einem Kommentar in der HTML vermerken. (Am Besten im head)
+
+Falls man Selbst eine Datei für den Server vorbereiten möchte, dann man sich an den eingefügten Beispielen in den Ordnern template und static orientieren. 
+Alternativ kann  man sich an der Dokumentation von Thymeleaf (https://www.thymeleaf.org/doc/tutorials/3.1/usingthymeleaf.html) orientieren.

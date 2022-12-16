@@ -1,50 +1,25 @@
-package de.hsog.models;
+package de.hsog.dto;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.JoinTable;
-import jakarta.persistence.ManyToMany;
-import jakarta.persistence.ManyToOne;
-
-@Entity
 public class Quiz {
 
 	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="idQuiz")
 	private Integer id;
 
 	/* TODO maybe change playdate format, to eliminate errors with GraphQL and Database (Datetime) */
-	@Column(nullable = false)
 	private LocalDateTime playdate;
 	
 	/* TODO add function to DB-Scheme to add Score from seperate Questions */
-	@Column(nullable = false)
 	private Integer maxScore;
 	
-	@Column(nullable = true)
 	private String name;
 
-	@ManyToOne
-	@JoinColumn(name="player", referencedColumnName="idPlayer")
 	private Player player;
 	
-	@ManyToMany
-	@JoinTable(
-			name="quiz_has_question",
-			joinColumns = @JoinColumn(name="idQuiz"),
-			inverseJoinColumns = @JoinColumn(name="idQuestion")
-			)
 	private List<Question> questions;
 
 	public Quiz() {

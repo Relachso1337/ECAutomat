@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Truong Nguyen">
+
+	<title>Mensaplan Hochschule Offenburg</title>
+	
+	<link rel="stylesheet" th:href="@{/css/mensaplan.css}">
+	<script th:src="@{js/script.js}"></script>
+</head>
+
+<body onload="load()">
+	
+	<h1 id="title">PROJEKT AUTOMAT</h1>
+
+	<div class="menu">
+		<ul>
+			<li><a href="/">Startseite</a></li>
+			<li><a href="/">Quiz</a></li>
+			<li><a href="/">Vorlesungsplan</a></li>
+			<li><a href="/">Mensa</a></li>
+		</ul>
+	</div>
+
+	<button onclick="getMenu()">ddd</button>
+
+	<p id="date">-</p>
+
+	<img id="img_koch" th:src="@{/media/img/chefkoch.png}">
+	
+	<div th:each="speise : ${speisen}">	
+		<div class="essen_menu">
+			<ul>
+				<li id="essen_1_title" th:text="'Menü ' + ${speise.getId()}"></li><br>
+				<li id="essen_1" th:text="${speise.getEssen()}">
+				</li>
+			</ul>
+		</div>
+	
+		<div class="essen_menu2">
+			<ul>
+				<li id="essen_2_title">Menü 2</li><br>
+				<li id="essen_2">
+					Rostbratwurst Thüringer Art
+					Bratensauce
+					Kartoffelbrei
+					Sauerkraut
+					Kennzeichnungen/Zusatzstoffe
+				</li>
+			</ul>
+		</div>
+	
+		<div class="essen_menu3">
+			<ul>
+				<li id="essen_3_title">Menü 3</li><br>
+				<li id="essen_3">
+					aufgegessen
+					Käsespätzle
+					Röstzwiebeln
+					Beilagensalat oder Regio-Apfel
+				</li>
+			</ul>
+		</div>
+	</div>
+	<p id="essen_kosten">Studierende, Schüler 3,45€ / Mitarbeitende 4,75€ / Gäste 6,90€</p>
+
+</body>
+
+</html>

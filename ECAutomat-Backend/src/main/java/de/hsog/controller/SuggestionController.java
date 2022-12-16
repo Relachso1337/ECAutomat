@@ -7,16 +7,21 @@ import org.springframework.graphql.data.method.annotation.MutationMapping;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
 import org.springframework.stereotype.Controller;
 
+import de.hsog.models.Question;
+import de.hsog.models.QuestionHasSuggestion;
 import de.hsog.models.Suggestion;
+import de.hsog.repositories.QuestionRepository;
 import de.hsog.repositories.SuggestionRepository;
 
 @Controller
 public class SuggestionController {
 	
 	private final SuggestionRepository suggestionRepository;
+	private final QuestionRepository questionRepository;
 	
-	public SuggestionController(SuggestionRepository suggestionRepo) {
+	public SuggestionController(SuggestionRepository suggestionRepo, QuestionRepository questionRepo) {
 		this.suggestionRepository = suggestionRepo;
+		this.questionRepository = questionRepo;
 	}
 	
 	@QueryMapping

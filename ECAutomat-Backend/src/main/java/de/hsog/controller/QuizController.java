@@ -10,18 +10,22 @@ import org.springframework.stereotype.Controller;
 
 import de.hsog.models.Quiz;
 import de.hsog.models.Player;
+import de.hsog.models.Question;
 import de.hsog.repositories.QuizRepository;
 import de.hsog.repositories.PlayerRepository;
+import de.hsog.repositories.QuestionRepository;
 
 @Controller
 public class QuizController {
 
 	private final QuizRepository quizRepository;
 	private final PlayerRepository userRepository;
+	private final QuestionRepository questionRepository;
 
-	public QuizController(QuizRepository quizRepository, PlayerRepository userRepository) {
+	public QuizController(QuizRepository quizRepository, PlayerRepository userRepository, QuestionRepository questionRepo) {
 		this.quizRepository = quizRepository;
 		this.userRepository = userRepository;
+		this.questionRepository = questionRepo;
 	}
 
 	@QueryMapping
@@ -34,14 +38,21 @@ public class QuizController {
 		return this.quizRepository.findById(id);
 	}
 
-	record QuizInput(LocalDateTime playDate, Integer maxScore, Integer playerID) {
+	record QuizInput(String name, String playDate, Integer maxScore, Integer playerID) {
+	}
+	
+	@MutationMapping
+	public Quiz addQuestionToQuiz(@Argument Integer quizID, @Argument Integer questionID) {
+		Quiz quiz = this.quizRepository.findById(quizID).orElseThrow(() -> new IllegalArgumentException("Quiz is null"));
+		Question question = this.questionRepository.findById(questionID).orElseThrow(() -> new IllegalArgumentException("Question is null"));
+		quiz.getQuestions().add(question);
+		return this.quizRepository.save(quiz);
 	}
 	
 	@MutationMapping
 	public Quiz addQuiz(@Argument QuizInput quiz) {
-		// TODO: test add
 		Player player = this.userRepository.findById(quiz.playerID()).orElseThrow(() -> new IllegalArgumentException());
-		Quiz q = new Quiz(quiz.playDate(), quiz.maxScore(), player);
+		Quiz q = new Quiz(quiz.name(), quiz.playDate(), quiz.maxScore(), player);
 		return this.quizRepository.save(q);
 	}
 	
@@ -50,8 +61,8 @@ public class QuizController {
 		Player player = this.userRepository.findById(newQuiz.playerID()).orElseThrow(() -> new IllegalArgumentException());
 		Quiz quiz = this.quizRepository.findById(id).orElseThrow(() -> new IllegalArgumentException());
 		quiz.setMaxScore(newQuiz.maxScore());
-		quiz.setPlaydate(newQuiz.playDate());
-		quiz.setFKPlayer(player);
+		quiz.setStringPlayDate(newQuiz.playDate());
+		quiz.setPlayer(player);
 		return this.quizRepository.save(quiz);
 	}
 

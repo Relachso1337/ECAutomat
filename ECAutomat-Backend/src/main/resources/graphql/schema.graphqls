@@ -1,12 +1,16 @@
 type Query {
 	categories: [Category]
 	categoryById(id: ID!): Category
+	
 	quizes: [Quiz]
 	quizById(id: ID!): Quiz
+	
 	players: [Player]
 	playerById(id: ID!): Player
+	
 	questions: [Question]
 	questionById(id: ID!): Question
+	
 	suggestions: [Suggestion]
 	suggestionById(id: ID!): Suggestion
 }
@@ -21,6 +25,7 @@ type Mutation {
 	deleteQuestionById(id: ID!): Boolean
 	
 	addQuiz(quiz: QuizInput): Quiz
+	addQuestionToQuiz(quizID: ID!, questionID: ID!): Quiz
 	updateQuiz(id: ID!, newQuiz: QuizInput): Quiz
 	deleteQuizById(id: ID!): Boolean
 	
@@ -46,7 +51,7 @@ input QuizInput {
 	name: String
 	playDate: String!
 	maxScore: Int!
-	fkPlayer: ID!
+	playerID: ID!
 }
 
 input QuestionInput {
@@ -54,6 +59,7 @@ input QuestionInput {
 	points: Int!
 	questionImage: String
 	categoryID: ID!
+	questionType: String
 }
 
 input SuggestionInput {
@@ -70,8 +76,9 @@ type Quiz {
 	id: ID!
 	name: String
 	playDate: String!
-	score: Int!
-	player: ID!
+	maxScore: Int!
+	player: Player
+	questions: [Question]
 }
 
 type Player {
@@ -87,6 +94,8 @@ type Question {
 	points: Int!
 	questionImage: String
 	category: Category
+	quizes: [Quiz]
+	questiontype: String
 }
 
 type Suggestion {

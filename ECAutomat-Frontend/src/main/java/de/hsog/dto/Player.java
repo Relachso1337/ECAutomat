@@ -1,32 +1,17 @@
-package de.hsog.models;
+package de.hsog.dto;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import jakarta.persistence.CascadeType;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
-
-@Entity
 public class Player {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="idPlayer")
 	private Integer id;
 
 
-	@Column(nullable = false)
 	private String playerName;
 
-	@Column(nullable = false, columnDefinition = "integer default 0")
 	private Integer scoreQuizes;
 	
-	@OneToMany(mappedBy = "player", cascade = CascadeType.ALL)
 	private List<Quiz> quizes = new ArrayList<>();
 	
 	public Player() {

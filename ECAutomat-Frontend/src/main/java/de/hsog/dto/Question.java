@@ -1,50 +1,26 @@
-package de.hsog.models;
+package de.hsog.dto;
 
 import java.sql.Blob;
 import java.util.ArrayList;
 import java.util.List;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToMany;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToMany;
-
-@Entity
 public class Question {
 	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="idQuestion")
 	private Integer id;
 	
-	@Column(nullable = false, columnDefinition = "varchar(999) default 'N/A'")
 	private String content;
 	
-	@Column(nullable = false)
 	private Integer points;
 	
-	@ManyToOne
-	@JoinColumn(name="category", referencedColumnName="idCategory")
 	private Category category;
 	
-	@OneToMany(mappedBy = "question")
 	List<Suggestion> suggestions = new ArrayList<>();
 	
-	@ManyToMany(mappedBy = "questions")
 	List<Quiz> quizes = new ArrayList<>();
 	
-	@Enumerated(EnumType.STRING)
 	QuestionType questiontype;
 	
 	/*TODO Maybe obsolete because of implementation issues */
-	@Column(nullable = true)
 	private Blob questionImage;
 	
 	public Question() {
@@ -57,7 +33,7 @@ public class Question {
 		this.content = content;
 		this.points = points;
 		this.category = fkCategory;
-		this.questiontype = qType;  // TODO: Fix me
+		this.questiontype = qType;
 	}
 	
 	public Question(String content, Integer points, Category fkCategory, List<Suggestion> suggestions, List<Quiz> quizes, QuestionType qType) {
@@ -65,7 +41,7 @@ public class Question {
 		this.points = points;
 		this.category = fkCategory;
 		this.suggestions = suggestions;
-		this.questiontype = qType;  // TODO: Fix me
+		this.questiontype = qType;
 		this.quizes = quizes;
 	}
 
@@ -87,6 +63,14 @@ public class Question {
 
 	public Integer getPoints() {
 		return points;
+	}
+	
+	public Category getCategory() {
+		return category;
+	}
+	
+	public void setCategory(Category category) {
+		this.category = category;
 	}
 
 	public void setPoints(Integer points) {
