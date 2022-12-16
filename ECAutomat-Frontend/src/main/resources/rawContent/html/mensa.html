@@ -8,7 +8,7 @@
 
 	<title>Mensaplan Hochschule Offenburg</title>
 	
-	<link rel="stylesheet" href="./css/default.css">
+	<link rel="stylesheet" href="../css/default.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
 
 	<p id="date">-</p>
 
-	<img id="img_koch" src="./media/img/chefkoch.png">
+	<img id="img_koch" src="../media/img/chefkoch.png">
 
 	<div class="essen_menu">
 		<ul>
@@ -48,7 +48,7 @@
 	<p id="essen_kosten">Studierende, Schüler 3,45€ / Mitarbeitende 4,75€ / Gäste 6,90€</p>
 
 	<script>
-		fetch('./menu.json')
+		fetch('../menu.json')
 		.then(res => res.json())
 		.then(data => {
 			document.getElementById('essen_1').innerHTML = data.menu[0].essen.replace(/([A-Z])/g, ' $1').trim();;
