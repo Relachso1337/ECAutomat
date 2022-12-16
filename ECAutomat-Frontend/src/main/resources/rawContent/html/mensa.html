@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Truong Nguyen">
+
+	<title>Mensaplan Hochschule Offenburg</title>
+	
+	<link rel="stylesheet" href="./css/default.css">
+</head>
+
+<body>
+	
+	<h1 id="title">PROJEKT AUTOMAT</h1>
+
+	<div class="menu">
+		<ul>
+			<li><a href="/">Startseite</a></li>
+			<li><a href="/">Quiz</a></li>
+			<li><a href="/">Vorlesungsplan</a></li>
+			<li><a href="/">Mensa</a></li>
+		</ul>
+	</div>
+
+	<p id="date">-</p>
+
+	<img id="img_koch" src="./media/img/chefkoch.png">
+
+	<div class="essen_menu">
+		<ul>
+			<li id="essen_title">Menü 1</li><br>
+			<li id="essen_1">-</li>
+			
+			<br><br><br>
+
+			<li id="essen_title">Menü 2</li><br>
+			<li id="essen_2">-</li>
+
+			<br><br><br>
+
+			<li id="essen_title">Menü 3</li><br>
+			<li id="essen_3">-</li>
+		</ul>
+	</div>
+
+	<p id="essen_kosten">Studierende, Schüler 3,45€ / Mitarbeitende 4,75€ / Gäste 6,90€</p>
+
+	<script>
+		fetch('./menu.json')
+		.then(res => res.json())
+		.then(data => {
+			document.getElementById('essen_1').innerHTML = data.menu[0].essen.replace(/([A-Z])/g, ' $1').trim();;
+			document.getElementById('essen_2').innerHTML = data.menu[1].essen.replace(/([A-Z])/g, ' $1').trim();
+			document.getElementById('essen_3').innerHTML = data.menu[2].essen.replace(/([A-Z])/g, ' $1').trim();
+		});
+
+		const date = new Date();
+		const wochentag = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"];
+
+		document.getElementById('date').innerHTML = wochentag[date.getDay()-1] + ", " + date.toLocaleDateString();
+	</script>
+
+</body>
+</html>
