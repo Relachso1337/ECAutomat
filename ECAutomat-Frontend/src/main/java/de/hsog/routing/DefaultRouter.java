@@ -14,6 +14,8 @@ import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import de.hsog.dto.Category;
+import de.hsog.graphqlcontroller.CategoryGraphQLController;
 import de.hsog.mensaplan.MensaMenu;
 
 
@@ -47,5 +49,13 @@ public class DefaultRouter{
 			e.printStackTrace();
 		}
 		return "html/mensaplan";
+	}
+	
+	@GetMapping(value = "category")
+	public String category(Model model) {
+		CategoryGraphQLController controller = new CategoryGraphQLController();
+		Category cat = controller.getCategoryById(1);
+		model.addAttribute("category", cat);
+		return "html/category";
 	}
 }
