@@ -1,0 +1,37 @@
+[
+    {
+      "semester": "WIN1",
+      "studiengang": "Wirtschaftsinformatik",
+      "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=23006E34-D2C0-43BE-8A86-FA9677B14131&week=0"
+    },
+    {
+      "semester": "WIN2",
+      "studiengang": "Wirtschaftsinformatik",
+      "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=19EBADC5-231C-41FD-A109-ADE391B56900&week=0"
+    },
+    {
+      "semester": "WIN3",
+      "studiengang": "Wirtschaftsinformatik",
+      "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=69A4AF96-A43C-4E91-8389-26D6EB93EF2B&week=0"
+    }, 
+    {
+      "semester": "WIN4",
+      "studiengang": "Wirtschaftsinformatik",
+      "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=D048BDB2-CDC7-42F6-987E-F9149350D2DC&week=0"
+    },
+    {
+      "semester": "WIN5",
+      "studiengang": "Wirtschaftsinformatik",
+      "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=DB324923-1F26-4460-A0CD-61E2D57C9038&week=0"
+    },
+    {
+      "semester": "WIN6",
+      "studiengang": "Wirtschaftsinformatik",
+      "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=361B73D1-8FDC-4946-8AC7-12579F007D7A&week=0"
+    },
+    {
+      "semester": "WIN7",
+      "studiengang": "Wirtschaftsinformatik",
+      "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=1DD6DF23-7D1B-406F-B943-C4B01C6BC9A6&week=0"
+    }
+  ]
