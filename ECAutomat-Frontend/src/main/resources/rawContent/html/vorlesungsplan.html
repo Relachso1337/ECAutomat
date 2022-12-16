@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/vorlesungsplan.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/vorlesungsplan.css" />
+    <script src="../javascript/vorlesungsplan.js" defer></script>
     <title>Vorlesungsplaene</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="menu">
-        <ul>
-            <li><a href="./startseite.html">Startseite</a></li>
-            <li><a href="./quiz.html">Quiz</a></li>
-            <li><a href="vorlesungsplan.html">Vorlesungsplan</a></li>
-            <li><a href="./mensa.html">Mensa</a></li>
-        </ul>
+      <ul>
+        <li><a href="./startseite.html">Startseite</a></li>
+        <li><a href="./quiz.html">Quiz</a></li>
+        <li><a href="vorlesungsplan.html">Vorlesungsplan</a></li>
+        <li><a href="./mensa.html">Mensa</a></li>
+      </ul>
     </div>
-    <script src="../javascript/vorlesungsplan.js"></script>
-</body>
+
+    <!-- Suchleiste -->
+    <div class="search-wrapper">
+      <label for="search">Studiengang suchen:</label>
+      <input type="search" id="search" data-search />
+    </div>
+    <div class="user-cards" data-user-cards-container>
+      <template data-user-template>
+        <div class="card">
+        <div class="header" data-header></div>
+        <div class="body" data-body></div>
+        </div>
+      </template>
+    </div>
+  </body>
 </html>
