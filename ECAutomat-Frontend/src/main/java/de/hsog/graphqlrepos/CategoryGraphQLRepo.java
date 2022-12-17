@@ -1,4 +1,4 @@
-package de.hsog.graphqlcontroller;
+package de.hsog.graphqlrepos;
 
 import java.util.List;
 
@@ -10,20 +10,20 @@ import de.hsog.dto.Category;
 import de.hsog.dto.Question;
 import reactor.core.publisher.Mono;
 
-public class CategoryGraphQLController {
+public class CategoryGraphQLRepo {
 
 	private final String serverAddress;
 	private final int serverPort;
 	private final String graphQLContext;
 
-	public CategoryGraphQLController() {
+	public CategoryGraphQLRepo() {
 		// http://localhost:8888/api/v1/graphql
 		this.serverAddress = "http://localhost";
 		this.serverPort = 8888;
 		this.graphQLContext = "/api/v1/graphql";
 	}
 	
-	public CategoryGraphQLController(String address, int port, String context) {
+	public CategoryGraphQLRepo(String address, int port, String context) {
 		this.serverAddress = address;
 		this.serverPort = port;
 		this.graphQLContext = context;
