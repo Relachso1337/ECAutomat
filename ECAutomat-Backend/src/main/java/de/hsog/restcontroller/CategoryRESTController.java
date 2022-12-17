@@ -1,5 +1,6 @@
 package de.hsog.restcontroller;
 
+import java.sql.SQLIntegrityConstraintViolationException;
 import java.util.NoSuchElementException;
 
 import org.springframework.http.HttpStatus;
@@ -70,13 +71,13 @@ public class CategoryRESTController{
 	
 	@PostMapping("Categories")
 	public ResponseEntity<String> addCategory(@RequestBody Category category) {
-		category.setId(null);
-		Category savedObj = this.categoryRepository.save(category);
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
+			category.setId(null);
+			Category savedObj = this.categoryRepository.save(category);
 			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObj);
-		} catch (JsonProcessingException e) {
+		} catch (Exception e) {
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
 		}
