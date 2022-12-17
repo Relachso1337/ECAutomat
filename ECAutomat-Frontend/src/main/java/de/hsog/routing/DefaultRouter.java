@@ -36,16 +36,12 @@ public class DefaultRouter{
 			MensaMenu menu = objectMapper.readValue(file, MensaMenu.class);
 			model.addAttribute("speisen", menu.getMenu());
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (StreamReadException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (DatabindException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return "html/mensaplan";
