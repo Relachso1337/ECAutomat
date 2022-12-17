@@ -53,11 +53,19 @@ public class Question {
 		this.questiontype = QuestionType.SIMPLE;
 	}
 	
+	public Question(String content, Integer points, Category category) {
+		this.content = content;
+		this.points = points;
+		this.category = category;
+		this.questionImage = null;
+		this.questiontype = QuestionType.SIMPLE;
+	}
+	
 	public Question(String content, Integer points, Category fkCategory, QuestionType qType) {
 		this.content = content;
 		this.points = points;
 		this.category = fkCategory;
-		this.questiontype = qType;  // TODO: Fix me
+		this.questiontype = qType;
 	}
 	
 	public Question(String content, Integer points, Category fkCategory, List<Suggestion> suggestions, List<Quiz> quizes, QuestionType qType) {
@@ -65,7 +73,7 @@ public class Question {
 		this.points = points;
 		this.category = fkCategory;
 		this.suggestions = suggestions;
-		this.questiontype = qType;  // TODO: Fix me
+		this.questiontype = qType;
 		this.quizes = quizes;
 	}
 
@@ -101,8 +109,12 @@ public class Question {
 		this.suggestions = suggestions;
 	}
 
-	public List<Quiz> getQuizes() {
-		return quizes;
+	public List<Integer> getQuizesIds() {
+		List<Integer> helper = new ArrayList<>();
+		for (Quiz q : this.quizes) {
+			helper.add(q.getId());
+		}
+		return helper;
 	}
 
 	public void setQuizes(List<Quiz> quizes) {
@@ -115,5 +127,27 @@ public class Question {
 
 	public void setQuestionImage(Blob questionImage) {
 		this.questionImage = questionImage;
-	}	
+	}
+	
+	public int getCategoryId() {
+		return category.getId();
+	}
+
+	public String getCategoryName() {
+		return category.getCategoryName();
+	}
+
+	public void setCategory(Category category) {
+		this.category = category;
+	}
+
+	public QuestionType getQuestiontype() {
+		return questiontype;
+	}
+
+	public void setQuestiontype(QuestionType questiontype) {
+		this.questiontype = questiontype;
+	}
+	
+	
 }

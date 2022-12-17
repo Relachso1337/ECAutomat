@@ -1,5 +1,6 @@
 package de.hsog.restcontroller;
 
+import java.time.format.DateTimeParseException;
 import java.util.NoSuchElementException;
 
 import org.springframework.http.HttpStatus;
@@ -17,7 +18,10 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
+import de.hsog.models.Question;
 import de.hsog.models.Quiz;
+import de.hsog.repositories.PlayerRepository;
+import de.hsog.repositories.QuestionRepository;
 import de.hsog.repositories.QuizRepository;
 
 @RestController
@@ -25,6 +29,8 @@ import de.hsog.repositories.QuizRepository;
 public class QuizRESTController{
 
 	private final QuizRepository quizRepository;
+	private final QuestionRepository questionRepository;
+	private final PlayerRepository playerRepository;
 	private final ObjectMapper mapper;
 	
 	
@@ -32,8 +38,10 @@ public class QuizRESTController{
 	 * CRUD based RESTController
 	 * @param quizRepo
 	 */
-	public QuizRESTController(QuizRepository quizRepo) {
+	public QuizRESTController(QuizRepository quizRepo, QuestionRepository questRepo, PlayerRepository playerRepo) {
 		this.quizRepository = quizRepo;
+		this.questionRepository = questRepo;
+		this.playerRepository = playerRepo;
 		this.mapper = new ObjectMapper();
 		this.mapper.enable(SerializationFeature.INDENT_OUTPUT);
 	}
@@ -43,9 +51,8 @@ public class QuizRESTController{
 		String responseBody = "";
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
-			responseBody = this.mapper.writeValueAsString(this.quizRepository.findAll());
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(this.quizRepository.findAll());
 		} catch (Exception e) {
-			// TODO: handle exception
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
 		}
@@ -53,12 +60,12 @@ public class QuizRESTController{
 	}
 	
 	@GetMapping("Quizes/{id}")
-	public ResponseEntity<String> quizyById(@PathVariable int id) {
+	public ResponseEntity<String> quizById(@PathVariable int id) {
 		String responseBody = "";
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
 			Quiz foundQuizy = this.quizRepository.findById(id).get();
-			responseBody = this.mapper.writeValueAsString(foundQuizy);
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(foundQuizy);
 		} catch (JsonProcessingException e) {
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
@@ -69,32 +76,65 @@ public class QuizRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 	
+	record QuizInput(String name, String playDate, Integer maxScore, Integer playerID) {}
+	
 	@PostMapping("Quizes")
-	public ResponseEntity<String> addQuizy(@RequestBody Quiz quiz) {
-		quiz.setId(null);
-		Quiz savedObj = this.quizRepository.save(quiz);
+	public ResponseEntity<String> addQuiz(@RequestBody QuizInput q) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
-			responseBody = this.mapper.writeValueAsString(savedObj);
+			Quiz quiz = new Quiz(
+					q.name(),
+					q.playDate(),
+					q.maxScore(),
+					this.playerRepository.findById(q.playerID()).get()
+					);
+
+			Quiz savedObj = this.quizRepository.save(quiz);
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObj);
 		} catch (JsonProcessingException e) {
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
 		}
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
+	
+	record QuizHasQuestion(Integer questionId) {}
+	
+	@PostMapping("Quizes/{id}")
+	public ResponseEntity<String> addQuestionToQuiz(@RequestBody QuizHasQuestion q, @PathVariable int id) {
+		String responseBody;
+		HttpStatus responseStatus = HttpStatus.OK;
+		try {
+			Quiz quiz = this.quizRepository.findById(id).get();
+			Question question = this.questionRepository.findById(q.questionId()).get();
+			quiz.getQuestions().add(question);
+			responseBody = this.mapper.writeValueAsString(this.quizRepository.save(quiz));
+		} catch (NoSuchElementException e) {
+			responseBody = "Quiz not found on Index: " + id;
+			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
+		} catch (DateTimeParseException e) {
+			responseBody = "Required PlayDate Format: yyyy-mm-dd hh:mm";
+			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
+		} catch (Exception e) {
+			responseBody = e.toString();
+			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
+		}
+		
+		return new ResponseEntity<>(responseBody, responseStatus);
+	}
+	
 
 	@PutMapping("Quizes/{id}")
-	public ResponseEntity<String> updateQuizy(@RequestBody Quiz quizInput, @PathVariable int id) {
+	public ResponseEntity<String> updateQuiz(@RequestBody Quiz quizInput, @PathVariable int id) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
 			Quiz quizDB = this.quizRepository.findById(id).get();
 			quizDB.setMaxScore(quizInput.getMaxScore());
-			quizDB.setStringPlayDate(quizInput.getPlaydate().toString());
-			quizDB.setPlayer(quizInput.getPlayer());
+			quizDB.setStringPlayDate(quizInput.getPlayDate().toString());
 			Quiz savedObj = this.quizRepository.save(quizDB);
-			responseBody = this.mapper.writeValueAsString(savedObj);
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObj);
 		} catch (JsonProcessingException e) {
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
@@ -105,8 +145,15 @@ public class QuizRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 	
+	@DeleteMapping("Quizes/Questions/{id}")
+	public ResponseEntity<String> deleteQuestionFromQuiz() {
+		String responseBody = "";
+		HttpStatus responseStatus = HttpStatus.OK;
+		return new ResponseEntity<>(responseBody, responseStatus);
+	}
+	
 	@DeleteMapping("Quizes/{id}")
-	public ResponseEntity<String> deleteQuizyById(@PathVariable int id) {
+	public ResponseEntity<String> deleteQuizById(@PathVariable int id) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {

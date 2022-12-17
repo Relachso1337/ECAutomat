@@ -34,12 +34,10 @@ public class QuestionController {
 		return this.questionRepository.findById(id);
 	}
 
-	/*TODO: do record + add content to schema.gql*/
 	record QuestionInput(String content, Integer points, String questionImage, Integer categoryID, QuestionType questionType) {};
 	
 	@MutationMapping
 	public Question addQuestion(@Argument QuestionInput question) {
-		/*TODO: Test Me */
 		Category c = this.categoryRepository.findById(question.categoryID()).orElseThrow(() -> new IllegalArgumentException());
 		Question q = new Question(question.content(), question.points(), c, question.questionType());
 		return this.questionRepository.save(q);

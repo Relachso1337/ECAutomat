@@ -28,7 +28,6 @@ public class Quiz {
 	@Column(nullable = false)
 	private LocalDateTime playdate;
 	
-	/* TODO add function to DB-Scheme to add Score from seperate Questions */
 	@Column(nullable = false)
 	private Integer maxScore;
 	
@@ -77,8 +76,12 @@ public class Quiz {
 		this.id = id;
 	}
 
-	public LocalDateTime getPlaydate() {
-		return playdate;
+//	public LocalDateTime getPlaydate() {
+//		return playdate;
+//	}
+	
+	public String getPlayDate() {
+		return this.playdate.toString();
 	}
 
 	public void setPlaydate(LocalDateTime playdate) {
@@ -106,8 +109,12 @@ public class Quiz {
 		this.name = name;
 	}
 
-	public Player getPlayer() {
-		return player;
+	public String getPlayerName() {
+		return player.getPlayerName();
+	}
+	
+	public Integer getPlayerId() {
+		return player.getId();
 	}
 
 	public void setPlayer(Player fkPlayer) {

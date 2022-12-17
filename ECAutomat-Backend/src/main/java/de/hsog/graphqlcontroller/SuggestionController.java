@@ -33,18 +33,16 @@ public class SuggestionController {
 	}
 	
 	/*TODO: maybe add BLOB to schema*/
-	record SuggestionInput(String suggestionContent) {};
+	record SuggestionInput(String suggestionContent, boolean isCorrect) {};
 		
 	@MutationMapping
 	public Suggestion addSuggestion(@Argument SuggestionInput suggestion) {
-		// TODO: test add
-		Suggestion s = new Suggestion(suggestion.suggestionContent());
+		Suggestion s = new Suggestion(suggestion.suggestionContent(), suggestion.isCorrect);
 		return this.suggestionRepository.save(s);
 	}
 	
 	@MutationMapping
 	public Suggestion updateSuggestion(@Argument Integer id, @Argument Suggestion newSuggestion) {
-		// TODO: test update
 		Suggestion suggestion = this.suggestionRepository.findById(id).orElseThrow(() -> new IllegalArgumentException());
 		suggestion.setSuggestionContent(newSuggestion.getSuggestionContent());
 		return this.suggestionRepository.save(suggestion);
@@ -52,7 +50,6 @@ public class SuggestionController {
 	
 	@MutationMapping
 	public boolean deleteSuggestionById(@Argument Integer id) {
-		// TODO: test delete
 		try {
 			this.suggestionRepository.deleteById(id);
 		}  catch (Exception e) {

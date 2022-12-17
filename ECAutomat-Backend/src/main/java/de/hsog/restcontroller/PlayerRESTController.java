@@ -43,9 +43,8 @@ public class PlayerRESTController{
 		String responseBody = "";
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
-			responseBody = this.mapper.writeValueAsString(this.playerRepository.findAll());
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(this.playerRepository.findAll());
 		} catch (Exception e) {
-			// TODO: handle exception
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
 		}
@@ -58,7 +57,7 @@ public class PlayerRESTController{
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
 			Player foundPlayery = this.playerRepository.findById(id).get();
-			responseBody = this.mapper.writeValueAsString(foundPlayery);
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(foundPlayery);
 		} catch (JsonProcessingException e) {
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
@@ -76,7 +75,7 @@ public class PlayerRESTController{
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
-			responseBody = this.mapper.writeValueAsString(savedObj);
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObj);
 		} catch (JsonProcessingException e) {
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
@@ -93,7 +92,7 @@ public class PlayerRESTController{
 			playerDB.setPlayerName(playerInput.getPlayerName());
 			playerDB.setScoreQuizes(playerInput.getScoreQuizes());
 			Player savedObj = this.playerRepository.save(playerDB);
-			responseBody = this.mapper.writeValueAsString(savedObj);
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObj);
 		} catch (JsonProcessingException e) {
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;

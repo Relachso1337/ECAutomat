@@ -38,8 +38,7 @@ public class QuizController {
 		return this.quizRepository.findById(id);
 	}
 
-	record QuizInput(String name, String playDate, Integer maxScore, Integer playerID) {
-	}
+	record QuizInput(String name, String playDate, Integer maxScore, Integer playerID) {}
 	
 	@MutationMapping
 	public Quiz addQuestionToQuiz(@Argument Integer quizID, @Argument Integer questionID) {
@@ -68,7 +67,6 @@ public class QuizController {
 
 	@MutationMapping
 	public boolean deleteQuizById(@Argument Integer id) {
-		// TODO: test delete
 		try {
 			this.quizRepository.deleteById(id);
 		} catch (Exception e) {

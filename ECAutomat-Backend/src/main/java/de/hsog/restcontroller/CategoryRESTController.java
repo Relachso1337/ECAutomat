@@ -43,9 +43,8 @@ public class CategoryRESTController{
 		String responseBody = "";
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
-			responseBody = this.mapper.writeValueAsString(this.categoryRepository.findAll());
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(this.categoryRepository.findAll());
 		} catch (Exception e) {
-			// TODO: handle exception
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
 		}
@@ -58,7 +57,7 @@ public class CategoryRESTController{
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
 			Category foundCategory = this.categoryRepository.findById(id).get();
-			responseBody = this.mapper.writeValueAsString(foundCategory);
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(foundCategory);
 		} catch (JsonProcessingException e) {
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
@@ -76,7 +75,7 @@ public class CategoryRESTController{
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
-			responseBody = this.mapper.writeValueAsString(savedObj);
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObj);
 		} catch (JsonProcessingException e) {
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
@@ -92,7 +91,7 @@ public class CategoryRESTController{
 			Category categoryDB = this.categoryRepository.findById(id).get();
 			categoryDB.setCategoryName(categoryInput.getCategoryName());
 			Category savedObj = this.categoryRepository.save(categoryDB);
-			responseBody = this.mapper.writeValueAsString(savedObj);
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObj);
 		} catch (JsonProcessingException e) {
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;

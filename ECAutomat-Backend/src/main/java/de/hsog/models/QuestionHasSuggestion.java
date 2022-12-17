@@ -8,8 +8,6 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.MapsId;
 
-/*TODO: ManyToMany-Relation between Question and Suggestion - became obsolete */
-
 @Entity
 public class QuestionHasSuggestion {
 
@@ -17,10 +15,6 @@ public class QuestionHasSuggestion {
 	@EmbeddedId
 	private QuestionHasSuggestionKey id;
 
-	/*
-	 * TODO causing redundancy in DB (id_question(PK, FK), id_suggestion(PK, FK),
-	 * is_correct, question_id(NN), suggestion_id(NN))
-	 */
 	@ManyToOne
 	@MapsId("questionId")
 	@JoinColumn(name = "questionId")

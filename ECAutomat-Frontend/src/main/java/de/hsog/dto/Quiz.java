@@ -10,10 +10,8 @@ public class Quiz {
 	
 	private Integer id;
 
-	/* TODO maybe change playdate format, to eliminate errors with GraphQL and Database (Datetime) */
 	private LocalDateTime playdate;
 	
-	/* TODO add function to DB-Scheme to add Score from seperate Questions */
 	private Integer maxScore;
 	
 	private String name;

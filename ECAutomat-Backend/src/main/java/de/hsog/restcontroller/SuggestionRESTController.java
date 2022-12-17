@@ -18,6 +18,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
 import de.hsog.models.Suggestion;
+import de.hsog.repositories.QuestionRepository;
 import de.hsog.repositories.SuggestionRepository;
 
 @RestController
@@ -25,6 +26,7 @@ import de.hsog.repositories.SuggestionRepository;
 public class SuggestionRESTController{
 
 	private final SuggestionRepository suggestionRepository;
+	private final QuestionRepository questionRepository;
 	private final ObjectMapper mapper;
 	
 	
@@ -32,20 +34,20 @@ public class SuggestionRESTController{
 	 * CRUD based RESTController
 	 * @param suggestionRepo
 	 */
-	public SuggestionRESTController(SuggestionRepository suggestionRepo) {
+	public SuggestionRESTController(SuggestionRepository suggestionRepo, QuestionRepository questionRepo) {
 		this.suggestionRepository = suggestionRepo;
+		this.questionRepository  = questionRepo;
 		this.mapper = new ObjectMapper();
 		this.mapper.enable(SerializationFeature.INDENT_OUTPUT);
 	}
 	
 	@GetMapping("Suggestions")
 	public ResponseEntity<String> suggestions() {
-		String responseBody = "";
+		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
-			responseBody = this.mapper.writeValueAsString(this.suggestionRepository.findAll());
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(this.suggestionRepository.findAll());
 		} catch (Exception e) {
-			// TODO: handle exception
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
 		}
@@ -58,7 +60,7 @@ public class SuggestionRESTController{
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
 			Suggestion foundSuggestiony = this.suggestionRepository.findById(id).get();
-			responseBody = this.mapper.writeValueAsString(foundSuggestiony);
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(foundSuggestiony);
 		} catch (JsonProcessingException e) {
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
@@ -69,16 +71,25 @@ public class SuggestionRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 	
+	record SuggestionInput(String suggestionContent, Integer questionID, boolean isCorrect) {}
+	
 	@PostMapping("Suggestions")
-	public ResponseEntity<String> addSuggestiony(@RequestBody Suggestion suggestion) {
-		suggestion.setId(null);
-		Suggestion savedObj = this.suggestionRepository.save(suggestion);
+	public ResponseEntity<String> addSuggestiony(@RequestBody SuggestionInput s) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
-			responseBody = this.mapper.writeValueAsString(savedObj);
+			Suggestion suggestion = new Suggestion(
+					s.suggestionContent(),
+					this.questionRepository.findById(s.questionID()).get(),
+					s.isCorrect()
+				);
+			Suggestion savedObj = this.suggestionRepository.save(suggestion);
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObj);
 		} catch (JsonProcessingException e) {
 			responseBody = e.toString();
+			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
+		} catch (NoSuchElementException e) {
+			responseBody = "Question not Found";
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
 		}
 		return new ResponseEntity<>(responseBody, responseStatus);
@@ -91,13 +102,14 @@ public class SuggestionRESTController{
 		try {
 			Suggestion suggestionDB = this.suggestionRepository.findById(id).get();
 			suggestionDB.setSuggestionContent(suggestionInput.getSuggestionContent());
+			suggestionDB.setCorrect(suggestionInput.isCorrect());
 			Suggestion savedObj = this.suggestionRepository.save(suggestionDB);
-			responseBody = this.mapper.writeValueAsString(savedObj);
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObj);
 		} catch (JsonProcessingException e) {
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
 		} catch (NoSuchElementException e) {
-			responseBody = e.toString();
+			responseBody = String.format("Suggestion on index: %d not found", id);
 			responseStatus = HttpStatus.NOT_FOUND;
 		}
 		return new ResponseEntity<>(responseBody, responseStatus);

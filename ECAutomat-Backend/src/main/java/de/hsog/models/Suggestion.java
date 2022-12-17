@@ -26,17 +26,23 @@ public class Suggestion {
 	@JoinColumn(name="question", referencedColumnName = "idQuestion")
 	private Question question;
 	
+	@Column(nullable=false)
+	private boolean isCorrect;
+	
 	public Suggestion() {
 		this.suggestionContent = "N/A";
+		this.isCorrect = false;
 	}
 	
-	public Suggestion(String suggestionContent) {
+	public Suggestion(String suggestionContent, boolean isCorrect) {
 		this.suggestionContent = suggestionContent;
+		this.isCorrect = isCorrect;
 	}
 	
-	public Suggestion(String suggestionContent, Question quest) {
+	public Suggestion(String suggestionContent, Question quest, boolean isCorrect) {
 		this.suggestionContent = suggestionContent;
 		this.question = quest;
+		this.isCorrect = isCorrect;
 	}
 
 	public Integer getId() {
@@ -55,12 +61,24 @@ public class Suggestion {
 		this.suggestionContent = suggestionContent;
 	}
 
-	public Question getQuestion() {
-		return question;
+	public Integer getQuestionId() {
+		return question.getId();
+	}
+	
+	public String getQuestionContent() {
+		return question.getContent();
 	}
 
 	public void setQuestions(Question question) {
 		this.question = question;
+	}
+
+	public boolean isCorrect() {
+		return isCorrect;
+	}
+
+	public void setCorrect(boolean isCorrect) {
+		this.isCorrect = isCorrect;
 	}
 	
 	

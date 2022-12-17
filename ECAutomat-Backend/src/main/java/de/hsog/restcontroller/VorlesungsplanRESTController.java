@@ -30,18 +30,14 @@ public class VorlesungsplanRESTController {
 			Object json = mapper.readValue(file, Object.class);
 			HttpHeaders responseHeaders = new HttpHeaders();
 			responseHeaders.set("Access-Control-Allow-Origin", "*");
-			return new ResponseEntity<String>(mapper.writeValueAsString(json), HttpStatus.OK);
+			return new ResponseEntity<String>(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(json), HttpStatus.OK);
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (StreamReadException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (DatabindException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return new ResponseEntity<String>("{\"error\": \"File not found\"}", HttpStatus.NOT_FOUND);

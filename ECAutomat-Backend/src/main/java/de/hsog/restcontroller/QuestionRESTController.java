@@ -18,6 +18,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
 import de.hsog.models.Question;
+import de.hsog.models.QuestionType;
+import de.hsog.repositories.CategoryRepository;
 import de.hsog.repositories.QuestionRepository;
 
 @RestController
@@ -25,6 +27,7 @@ import de.hsog.repositories.QuestionRepository;
 public class QuestionRESTController{
 
 	private final QuestionRepository questionRepository;
+	private final CategoryRepository categoryRepository;
 	private final ObjectMapper mapper;
 	
 	
@@ -32,8 +35,9 @@ public class QuestionRESTController{
 	 * CRUD based RESTController
 	 * @param questionRepo
 	 */
-	public QuestionRESTController(QuestionRepository questionRepo) {
+	public QuestionRESTController(QuestionRepository questionRepo, CategoryRepository categoryRepo) {
 		this.questionRepository = questionRepo;
+		this.categoryRepository = categoryRepo;
 		this.mapper = new ObjectMapper();
 		this.mapper.enable(SerializationFeature.INDENT_OUTPUT);
 	}
@@ -43,9 +47,8 @@ public class QuestionRESTController{
 		String responseBody = "";
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
-			responseBody = this.mapper.writeValueAsString(this.questionRepository.findAll());
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(this.questionRepository.findAll());
 		} catch (Exception e) {
-			// TODO: handle exception
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
 		}
@@ -58,7 +61,7 @@ public class QuestionRESTController{
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
 			Question foundQuestiony = this.questionRepository.findById(id).get();
-			responseBody = this.mapper.writeValueAsString(foundQuestiony);
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(foundQuestiony);
 		} catch (JsonProcessingException e) {
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
@@ -69,14 +72,21 @@ public class QuestionRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 	
+	record QuestionInput(String content, Integer points, String questionImage, Integer categoryID, String questionType) {};
+	
 	@PostMapping("Questions")
-	public ResponseEntity<String> addQuestiony(@RequestBody Question question) {
-		question.setId(null);
-		Question savedObj = this.questionRepository.save(question);
+	public ResponseEntity<String> addQuestiony(@RequestBody QuestionInput q) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
-			responseBody = this.mapper.writeValueAsString(savedObj);
+			Question question = new Question(
+					q.content(), 
+					q.points(), 
+					this.categoryRepository.findById(q.categoryID()).get(), 
+					QuestionType.enumOf(q.questionType())
+					);
+			Question savedObj = this.questionRepository.save(question);
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObj);
 		} catch (JsonProcessingException e) {
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
@@ -93,7 +103,7 @@ public class QuestionRESTController{
 			questionDB.setContent(questionInput.getContent());
 			questionDB.setPoints(questionInput.getPoints());
 			Question savedObj = this.questionRepository.save(questionDB);
-			responseBody = this.mapper.writeValueAsString(savedObj);
+			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObj);
 		} catch (JsonProcessingException e) {
 			responseBody = e.toString();
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
