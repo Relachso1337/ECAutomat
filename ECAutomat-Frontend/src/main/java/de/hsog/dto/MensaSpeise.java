@@ -1,16 +1,16 @@
-package de.hsog.mensaplan;
+package de.hsog.dto;
 
-public class Mensaspeise {
+public class MensaSpeise {
 
 	private int id;
 	private String essen;
 	
-	public Mensaspeise() {
+	public MensaSpeise() {
 		this.id = 0;
 		this.essen = "Kartoffeln";
 	}
 	
-	public Mensaspeise(int id, String essen) {
+	public MensaSpeise(int id, String essen) {
 		this.id = id;
 		this.essen = essen;
 	}

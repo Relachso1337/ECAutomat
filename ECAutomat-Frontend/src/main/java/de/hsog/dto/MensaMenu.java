@@ -1,4 +1,4 @@
-package de.hsog.mensaplan;
+package de.hsog.dto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,21 +6,21 @@ import java.util.List;
 
 public class MensaMenu {
 
-	private List<Mensaspeise> menu;
+	private List<MensaSpeise> menu;
 	
 	public MensaMenu() {
 		this.menu = new ArrayList<>();
 	}
 	
-	public MensaMenu(List<Mensaspeise> speisen) {
+	public MensaMenu(List<MensaSpeise> speisen) {
 		this.menu = speisen;
 	}
 
-	public List<Mensaspeise> getMenu() {
+	public List<MensaSpeise> getMenu() {
 		return menu;
 	}
 
-	public void setMenu(List<Mensaspeise> menu) {
+	public void setMenu(List<MensaSpeise> menu) {
 		this.menu = menu;
 	}	
 }
