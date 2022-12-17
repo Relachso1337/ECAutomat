@@ -64,6 +64,7 @@ input QuestionInput {
 
 input SuggestionInput {
 	suggestionContent: String!
+	isCorrect: Boolean!
 }
 
 type Category {
