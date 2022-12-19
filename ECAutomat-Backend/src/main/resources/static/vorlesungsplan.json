@@ -1,187 +1,967 @@
 [
-  {
-    "semester": "aBM8",
-    "studiengang": "Angewandte BioMechanik",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=9545AE2C-68C3-4F5B-888F-BBF81430E7DE&week=0"
-  },
-  {
-    "semester": "aBM9",
-    "studiengang": "Angewandte BioMechanik",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=0D2D2865-862E-4376-8DC4-CCA0AA5175D2&week=0"
-  },
-  {
-    "semester": "AI1",
-    "studiengang": "Angewandte Informatik",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=B6B2BF01-9DBA-4017-9245-4BEDF823E0CA&week=0"
-  },
-  {
-    "semester": "AI2",
-    "studiengang": "Angewandte Informatik",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=B6DB6637-51BA-47CC-BD69-9CEE1A336333&week=0"
-  },
-  {
-    "semester": "AI3",
-    "studiengang": "Angewandte Informatik",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=DA64F6FE-9DDB-429E-A677-05D0D40CB636&week=0"
-  },
-  {
-    "semester": "AI4",
-    "studiengang": "Angewandte Informatik",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=5D255C23-BC03-4AA0-9F36-DC6767F3E05D&week=0"
-  },
-  {
-    "semester": "AI5",
-    "studiengang": "Angewandte Informatik",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=BB093B7D-55EE-42B5-8D48-FE9317CAC36F&week=0"
-  },
-  {
-    "semester": "AI6",
-    "studiengang": "Angewandte Informatik",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=BF0ABBCD-616D-4CC8-BDAC-06B0F844F946&week=0"
-  },
-  {
-    "semester": "AI7",
-    "studiengang": "Angewandte Informatik",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=0B4465E5-76B1-417C-B3B0-4D928A6F2CCF&week=0"
-  },
-  {
-    "semester": "AKI1",
-    "studiengang": "Angewandte Künstliche Intelligenz",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=A796DCB6-F1B8-418D-8080-0878F565F346&week=0"
-  },
-  {
-    "semester": "AKI2",
-    "studiengang": "Angewandte Künstliche Intelligenz",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=B05CDAD7-5A9D-4920-A3C9-3EABBE54C326&week=0"
-  },
-  {
-    "semester": "AKI3",
-    "studiengang": "Angewandte Künstliche Intelligenz",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=918FD5AA-4A89-4882-9F13-D12B69B050EC&week=0"
-  },
-  {
-    "semester": "AKI4",
-    "studiengang": "Angewandte Künstliche Intelligenz",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=F3166585-0B47-4FBD-8F0B-211AB8C5CA17&week=0"
-  },
-  {
-    "semester": "AKI6",
-    "studiengang": "Angewandte Künstliche Intelligenz",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=3AB295DB-D7FC-4165-8F7B-731F0EB9864A&week=0"
-  },
-  {
-    "semester": "BM1",
-    "studiengang": "BioMechanik",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=FA92C160-5829-4F90-BEC2-7578A2EDDDA7&week=0"
-  },
-  {
-    "semester": "BM2",
-    "studiengang": "BioMechanik",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=D88BF853-43BE-484C-ADB9-60B00A63179A&week=0"
-  },
-  {
-    "semester": "BM3",
-    "studiengang": "BioMechanik",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=092C29A9-EAA6-48FD-B2C8-E933F2B44CAF&week=0"
-  },
-  {
-    "semester": "BM4",
-    "studiengang": "BioMechanik",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=D3BF865C-9B90-4993-B272-EBB7B5D72582&week=0"
-  },
-  {
-    "semester": "BM6",
-    "studiengang": "BioMechanik",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=6EA1160B-3EB0-42CB-A630-7AF6F2EA4F69&week=0"
-  },
-  {
-    "semester": "BM7",
-    "studiengang": "BioMechanik",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=7006F022-9975-41C2-8C5E-7B94A39F811B&week=0"
-  },
-  {
-    "semester": "BT1",
-    "studiengang": "BioTechnologie",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=F08383B4-DEFC-496A-B2A7-8615FF7E4A48&week=0"
-  },
-  {
-    "semester": "BT2",
-    "studiengang": "BioTechnologie",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=71E5B982-DDA8-48FE-9AAB-E111378A966F&week=0"
-  },
-  {
-    "semester": "BT3",
-    "studiengang": "BioTechnologie",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=13EE973F-86E5-4859-9896-723C09A062F7&week=0"
-  },
-  {
-    "semester": "BT4",
-    "studiengang": "BioTechnologie",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=0849D512-578E-4ACE-A5E0-15F97F5A152F&week=0"
-  },
-  {
-    "semester": "BT5",
-    "studiengang": "BioTechnologie",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=248285FF-BF69-4B42-A75C-003E5AD9C727&week=0"
-  },
-  {
-    "semester": "BT6",
-    "studiengang": "BioTechnologie",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=3069B7C1-39BC-4E05-997E-88C38F19C53B&week=0"
-  },
-  {
-    "semester": "BT7",
-    "studiengang": "BioTechnologie",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=0051658F-B023-4D8D-8F0B-2B9AB3AEC76C&week=0"
-  },
-  {
-    "semester": "BW1",
-    "studiengang": "Betriebswirtschaft",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=1C7E6489-1FFD-4946-A448-49B1C58AAF4F&week=0"
-  },
-  {
-    "semester": "BW2",
-    "studiengang": "Betriebswirtschaft",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=51CC0BE9-181B-4956-8185-F16404B7B41E&week=0"
-  },
-  {
-    "semester": "BW3",
-    "studiengang": "Betriebswirtschaft",
-    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=243B8E3E-B30C-4532-9A1D-07045A99A65E&week=0"
-  },
-  {
-    "semester": "WIN1",
-    "studiengang": "Wirtschaftsinformatik",
-    "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=23006E34-D2C0-43BE-8A86-FA9677B14131&week=0"
-  },
-  {
-    "semester": "WIN2",
-    "studiengang": "Wirtschaftsinformatik",
-    "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=19EBADC5-231C-41FD-A109-ADE391B56900&week=0"
-  },
-  {
-    "semester": "WIN3",
-    "studiengang": "Wirtschaftsinformatik",
-    "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=69A4AF96-A43C-4E91-8389-26D6EB93EF2B&week=0"
-  },
-  {
-    "semester": "WIN4",
-    "studiengang": "Wirtschaftsinformatik",
-    "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=D048BDB2-CDC7-42F6-987E-F9149350D2DC&week=0"
-  },
-  {
-    "semester": "WIN5",
-    "studiengang": "Wirtschaftsinformatik",
-    "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=DB324923-1F26-4460-A0CD-61E2D57C9038&week=0"
-  },
-  {
-    "semester": "WIN6",
-    "studiengang": "Wirtschaftsinformatik",
-    "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=361B73D1-8FDC-4946-8AC7-12579F007D7A&week=0"
-  },
-  {
-    "semester": "WIN7",
-    "studiengang": "Wirtschaftsinformatik",
-    "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=1DD6DF23-7D1B-406F-B943-C4B01C6BC9A6&week=0"
-  }
+  { "semester":" aBM8",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=9545AE2C-68C3-4F5B-888F-BBF81430E7DE&amp;week=0" },
+  
+  { "semester":" aBM9",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=0D2D2865-862E-4376-8DC4-CCA0AA5175D2&amp;week=0" },
+  
+  { "semester":" AI1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=B6B2BF01-9DBA-4017-9245-4BEDF823E0CA&amp;week=0" },
+  
+  { "semester":" AI2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=B6DB6637-51BA-47CC-BD69-9CEE1A336333&amp;week=0" },
+  
+  { "semester":" AI3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=DA64F6FE-9DDB-429E-A677-05D0D40CB636&amp;week=0" },
+  
+  { "semester":" AI4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=5D255C23-BC03-4AA0-9F36-DC6767F3E05D&amp;week=0" },
+  
+  { "semester":" AI5",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=BB093B7D-55EE-42B5-8D48-FE9317CAC36F&amp;week=0" },
+  
+  { "semester":" AI6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=BF0ABBCD-616D-4CC8-BDAC-06B0F844F946&amp;week=0" },
+  
+  { "semester":" AI7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=0B4465E5-76B1-417C-B3B0-4D928A6F2CCF&amp;week=0" },
+  
+  { "semester":" AKI1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=A796DCB6-F1B8-418D-8080-0878F565F346&amp;week=0" },
+  
+  { "semester":" AKI2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=B05CDAD7-5A9D-4920-A3C9-3EABBE54C326&amp;week=0" },
+  
+  { "semester":" AKI3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=918FD5AA-4A89-4882-9F13-D12B69B050EC&amp;week=0" },
+  
+  { "semester":" AKI4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=F3166585-0B47-4FBD-8F0B-211AB8C5CA17&amp;week=0" },
+  
+  { "semester":" AKI6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=3AB295DB-D7FC-4165-8F7B-731F0EB9864A&amp;week=0" },
+  
+  { "semester":" BM1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=FA92C160-5829-4F90-BEC2-7578A2EDDDA7&amp;week=0" },
+  
+  { "semester":" BM2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=D88BF853-43BE-484C-ADB9-60B00A63179A&amp;week=0" },
+  
+  { "semester":" BM3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=092C29A9-EAA6-48FD-B2C8-E933F2B44CAF&amp;week=0" },
+  
+  { "semester":" BM4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=D3BF865C-9B90-4993-B272-EBB7B5D72582&amp;week=0" },
+  
+  { "semester":" BM6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=6EA1160B-3EB0-42CB-A630-7AF6F2EA4F69&amp;week=0" },
+  
+  { "semester":" BM7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=7006F022-9975-41C2-8C5E-7B94A39F811B&amp;week=0" },
+  
+  { "semester":" BT1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=F08383B4-DEFC-496A-B2A7-8615FF7E4A48&amp;week=0" },
+  
+  { "semester":" BT2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=71E5B982-DDA8-48FE-9AAB-E111378A966F&amp;week=0" },
+  
+  { "semester":" BT3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=13EE973F-86E5-4859-9896-723C09A062F7&amp;week=0" },
+  
+  { "semester":" BT4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=0849D512-578E-4ACE-A5E0-15F97F5A152F&amp;week=0" },
+  
+  { "semester":" BT5",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=248285FF-BF69-4B42-A75C-003E5AD9C727&amp;week=0" },
+  
+  { "semester":" BT6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=3069B7C1-39BC-4E05-997E-88C38F19C53B&amp;week=0" },
+  
+  { "semester":" BT7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=0051658F-B023-4D8D-8F0B-2B9AB3AEC76C&amp;week=0" },
+  
+  { "semester":" BW1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=1C7E6489-1FFD-4946-A448-49B1C58AAF4F&amp;week=0" },
+  
+  { "semester":" BW2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=51CC0BE9-181B-4956-8185-F16404B7B41E&amp;week=0" },
+  
+  { "semester":" BW3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=243B8E3E-B30C-4532-9A1D-07045A99A65E&amp;week=0" },
+  
+  { "semester":" BW4CF",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=9922C35E-32EA-4B96-9109-0305B14E2EBB&amp;week=0" },
+  
+  { "semester":" BW4MV",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=267EC42A-B12E-42BC-9B54-9ED0BAFFD53B&amp;week=0" },
+  
+  { "semester":" BW6CF",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=9A46A991-4A97-4652-8E4F-034AAE06F3BB&amp;week=0" },
+  
+  { "semester":" BW6MV",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=ADF5EE4F-7377-4E7A-A892-648822CA5A1B&amp;week=0" },
+  
+  { "semester":" BWM1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=463C5447-7578-45B8-9A44-1FA56543852F&amp;week=0" },
+  
+  { "semester":" BWM2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=8B4E4DBC-343A-40D1-9831-11391A99F689&amp;week=0" },
+  
+  { "semester":" CME1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=6F219938-A197-48BF-884B-7C43622562AD&amp;week=0" },
+  
+  { "semester":" CME2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=A88AC279-55D5-4B3B-8037-9C4F5FA0876B&amp;week=0" },
+  
+  { "semester":" CME3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=3ACC88F4-9D89-4EA5-B5CD-F27EA0DCB709&amp;week=0" },
+  
+  { "semester":" DEC1-2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=372E2109-04E4-4F3E-827A-8330271DD1AC&amp;week=0" },
+  
+  { "semester":" DiW",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=7401A584-7011-4690-93BF-A16051D23443&amp;week=0" },
+  
+  { "semester":" EI1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=9C0C9172-3DDF-4BBF-BAD6-3DF341096430&amp;week=0" },
+  
+  { "semester":" EI2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=73736FFA-54BA-44DF-9D7A-A0DCB25EBEB3&amp;week=0" },
+  
+  { "semester":" EI3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=4DF27925-4402-4FD3-96D7-C19645566C33&amp;week=0" },
+  
+  { "semester":" EI-3nat3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=1D9DDB4D-3431-4338-82D2-9D467F074DCB&amp;week=0" },
+  
+  { "semester":" EI-3nat4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=86AD45D8-B3CD-484E-9EB9-4301AF9972BC&amp;week=0" },
+  
+  { "semester":" EI-3nat7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=42C1A566-E111-4C80-9FDA-6C4B14A3B9F0&amp;week=0" },
+  
+  { "semester":" EI4CAE",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=67016D82-A723-469D-9C14-16D3ABF76E2C&amp;week=0" },
+  
+  { "semester":" EI4EAE",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=92E3060D-8790-43DD-B88B-237D9C170753&amp;week=0" },
+  
+  { "semester":" EI4EnAE",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=E746E107-DB99-4991-A2C8-AA7D2C9AD649&amp;week=0" },
+  
+  { "semester":" EI5",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=69DDDF5F-6BEF-4EA3-97CD-FA71C0D01315&amp;week=0" },
+  
+  { "semester":" EI6A",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=A2D5CFCC-49FC-42BF-A5A5-68C2ABC294DF&amp;week=0" },
+  
+  { "semester":" EI6K",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=9C9D5F13-C4B2-4A91-9BE5-D4F383B6FB76&amp;week=0" },
+  
+  { "semester":" EI7A",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=5D0E2E7E-A412-4396-BB44-6C9E060EB946&amp;week=0" },
+  
+  { "semester":" EI7K",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=7DB0B0A2-F9F4-4798-9316-2556A3F83AFE&amp;week=0" },
+  
+  { "semester":" EI-BB1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=1E4ACFFD-6788-4136-96D2-21ED39C7799E&amp;week=0" },
+  
+  { "semester":" EI-BB2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=BBCD971C-1605-4CB7-9FC3-AD7FCA9507E1&amp;week=0" },
+  
+  { "semester":" EI-BB3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=8DF29EA2-E2B3-49A7-9F5B-A0460DB98C4B&amp;week=0" },
+  
+  { "semester":" EIM1A",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=C329C46A-F074-43A3-B474-D46EC0C04A1D&amp;week=0" },
+  
+  { "semester":" EIM1K",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=C0804519-57EA-49A3-8F6A-E7384CC574EE&amp;week=0" },
+  
+  { "semester":" EIM2A",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=AB5948FF-7EA8-42B4-B90B-98A0800CDEE1&amp;week=0" },
+  
+  { "semester":" EIM2K",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=2A7DE538-F8CD-46E3-BCD7-08DCF4D10D9E&amp;week=0" },
+  
+  { "semester":" EI-plus1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=6D3DA37E-33CD-4FE5-BAC3-DB07506F013D&amp;week=0" },
+  
+  { "semester":" EI-plus2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=5A154F81-62AF-4771-A355-6F1AB2C2AB6D&amp;week=0" },
+  
+  { "semester":" EI-plus3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=5B72E4F3-7F3C-4634-A2EE-60B2B12C6F44&amp;week=0" },
+  
+  { "semester":" EI-plus4A",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=2CC0228B-5DF5-4499-85DD-64CA5E1503D3&amp;week=0" },
+  
+  { "semester":" EI-plus4C",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=84B37624-B7C5-4667-9456-C4AB3637A6C8&amp;week=0" },
+  
+  { "semester":" EI-plus5",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=9B315779-9C80-4296-BAD7-9EDDAC457773&amp;week=0" },
+  
+  { "semester":" EI-plus6A",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=074B6EDF-27E3-494B-96D0-5E3121FD9961&amp;week=0" },
+  
+  { "semester":" EI-plus6K",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=12656B76-0515-4871-A5E9-FD96F3C2B5C9&amp;week=0" },
+  
+  { "semester":" EI-plus7A",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=0C0F8828-8A1D-4BB4-9894-2A368BCC9335&amp;week=0" },
+  
+  { "semester":" EI-plus7K",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=BBE9CADF-6884-4C8A-8945-9566322ABDE3&amp;week=0" },
+  
+  { "semester":" English Classes BW",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=473476A5-C0A1-4501-B819-AD0FAF518675&amp;week=0" },
+  
+  { "semester":" English Classes EMI",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=3FD58861-A1F4-4857-AA63-47F83F5EC9EF&amp;week=0" },
+  
+  { "semester":" English Classes MV",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=C40F0BF8-754C-4E06-910D-E3E1AD1CEC38&amp;week=0" },
+  
+  { "semester":" English Classes M",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=EA63ADF8-2208-485D-8538-816ACC66A1DF&amp;week=0" },
+  
+  { "semester":" ENITS1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=35EF05E8-58EA-4D13-9CEE-DD0B690B00DB&amp;week=0" },
+  
+  { "semester":" ENITS2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=F49D54D1-F50A-447F-B0D1-DA8FC4FCC65A&amp;week=0" },
+  
+  { "semester":" EP6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=1A0B3845-5E7E-455D-8F3A-1FDDABBB3F5D&amp;week=0" },
+  
+  { "semester":" EP7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=B724A2A2-3131-4537-B66C-3DE036DEF455&amp;week=0" },
+  
+  { "semester":" EPBB1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=8E2A9B40-B53F-44EE-B4D7-77EE99C7AC04&amp;week=0" },
+  
+  { "semester":" EPBB2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=E6168A00-5365-4015-BF31-61AB80EA4A56&amp;week=0" },
+  
+  { "semester":" EP-plus6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=D699E9FE-4B11-4E70-949F-BF936941164D&amp;week=0" },
+  
+  { "semester":" EP-plus7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=EFE67D0C-2519-4AFA-905C-BCCE86F5A17C&amp;week=0" },
+  
+  { "semester":" ES4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=6C1C904C-05A8-4812-8154-9559B0636068&amp;week=0" },
+  
+  { "semester":" ES5",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=8FA86F8E-2005-4A93-923A-0B7A174C635E&amp;week=0" },
+  
+  { "semester":" ES6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=51D0540D-2702-4118-A663-2DA1ECFD022D&amp;week=0" },
+  
+  { "semester":" ES7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=20D6F2F2-8837-4AA7-AF4F-3E309A5BEFEE&amp;week=0" },
+  
+  { "semester":" F-BW-div.",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=99AB8E81-D71C-43D8-9FFF-EC1146C7B2AF&amp;week=0" },
+  
+  { "semester":" IBC1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=608E20A7-D2A7-40E0-99FC-C98E7A0B0D64&amp;week=0" },
+  
+  { "semester":" IBC2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=BABC9FE6-C43E-49E0-9EF8-296064FF3B07&amp;week=0" },
+  
+  { "semester":" INFM1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=73B45F5C-44DB-4F90-9614-94606B6561F9&amp;week=0" },
+  
+  { "semester":" INFM2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=29F84BB4-F35F-4FA6-92F1-B441EFE2AFA3&amp;week=0" },
+  
+  { "semester":" IWBB1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=2C648B17-6E12-4CD4-83C1-A5ED0E96BCC1&amp;week=0" },
+  
+  { "semester":" IWBB2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=2AA1FAA0-AA74-4518-B627-12F065EB6352&amp;week=0" },
+  
+  { "semester":" kontaktING",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=5E3642A8-A3E8-4569-97DB-AB68296FE265&amp;week=0" },
+  
+  { "semester":" LH1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=F295BE54-E463-446D-9F44-8104DDC7401A&amp;week=0" },
+  
+  { "semester":" LH2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=B264AEF5-B57E-432C-81FD-AF8384226897&amp;week=0" },
+  
+  { "semester":" LH3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=FB90623D-131E-436B-A1B8-D08C8DA592B2&amp;week=0" },
+  
+  { "semester":" LH4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=7DB3ADD4-BEE5-4CFF-9C73-5D229A7617BF&amp;week=0" },
+  
+  { "semester":" LH6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=741FC17F-097B-4368-836C-9EA503BE0D85&amp;week=0" },
+  
+  { "semester":" m.gp 4-7a",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=3E52BB05-A895-41EE-BD85-BBCD89D1BDDA&amp;week=0" },
+  
+  { "semester":" m.gp 4-7b",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=F59E4BEE-2968-4DE4-94DC-15A0730C35D2&amp;week=0" },
+  
+  { "semester":" m.gp 5",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=36ACF507-5EB3-4B4D-91FE-6B8481955ED5&amp;week=0" },
+  
+  { "semester":" MA1b",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=09B73CA4-7DC7-4DB7-993D-31A369E21588&amp;week=0" },
+  
+  { "semester":" MA1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=387DB8FD-4F97-488E-96CF-81D9B5C5A8CE&amp;week=0" },
+  
+  { "semester":" MA2b",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=44E6E996-7040-4419-92FA-B628BF9AA0E6&amp;week=0" },
+  
+  { "semester":" MA2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=05125281-2EF1-4DF5-8FBA-6DBC4DECB2FE&amp;week=0" },
+  
+  { "semester":" MA3a",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=22933F2F-D928-447E-88DF-7674D1DAB299&amp;week=0" },
+  
+  { "semester":" MA3b",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=EBA31D42-C38B-44C5-ADC2-206F75ADE96C&amp;week=0" },
+  
+  { "semester":" MA4b",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=3FB1EB49-15F4-49CA-BD86-88FB0813163A&amp;week=0" },
+  
+  { "semester":" MA4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=F974B14C-39DF-49F1-9E0F-AB23C8C660C6&amp;week=0" },
+  
+  { "semester":" MA6b",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=1C2149E3-4BF7-43D1-9AB8-575FDE0569E6&amp;week=0" },
+  
+  { "semester":" MA6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=F36ED45D-B091-46FE-AEEB-40BD26A82B57&amp;week=0" },
+  
+  { "semester":" MA7b",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=BE4E68FA-CEF0-4305-AF1B-BAB71AE4CBB5&amp;week=0" },
+  
+  { "semester":" MA7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=7A3F5AE3-A928-4FB5-8D81-3F184F53A1B9&amp;week=0" },
+  
+  { "semester":" MBA 1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=6910C866-D90B-49C3-8D7F-334DA87BF915&amp;week=0" },
+  
+  { "semester":" MBA 3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=0091C89B-0360-4E22-B863-C6A2EA98668C&amp;week=0" },
+  
+  { "semester":" MBA 4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=2DA43103-B080-4CAC-9701-0F1BAFF43531&amp;week=0" },
+  
+  { "semester":" MBB1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=A6C3046E-8AA0-4E21-9D24-7762E074AAE8&amp;week=0" },
+  
+  { "semester":" MBT1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=60C4570E-C693-4879-9330-5EC06AE132A0&amp;week=0" },
+  
+  { "semester":" ME4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=D4ABD006-7A9D-4C39-A1BC-98023FF34C3C&amp;week=0" },
+  
+  { "semester":" ME6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=A12F9717-5677-4429-8A60-C09BADAD556D&amp;week=0" },
+  
+  { "semester":" ME7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=8200D31D-EDB6-4739-9DD2-28B41D3C972B&amp;week=0" },
+  
+  { "semester":" mgp 1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=E3A618EE-96C1-45CE-A70E-EE7F8830EA04&amp;week=0" },
+  
+  { "semester":" mgp 2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=A36AFD23-0B5E-4444-B0D0-4C38181F8048&amp;week=0" },
+  
+  { "semester":" mgp 3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=808A84FA-D3EF-496A-AA4B-C7E7F33E0BDB&amp;week=0" },
+  
+  { "semester":" mgp 4-7a",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=4A5E1652-10AE-48BA-8680-AC515C8BAEE9&amp;week=0" },
+  
+  { "semester":" mgp 4-7b",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=88BBB4A5-4D22-4C27-8A89-B8C7B872A25A&amp;week=0" },
+  
+  { "semester":" MI1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=2086AB94-BDCB-4AB4-B20E-B92BF848FC8C&amp;week=0" },
+  
+  { "semester":" MI2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=7343F79C-D1ED-4FCE-BF60-96104B48760E&amp;week=0" },
+  
+  { "semester":" MI3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=956101DC-2995-4241-A784-982ADCB523C1&amp;week=0" },
+  
+  { "semester":" MI4-7 a",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=13093B44-B3D7-4DAB-A56B-9DD3ACF28734&amp;week=0" },
+  
+  { "semester":" MI4-7 b",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=817F3F8C-C889-454F-8585-6D94FCB2647A&amp;week=0" },
+  
+  { "semester":" MI4-7 c",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=05C960F0-A85F-4EDD-B682-19575F6A76CD&amp;week=0" },
+  
+  { "semester":" MKA1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=104C4C4E-FBF8-4C08-AF8C-DFD242354D1A&amp;week=0" },
+  
+  { "semester":" MKA2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=391D942F-330D-4A02-B139-0E81D58EB61E&amp;week=0" },
+  
+  { "semester":" MKA3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=4235AA1A-5FC5-4588-B7B9-BB599CAB8464&amp;week=0" },
+  
+  { "semester":" MKA4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=63712E9E-3EEC-494D-9F18-BBBC94E9F0B7&amp;week=0" },
+  
+  { "semester":" MKA5",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=FEF998DB-2E35-42B6-9BF7-544508F35304&amp;week=0" },
+  
+  { "semester":" MKA6FM",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=4E27158D-D1F4-4E94-8E52-35932F1772CD&amp;week=0" },
+  
+  { "semester":" MKA6IM",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=B936CBDE-CAC1-44E1-968C-42D7AE85A65A&amp;week=0" },
+  
+  { "semester":" MKA7FM",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=EBD0A3EA-8407-4B54-B935-6BB4F57EE574&amp;week=0" },
+  
+  { "semester":" MKA7IM",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=D740CD5F-1026-4DBB-BB6D-438B7E5EA152&amp;week=0" },
+  
+  { "semester":" MK-BB1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=C594BFFC-38A4-4269-94F3-6A892426FF9E&amp;week=0" },
+  
+  { "semester":" MK-BB2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=84B90C2F-53C5-41D7-BA7D-0DB388DBCCA5&amp;week=0" },
+  
+  { "semester":" MK-BB3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=58E8E1CD-0424-487E-A045-C46F4D8DCFEB&amp;week=0" },
+  
+  { "semester":" MK-plus 1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=53C349E1-656F-4E1A-A494-29307602D67B&amp;week=0" },
+  
+  { "semester":" MK-plus 2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=0F50997A-A239-4B0D-B444-8F0EDFA7B5A6&amp;week=0" },
+  
+  { "semester":" MK-plus 3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=E0E66C59-F93F-42DE-8B15-79B8ACB1D943&amp;week=0" },
+  
+  { "semester":" MK-plus 4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=288E1489-0061-465E-9367-A298E3D8BD01&amp;week=0" },
+  
+  { "semester":" MK-plus 5",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=96B75868-E126-49F4-AC18-D8AB90B1FE0A&amp;week=0" },
+  
+  { "semester":" MK-plus 6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=6D8D09A7-D659-4961-9346-DBB7450B650F&amp;week=0" },
+  
+  { "semester":" MK-plus 7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=4E572FB8-3FE7-494B-8C68-E580E7D865CC&amp;week=0" },
+  
+  { "semester":" MME1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=4E11D180-264B-49E3-BA2E-C245E7024DFE&amp;week=0" },
+  
+  { "semester":" MME2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=3051FFD8-90D3-4DB7-94A7-1765D1C362EC&amp;week=0" },
+  
+  { "semester":" MMR1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=61FDA263-FCFF-43E3-BF78-15407670F0DE&amp;week=0" },
+  
+  { "semester":" MMR2A",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=CE8C5149-9115-435B-9421-834F7A374742&amp;week=0" },
+  
+  { "semester":" MMR2R",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=BFD340EE-9BBC-495A-8D33-F65E7C1932AA&amp;week=0" },
+  
+  { "semester":" MMR3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=59E22427-9605-4CD5-839C-2E46B912C532&amp;week=0" },
+  
+  { "semester":" MPE1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=8EF85C22-C4DE-46E2-89E6-FC8B48AF3C60&amp;week=0" },
+  
+  { "semester":" MT1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=5D84C757-FE56-492C-99EC-F0734EB506DC&amp;week=0" },
+  
+  { "semester":" MT2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=949065E4-FD88-46EE-9847-76014752C6AE&amp;week=0" },
+  
+  { "semester":" MT3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=3BA42DAC-5C15-4127-B525-66BE98BA0704&amp;week=0" },
+  
+  { "semester":" MT4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=8CDC8A4A-D129-4991-922D-553D1963E047&amp;week=0" },
+  
+  { "semester":" MT5",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=61ED0FBD-1671-4E30-B52C-FD3755CF7EC4&amp;week=0" },
+  
+  { "semester":" MT6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=1E808995-030E-4D78-B5CB-17563AC32086&amp;week=0" },
+  
+  { "semester":" MT7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=53868353-77AF-417F-8B8B-18085DB44D9C&amp;week=0" },
+  
+  { "semester":" MTM1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=A9BEBECC-85CD-4E74-B788-692C512BA8F7&amp;week=0" },
+  
+  { "semester":" MTM2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=A033F8FB-4AFC-4E28-8B05-7C59C3FE5FCC&amp;week=0" },
+  
+  { "semester":" MuK1-3a",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=3B8D64DB-2846-48D0-AB9E-782225E7B613&amp;week=0" },
+  
+  { "semester":" MuK1-3b",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=590C74F0-0B32-4955-908C-A80AA9A6DF92&amp;week=0" },
+  
+  { "semester":" MWBB1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=17E31406-1EA2-4A51-BD43-D97FDA5B41EC&amp;week=0" },
+  
+  { "semester":" MWBB2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=AC8B0B76-31D3-466F-9896-45787B1BE62F&amp;week=0" },
+  
+  { "semester":" MWBB3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=B3394275-DF6A-4C9A-ADE1-0357148F96A5&amp;week=0" },
+  
+  { "semester":" MW-plus 1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=22EA376D-3F88-44FA-A6B4-CCDEB0220F22&amp;week=0" },
+  
+  { "semester":" MW-plus 2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=2D128734-7E8A-435F-B3D0-5C9370C73359&amp;week=0" },
+  
+  { "semester":" MW-plus 3-7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=E0213A9A-CB13-4B14-8F1E-60B0DC398A7F&amp;week=0" },
+  
+  { "semester":" MW-plus 3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=1649AFB7-C2EB-4624-B617-F702736C5FDD&amp;week=0" },
+  
+  { "semester":" MW-plus 4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=921B75FB-7400-43ED-8FEE-591497A38C3B&amp;week=0" },
+  
+  { "semester":" MW-plus 5",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=8F233F22-121E-4D81-900B-403BA8767FEC&amp;week=0" },
+  
+  { "semester":" MW-plus 6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=3462A888-0F03-4D44-BC9E-CC607D82FCE0&amp;week=0" },
+  
+  { "semester":" MW-plus 7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=C9633681-C9DF-4A25-915C-F178FA4FEE0C&amp;week=0" },
+  
+  { "semester":" NES1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=1F23B1CA-21C8-4837-A1C9-C3B3DF57D9B1&amp;week=0" },
+  
+  { "semester":" NES2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=4FCF0442-E56E-4D3D-BBCA-72C2DE812DC4&amp;week=0" },
+  
+  { "semester":" RED1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=B0C28158-45B3-4B85-A273-052E6354BC53&amp;week=0" },
+  
+  { "semester":" RED2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=BBAC3061-E17F-48C0-A15C-3EA857AE6C72&amp;week=0" },
+  
+  { "semester":" startING",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=A9E4534D-E201-4B19-BE78-86FAB4881685&amp;week=0" },
+  
+  { "semester":" SupplyChainM",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=B0F5726F-608B-4BBD-B173-5D421420EB59&amp;week=0" },
+  
+  { "semester":" UN1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=ADA03BB0-4372-4A8D-B6EB-C279D68B99C7&amp;week=0" },
+  
+  { "semester":" UN2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=D1F5DF8A-2720-44B7-8ED3-C815E29F59D7&amp;week=0" },
+  
+  { "semester":" UN3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=AA155E94-E6BC-468C-8A89-6D3B0CCB7C07&amp;week=0" },
+  
+  { "semester":" UN4-7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=EF7A975F-3F6F-4E42-9F6F-94C0810F09BA&amp;week=0" },
+  
+  { "semester":" UN4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=8A22B087-7EEA-4373-AA16-CE947EC2161B&amp;week=0" },
+  
+  { "semester":" UN5",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=7EC52BA0-A8EB-4285-814D-764FD1B38AF6&amp;week=0" },
+  
+  { "semester":" UN6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=A88FBD69-9459-4B04-AAF0-3FD8EF3B16E4&amp;week=0" },
+  
+  { "semester":" UN7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=BE94A41C-2013-46F8-A9BA-61672508F6F3&amp;week=0" },
+  
+  { "semester":" UT1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=356BAA6D-8B1D-4408-AEC8-FD4A8C038E45&amp;week=0" },
+  
+  { "semester":" UT2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=3F4503DE-E162-4EED-AF7C-0519D586D2EC&amp;week=0" },
+  
+  { "semester":" UT3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=36A8730C-8B85-4D38-B0C7-B0FE58BDF588&amp;week=0" },
+  
+  { "semester":" UV4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=B8B6C1AC-D86D-4066-82A3-DFE0C1DA35A1&amp;week=0" },
+  
+  { "semester":" UV5",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=ADC62A23-9231-4773-BDD8-7BA663DC38FD&amp;week=0" },
+  
+  { "semester":" UV6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=67FAB701-FC86-4CA9-82C7-50869234B0A3&amp;week=0" },
+  
+  { "semester":" UV7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=5A0A8190-276C-4532-B2FA-65EBF971A0BF&amp;week=0" },
+  
+  { "semester":" WF MV",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=7B47A0C9-4D41-49CE-BA0A-1EB444FC0125&amp;week=0" },
+  
+  { "semester":" WI1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=1CEDDBA5-7CE0-42FC-AC2B-4E1C889B90E6&amp;week=0" },
+  
+  { "semester":" WI2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=C5787BF5-6DB8-4AE1-9F92-2C7D6093B145&amp;week=0" },
+  
+  { "semester":" WI3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=672D26F7-B88D-4436-8B3A-37750454F69E&amp;week=0" },
+  
+  { "semester":" WI4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=0D2F0C71-F42A-409F-814E-E6810BCD9CBF&amp;week=0" },
+  
+  { "semester":" WI6EP",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=F8518E80-D403-4E21-8928-382D48755C23&amp;week=0" },
+  
+  { "semester":" WI6NU",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=CB7FC498-942A-445C-BF7F-C8FBAAC0414D&amp;week=0" },
+  
+  { "semester":" WI6PE",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=0AAD1FB2-6CE4-4F55-A2AD-49BC435C78D0&amp;week=0" },
+  
+  { "semester":" WI6WR",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=4E78F247-EBF0-47B6-B195-CE018E615DBF&amp;week=0" },
+  
+  { "semester":" WI7 IK",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=E612AF13-1014-4965-B6F4-EAB25E01FE94&amp;week=0" },
+  
+  { "semester":" WI7 IP",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=98CB0344-BFE0-4B35-860A-46B7DB2D1747&amp;week=0" },
+  
+  { "semester":" WIM1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=5CC3AAAA-A883-4D65-AB0A-D212138EE830&amp;week=0" },
+  
+  { "semester":" WIM2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=C6456E4B-E63D-45B8-8D4E-5FC90FCCDE84&amp;week=0" },
+  
+  { "semester":" WIM3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=BC64EE58-C59E-4055-A4D1-8E4F82C65E33&amp;week=0" },
+  
+  { "semester":" WIN1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=23006E34-D2C0-43BE-8A86-FA9677B14131&amp;week=0" },
+  
+  { "semester":" WIN2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=19EBADC5-231C-41FD-A109-ADE391B56900&amp;week=0" },
+  
+  { "semester":" WIN3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=69A4AF96-A43C-4E91-8389-26D6EB93EF2B&amp;week=0" },
+  
+  { "semester":" WIN4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=D048BDB2-CDC7-42F6-987E-F9149350D2DC&amp;week=0" },
+  
+  { "semester":" WIN5",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=DB324923-1F26-4460-A0CD-61E2D57C9038&amp;week=0" },
+  
+  { "semester":" WIN6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=361B73D1-8FDC-4946-8AC7-12579F007D7A&amp;week=0" },
+  
+  { "semester":" WIN7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=1DD6DF23-7D1B-406F-B943-C4B01C6BC9A6&amp;week=0" },
+  
+  { "semester":" WINM1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=F679DD60-CF73-4A19-B07D-4542197DD500&amp;week=0" },
+  
+  { "semester":" WINM2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=89E16387-9531-4054-9D6F-E65D5CC9594F&amp;week=0" },
+  
+  { "semester":" WINp1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=CD56E105-12AD-45E6-B881-5910A6DEDE72&amp;week=0" },
+  
+  { "semester":" WINp2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=01E5C8EA-6D32-4CF5-AE9D-346DA392F7A6&amp;week=0" },
+  
+  { "semester":" WINp3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=C7DC75B8-2324-4BB4-BE81-59CFC28D2AC4&amp;week=0" },
+  
+  { "semester":" WINp4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=3DFC53F3-CC6D-40F4-B923-3BDBA3749389&amp;week=0" },
+  
+  { "semester":" WINp5",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=589AEFCF-A296-435C-B6C9-063CFAF82B33&amp;week=0" },
+  
+  { "semester":" WINp6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=7EFA8020-C116-4B95-A4E0-C456E5950533&amp;week=0" },
+  
+  { "semester":" WINp7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=42101F9A-CA2D-4F34-9C4E-9BA9055C6C17&amp;week=0" },
+  
+  { "semester":" WP1",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=42113A6C-E2BB-4ADB-BD24-E90E301027CF&amp;week=0" },
+  
+  { "semester":" WP2",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=F6C48081-2A95-4788-B409-DAC8FAC578CC&amp;week=0" },
+  
+  { "semester":" WP3",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=A8A9590F-FA12-4F3C-93AF-CC93914433F7&amp;week=0" },
+  
+  { "semester":" WP4",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=3C5D4375-1EF4-4D50-9300-65542C9D7630&amp;week=0" },
+  
+  { "semester":" WP5",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=E2156C6E-4AF4-4723-99AA-70BD3F4290FB&amp;week=0" },
+  
+  { "semester":" WP6",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=CAD83A0D-9183-4DA5-B771-343D00E2FA6E&amp;week=0" },
+  
+  { "semester":" WP7",
+  "studiengang": null,
+  "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=8BA1E317-912A-4AAC-891A-904ED2B49B73&amp;week=0" }
+
+  
 ]
