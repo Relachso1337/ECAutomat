@@ -7,13 +7,12 @@ let users = []
 searchInput.addEventListener("input", e => {
     const value = e.target.value.toLowerCase()
     users.forEach(user => {
-        const isVisible = user.name.toLowerCase().includes(value) || user.email.toLowerCase().includes(value)
+        const isVisible = user.semester.toLowerCase().includes(value) || user.vorlesungsplan.toLowerCase().includes(value)
         user.element.classList.toggle("hide", !isVisible)
     })
    
 })
-// http://localhost:8888/api/v1/REST/vorlesung Link zu dem JSON File
-fetch("http://localhost:8888/api/v1/REST/vorlesung")
+fetch("http://87.162.240.81:8888/api/v1/REST/vorlesung")
 .then (res => res.json())
 .then(data => {
     users = data.map(user => {
