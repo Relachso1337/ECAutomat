@@ -12,7 +12,7 @@ searchInput.addEventListener("input", e => {
     })
    
 })
-
+// http://localhost:8888/api/v1/REST/vorlesung Link zu dem JSON File
 fetch("http://localhost:8888/api/v1/REST/vorlesung")
 .then (res => res.json())
 .then(data => {
@@ -25,6 +25,6 @@ fetch("http://localhost:8888/api/v1/REST/vorlesung")
         header.textContent = user.semester
         body.textContent = user.studiengang
         userCardContainer.append(card)
-        return { website: user.vorlesungsplan, name: user.semester, email: user.studiengang, element : card}
+        return { vorlesungsplan: user.vorlesungsplan, semester: user.semester, studiengang: user.studiengang, element : card}
     })
 })

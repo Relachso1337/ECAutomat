@@ -1,37 +1,187 @@
 [
-    {
-      "semester": "WIN1",
-      "studiengang": "Wirtschaftsinformatik",
-      "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=23006E34-D2C0-43BE-8A86-FA9677B14131&week=0"
-    },
-    {
-      "semester": "WIN2",
-      "studiengang": "Wirtschaftsinformatik",
-      "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=19EBADC5-231C-41FD-A109-ADE391B56900&week=0"
-    },
-    {
-      "semester": "WIN3",
-      "studiengang": "Wirtschaftsinformatik",
-      "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=69A4AF96-A43C-4E91-8389-26D6EB93EF2B&week=0"
-    }, 
-    {
-      "semester": "WIN4",
-      "studiengang": "Wirtschaftsinformatik",
-      "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=D048BDB2-CDC7-42F6-987E-F9149350D2DC&week=0"
-    },
-    {
-      "semester": "WIN5",
-      "studiengang": "Wirtschaftsinformatik",
-      "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=DB324923-1F26-4460-A0CD-61E2D57C9038&week=0"
-    },
-    {
-      "semester": "WIN6",
-      "studiengang": "Wirtschaftsinformatik",
-      "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=361B73D1-8FDC-4946-8AC7-12579F007D7A&week=0"
-    },
-    {
-      "semester": "WIN7",
-      "studiengang": "Wirtschaftsinformatik",
-      "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=1DD6DF23-7D1B-406F-B943-C4B01C6BC9A6&week=0"
-    }
-  ]
+  {
+    "semester": "aBM8",
+    "studiengang": "Angewandte BioMechanik",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=9545AE2C-68C3-4F5B-888F-BBF81430E7DE&week=0"
+  },
+  {
+    "semester": "aBM9",
+    "studiengang": "Angewandte BioMechanik",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=0D2D2865-862E-4376-8DC4-CCA0AA5175D2&week=0"
+  },
+  {
+    "semester": "AI1",
+    "studiengang": "Angewandte Informatik",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=B6B2BF01-9DBA-4017-9245-4BEDF823E0CA&week=0"
+  },
+  {
+    "semester": "AI2",
+    "studiengang": "Angewandte Informatik",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=B6DB6637-51BA-47CC-BD69-9CEE1A336333&week=0"
+  },
+  {
+    "semester": "AI3",
+    "studiengang": "Angewandte Informatik",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=DA64F6FE-9DDB-429E-A677-05D0D40CB636&week=0"
+  },
+  {
+    "semester": "AI4",
+    "studiengang": "Angewandte Informatik",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=5D255C23-BC03-4AA0-9F36-DC6767F3E05D&week=0"
+  },
+  {
+    "semester": "AI5",
+    "studiengang": "Angewandte Informatik",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=BB093B7D-55EE-42B5-8D48-FE9317CAC36F&week=0"
+  },
+  {
+    "semester": "AI6",
+    "studiengang": "Angewandte Informatik",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=BF0ABBCD-616D-4CC8-BDAC-06B0F844F946&week=0"
+  },
+  {
+    "semester": "AI7",
+    "studiengang": "Angewandte Informatik",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=0B4465E5-76B1-417C-B3B0-4D928A6F2CCF&week=0"
+  },
+  {
+    "semester": "AKI1",
+    "studiengang": "Angewandte Künstliche Intelligenz",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=A796DCB6-F1B8-418D-8080-0878F565F346&week=0"
+  },
+  {
+    "semester": "AKI2",
+    "studiengang": "Angewandte Künstliche Intelligenz",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=B05CDAD7-5A9D-4920-A3C9-3EABBE54C326&week=0"
+  },
+  {
+    "semester": "AKI3",
+    "studiengang": "Angewandte Künstliche Intelligenz",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=918FD5AA-4A89-4882-9F13-D12B69B050EC&week=0"
+  },
+  {
+    "semester": "AKI4",
+    "studiengang": "Angewandte Künstliche Intelligenz",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=F3166585-0B47-4FBD-8F0B-211AB8C5CA17&week=0"
+  },
+  {
+    "semester": "AKI6",
+    "studiengang": "Angewandte Künstliche Intelligenz",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=3AB295DB-D7FC-4165-8F7B-731F0EB9864A&week=0"
+  },
+  {
+    "semester": "BM1",
+    "studiengang": "BioMechanik",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=FA92C160-5829-4F90-BEC2-7578A2EDDDA7&week=0"
+  },
+  {
+    "semester": "BM2",
+    "studiengang": "BioMechanik",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=D88BF853-43BE-484C-ADB9-60B00A63179A&week=0"
+  },
+  {
+    "semester": "BM3",
+    "studiengang": "BioMechanik",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=092C29A9-EAA6-48FD-B2C8-E933F2B44CAF&week=0"
+  },
+  {
+    "semester": "BM4",
+    "studiengang": "BioMechanik",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=D3BF865C-9B90-4993-B272-EBB7B5D72582&week=0"
+  },
+  {
+    "semester": "BM6",
+    "studiengang": "BioMechanik",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=6EA1160B-3EB0-42CB-A630-7AF6F2EA4F69&week=0"
+  },
+  {
+    "semester": "BM7",
+    "studiengang": "BioMechanik",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=7006F022-9975-41C2-8C5E-7B94A39F811B&week=0"
+  },
+  {
+    "semester": "BT1",
+    "studiengang": "BioTechnologie",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=F08383B4-DEFC-496A-B2A7-8615FF7E4A48&week=0"
+  },
+  {
+    "semester": "BT2",
+    "studiengang": "BioTechnologie",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=71E5B982-DDA8-48FE-9AAB-E111378A966F&week=0"
+  },
+  {
+    "semester": "BT3",
+    "studiengang": "BioTechnologie",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=13EE973F-86E5-4859-9896-723C09A062F7&week=0"
+  },
+  {
+    "semester": "BT4",
+    "studiengang": "BioTechnologie",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=0849D512-578E-4ACE-A5E0-15F97F5A152F&week=0"
+  },
+  {
+    "semester": "BT5",
+    "studiengang": "BioTechnologie",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=248285FF-BF69-4B42-A75C-003E5AD9C727&week=0"
+  },
+  {
+    "semester": "BT6",
+    "studiengang": "BioTechnologie",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=3069B7C1-39BC-4E05-997E-88C38F19C53B&week=0"
+  },
+  {
+    "semester": "BT7",
+    "studiengang": "BioTechnologie",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=0051658F-B023-4D8D-8F0B-2B9AB3AEC76C&week=0"
+  },
+  {
+    "semester": "BW1",
+    "studiengang": "Betriebswirtschaft",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=1C7E6489-1FFD-4946-A448-49B1C58AAF4F&week=0"
+  },
+  {
+    "semester": "BW2",
+    "studiengang": "Betriebswirtschaft",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=51CC0BE9-181B-4956-8185-F16404B7B41E&week=0"
+  },
+  {
+    "semester": "BW3",
+    "studiengang": "Betriebswirtschaft",
+    "vorlesungsplan": "http://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=243B8E3E-B30C-4532-9A1D-07045A99A65E&week=0"
+  },
+  {
+    "semester": "WIN1",
+    "studiengang": "Wirtschaftsinformatik",
+    "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=23006E34-D2C0-43BE-8A86-FA9677B14131&week=0"
+  },
+  {
+    "semester": "WIN2",
+    "studiengang": "Wirtschaftsinformatik",
+    "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=19EBADC5-231C-41FD-A109-ADE391B56900&week=0"
+  },
+  {
+    "semester": "WIN3",
+    "studiengang": "Wirtschaftsinformatik",
+    "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=69A4AF96-A43C-4E91-8389-26D6EB93EF2B&week=0"
+  },
+  {
+    "semester": "WIN4",
+    "studiengang": "Wirtschaftsinformatik",
+    "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=D048BDB2-CDC7-42F6-987E-F9149350D2DC&week=0"
+  },
+  {
+    "semester": "WIN5",
+    "studiengang": "Wirtschaftsinformatik",
+    "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=DB324923-1F26-4460-A0CD-61E2D57C9038&week=0"
+  },
+  {
+    "semester": "WIN6",
+    "studiengang": "Wirtschaftsinformatik",
+    "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=361B73D1-8FDC-4946-8AC7-12579F007D7A&week=0"
+  },
+  {
+    "semester": "WIN7",
+    "studiengang": "Wirtschaftsinformatik",
+    "vorlesungsplan": "https://www.hs-offenburg.de/index.php?id=6627&class=class&iddV=1DD6DF23-7D1B-406F-B943-C4B01C6BC9A6&week=0"
+  }
+]
