@@ -10,29 +10,36 @@
     <title>Vorlesungsplaene</title>
   </head>
   <body>
-    <div class="menu">
-      <ul>
-        <li><a href="./startseite.html">Startseite</a></li>
-        <li><a href="./quiz.html">Quiz</a></li>
-        <li><a href="vorlesungsplan.html">Vorlesungsplan</a></li>
-        <li><a href="./mensa.html">Mensa</a></li>
-      </ul>
+    <div class="navbar">
+      <div class="search-wrapper">
+        <label for="search">Studiengang suchen:</label>
+        <input type="search" id="search" data-search />
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="./startseite.html">Startseite</a></li>
+          <li><a href="./quiz.html">Quiz</a></li>
+          <li><a href="vorlesungsplan.html">Vorlesungsplan</a></li>
+          <li><a href="./mensa.html">Mensa</a></li>
+        </ul>
+      </div>
     </div>
-
-    <!-- Suchleiste -->
-    <div class="search-wrapper">
-      <label for="search">Studiengang suchen:</label>
-      <input type="search" id="search" data-search />
-    </div>
+    <div class="content">
     <div class="user-cards" data-user-cards-container>
       <template data-user-template>
-        <div class="card">
-        <a  href="" data-link>
-        <div class="header" data-header></div>
-        <div class="body" data-body></div>
-        </a>
+        <div class="card" onclick="anklicken(this)">
+          <div class="header" data-header></div>
+          <div class="body" data-body></div>
         </div>
       </template>
+    </div>
+    <iframe
+      id="fenster"
+      type="text/html"
+      src=""
+      width="500"
+      height="500"
+    ></iframe>
     </div>
   </body>
 </html>

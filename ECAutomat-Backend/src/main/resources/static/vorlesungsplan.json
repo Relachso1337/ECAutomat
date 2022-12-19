@@ -1,10 +1,10 @@
 [
   { "semester":" aBM8",
-  "studiengang": null,
+  "studiengang": "Angewandte BioMechanik",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=9545AE2C-68C3-4F5B-888F-BBF81430E7DE&amp;week=0" },
   
   { "semester":" aBM9",
-  "studiengang": null,
+  "studiengang": "Angewandte BioMechanik",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=0D2D2865-862E-4376-8DC4-CCA0AA5175D2&amp;week=0" },
   
   { "semester":" AI1",
@@ -12,71 +12,71 @@
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=B6B2BF01-9DBA-4017-9245-4BEDF823E0CA&amp;week=0" },
   
   { "semester":" AI2",
-  "studiengang": null,
+  "studiengang": "Angewandte Informatik",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=B6DB6637-51BA-47CC-BD69-9CEE1A336333&amp;week=0" },
   
   { "semester":" AI3",
-  "studiengang": null,
+  "studiengang": "Angewandte Informatik",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=DA64F6FE-9DDB-429E-A677-05D0D40CB636&amp;week=0" },
   
   { "semester":" AI4",
-  "studiengang": null,
+  "studiengang": "Angewandte Informatik",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=5D255C23-BC03-4AA0-9F36-DC6767F3E05D&amp;week=0" },
   
   { "semester":" AI5",
-  "studiengang": null,
+  "studiengang": "Angewandte Informatik",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=BB093B7D-55EE-42B5-8D48-FE9317CAC36F&amp;week=0" },
   
   { "semester":" AI6",
-  "studiengang": null,
+  "studiengang": "Angewandte Informatik",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=BF0ABBCD-616D-4CC8-BDAC-06B0F844F946&amp;week=0" },
   
   { "semester":" AI7",
-  "studiengang": null,
+  "studiengang": "Angewandte Informatik",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=0B4465E5-76B1-417C-B3B0-4D928A6F2CCF&amp;week=0" },
   
   { "semester":" AKI1",
-  "studiengang": null,
+  "studiengang": "Angewandte Künstliche Intelligenz",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=A796DCB6-F1B8-418D-8080-0878F565F346&amp;week=0" },
   
   { "semester":" AKI2",
-  "studiengang": null,
+  "studiengang": "Angewandte Künstliche Intelligenz",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=B05CDAD7-5A9D-4920-A3C9-3EABBE54C326&amp;week=0" },
   
   { "semester":" AKI3",
-  "studiengang": null,
+  "studiengang": "Angewandte Künstliche Intelligenz",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=918FD5AA-4A89-4882-9F13-D12B69B050EC&amp;week=0" },
   
   { "semester":" AKI4",
-  "studiengang": null,
+  "studiengang": "Angewandte Künstliche Intelligenz",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=F3166585-0B47-4FBD-8F0B-211AB8C5CA17&amp;week=0" },
   
   { "semester":" AKI6",
-  "studiengang": null,
+  "studiengang": "Angewandte Künstliche Intelligenz",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=3AB295DB-D7FC-4165-8F7B-731F0EB9864A&amp;week=0" },
   
   { "semester":" BM1",
-  "studiengang": null,
+  "studiengang": "BioMechanik",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=FA92C160-5829-4F90-BEC2-7578A2EDDDA7&amp;week=0" },
   
   { "semester":" BM2",
-  "studiengang": null,
+  "studiengang": "BioMechanik",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=D88BF853-43BE-484C-ADB9-60B00A63179A&amp;week=0" },
   
   { "semester":" BM3",
-  "studiengang": null,
+  "studiengang": "BioMechanik",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=092C29A9-EAA6-48FD-B2C8-E933F2B44CAF&amp;week=0" },
   
   { "semester":" BM4",
-  "studiengang": null,
+  "studiengang": "BioMechanik",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=D3BF865C-9B90-4993-B272-EBB7B5D72582&amp;week=0" },
   
   { "semester":" BM6",
-  "studiengang": null,
+  "studiengang": "BioMechanik",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=6EA1160B-3EB0-42CB-A630-7AF6F2EA4F69&amp;week=0" },
   
   { "semester":" BM7",
-  "studiengang": null,
+  "studiengang": "BioMechanik",
   "vorlesungsplan":" http://www.hs-offenburg.de/index.php?id=6627&amp;class=class&amp;iddV=7006F022-9975-41C2-8C5E-7B94A39F811B&amp;week=0" },
   
   { "semester":" BT1",
