@@ -14,10 +14,7 @@ import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import de.hsog.dto.Category;
-import de.hsog.restrepos.CategoryRESTRepo;
 import de.hsog.dto.MensaMenu;
-import de.hsog.graphqlrepos.CategoryGraphQLRepo;
 
 
 @Controller
@@ -46,15 +43,5 @@ public class DefaultRouter{
 			e.printStackTrace();
 		}
 		return "html/mensaplan";
-	}
-	
-	@GetMapping(value = "category")
-	public String category(Model model) {
-		CategoryRESTRepo repo = new CategoryRESTRepo();
-		// Category cat = repo.getCategoryById(1);
-		 model.addAttribute("repo", repo);
-		// model.addAttribute("category", cat);
-		// repo.addCategory("Finanzen");
-		return "html/category";
 	}
 }

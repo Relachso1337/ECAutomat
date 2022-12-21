@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/wizard.css">
+        <script src="../js/wizardScript.js"></script>
+        <script src="../js/questionWizard.js"></script>
+    </head>
+    <body>
+        <div class="col-12 d-flex flex-column">
+            <div class="col-12 ml-5 my-5">
+                <h2>Frage</h2>
+            </div>
+            <div class="col-9 my-5 ml-10">
+                <form th:action="@{/Questions}" th:object="${question}" method="POST">
+                    <div class="form-group">
+                        <label for="content">Frage</label>
+                        <input type="text" class="form-control" name="content" placeholder="Frageninhalt...">
+                    </div>
+                    <div class="form-group">
+                        <label for="points">Punkte</label>
+                        <input type="text" class="form-control" name="points" placeholder="Mögliche Punktzahl...">
+                    </div>
+                    <div class="form-group">
+                        <label for="categoryId"></label>
+                        <select name="categoryId">
+                        	<option th:each="cat : ${categories}"
+                        			th:text="${cat.categoryName}"
+                        			th:value="${cat.id}">
+                        </select>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Absenden</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
