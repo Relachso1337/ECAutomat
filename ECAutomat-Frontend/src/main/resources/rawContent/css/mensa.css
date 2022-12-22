@@ -6,17 +6,6 @@ a:link {
     text-decoration: none;
     color: black;
 }
-
-div.menu {
-    position: absolute;
-    left: 60%;
-    font-size: 35px;
-}
-
-ul {
-    list-style-type: none;
-    overflow: hidden;
-  }
   
   li {
     float: left;
@@ -38,7 +27,9 @@ ul {
     position: absolute;
     font-size: 50px;
 
-    left: 2.5%;
+    color: black;
+
+    left: 25%;
 }
 
 #img_koch {
