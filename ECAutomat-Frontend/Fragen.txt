@@ -99,80 +99,42 @@ Der größte Wüstenkontinent der Erde ist Europa: Falsch
     Der größte See der Erde ist der Comer See: Falsch
     Der größte See der Erde ist der Balaton: Falsch
     Kann man durch Schreien ein Ei kochen?: Falsch
-
 Können Fische schwimmen?: Wahr
-
 Können Hühner fliegen?: Falsch
-
 Können Kühe sprechen?: Falsch
-
 Können Katzen den Himmel sehen?: Wahr
-
 Können Pferde lächeln?: Falsch
-
 Können Ziegen singen?: Falsch
-
 Kann man durch Nase atmen?: Wahr
-
 Kann man durch das Ohr hören?: Falsch
-
 Kann man durch den Mund riechen?: Falsch
-
 Können Affen Hüte tragen?: Falsch
-
 Können Flamingos auf einem Bein stehen?: Wahr
-
 Können Giraffen ihren Kopf unter Wasser tauchen?: Falsch
-
 Können Hunde durch Wände gehen?: Falsch
-
 Können Kängurus Rückwärts springen?: Falsch
-
 Können Meerschweinchen surfen?: Falsch
-
 Können Papageien Karate kämpfen?: Falsch
-
 Können Schlangen sprechen?: Falsch
-
 Können Spinnen Flöte spielen?: Falsch
-
 Können Tiere Geburtstage feiern?: Falsch
-
 Kann man durch den Bauchnabel atmen?: Falsch
-
-Kann man durch die Augen hören?: Falsch
-
+Kann man durch die Augen hören?: Falsc
 Kann man durch den Mund atmen?: Falsch
-
 Kann man durch den Schwanz sehen?: Falsch
-
 Können Eisbären kochen?: Falsch
-
 Können Elefanten Gedichte schreiben?: Falsch
-
 Können Giraffen Ballett tanzen?: Falsch
-
 Können Hühner Flöte spielen?: Falsch
-
 Können Kühe Gitarre spielen?: Falsch
-
 Können Meerschweinchen Klettern?: Falsch
-
 Können Papageien kochen?: Falsch
-
 Können Schlangen Trompete spielen?: Falsch
-
 Können Spinnen Basketball spielen?: Falsch
-
 Können Tiere Fahrrad fahren?: Falsch
-
 Kann man durch die Nase hören?: Falsch
-
 Kann man durch die Ohren sehen?: Falsch
-
 Kann man durch den Bauchnabel riechen?: Falsch
-
 Kann man durch die Augen atmen?: Falsch
-
 Kann man durch den Mund sehen?: Falsch
 Enthält Brokkoli mehr Vitamin C als Zitronen?: Wahr
