@@ -8,17 +8,29 @@ public class Suggestion {
 	
 	private Question question;
 	
+	private boolean isCorrect;
+	
 	public Suggestion() {
 		this.suggestionContent = "N/A";
+		this.isCorrect = false;
 	}
 	
 	public Suggestion(String suggestionContent) {
 		this.suggestionContent = suggestionContent;
 	}
 	
-	public Suggestion(String suggestionContent, Question quest) {
+	public Suggestion(String suggestionContent, Question quest, boolean isCorrect) {
 		this.suggestionContent = suggestionContent;
 		this.question = quest;
+		this.isCorrect = isCorrect;
+	}
+
+	public boolean isCorrect() {
+		return isCorrect;
+	}
+
+	public void setCorrect(boolean isCorrect) {
+		this.isCorrect = isCorrect;
 	}
 
 	public Integer getId() {

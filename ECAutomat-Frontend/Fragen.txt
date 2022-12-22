@@ -1,0 +1,140 @@
+Allgemeinwissen: 
+
+    Der Mond ist größer als der Planet Erde: Falsch
+    Der Mount Everest ist der höchste Berg der Welt: Wahr
+    Der Nordpol ist der kälteste Ort der Erde: Falsch
+    Das Elefantenohr ist das größte Ohr aller Säugetiere: Wahr
+    Der Blitz entsteht, wenn sich Wolken berühren: Falsch
+    Der Amazonas ist der längste Fluss der Welt: Wahr
+    Die Erde ist der drittgrößte Planet im Sonnensystem: Falsch
+    Die Sonne ist eine Stern: Wahr
+    Die Antarktis ist der kälteste Ort der Erde: Wahr
+    Der Eiffelturm ist das höchste Gebäude der Welt: Falsch
+    Die Erde ist flach: Falsch
+Das menschliche Herz hat vier Kammern: Wahr
+Die Spitze des Mount Everest befindet sich im Weltall: Falsch
+Das Periodensystem der Elemente wurde von Dmitri Mendelejew entwickelt: Wahr
+Das Gewicht des menschlichen Gehirns beträgt etwa 2 Kilo: Wahr
+Der Planet Mars ist der viertgrößte im Sonnensystem: Falsch
+Der Planet Jupiter hat keine Monde: Falsch
+Die Pyramiden in Gizeh wurden von den Ägyptern erbaut: Wahr
+Albert Einstein war ein Physiker: Wahr
+Der Pazifik ist der größte Ozean der Erde: Wahr
+Der Nil ist der längste Fluss Afrikas: Wahr
+Das Weltall ist unendlich: Wahr
+Die Temperaturen auf dem Planeten Venus sind sehr niedrig: Falsch
+Die Atmosphäre der Erde besteht hauptsächlich aus Sauerstoff: Falsch
+Die Mutter aller Sprachen ist das Sumerische: Falsch
+Das menschliche Skelett besteht aus etwa 300 Knochen: Wahr
+Der Planet Merkur ist der nächstgelegene Planet zur Sonne: Wahr
+Die Erde dreht sich um ihre Achse in einer Richtung von Osten nach Westen: Falsch
+Die Galapagos-Inseln sind ein Teil von Südamerika: Falsch
+Die Sonne ist der größte Stern im Universum: Falsch
+Der Mond hat keine Atmosphäre: Wahr
+Der Golf von Mexiko ist ein Teil des Atlantiks: Falsch
+Der Äquator teilt die Erde in zwei Hälften: Wahr
+Der Ozean Pacific ist der größte Ozean der Erde: Wahr
+Der Planet Saturn hat keine Ringe: Falsch
+Die Stadt Rom ist die Hauptstadt Italiens: Wahr
+Der Nil ist der längste Fluss der Welt: Falsch
+Die Freiheitsstatue befindet sich in New York City: Wahr
+Der Mond hat keine Atmosphäre: Wahr
+Der Kontinent Afrika ist der größte Kontinent der Welt: Wahr
+Der Kontinent Asien ist der größte Kontinent der Welt: Falsch
+Der Planet Venus ist der zweitgrößte Planet im Sonnensystem: Falsch
+Der Nordpol befindet sich in der Arktis: Wahr
+Der Kontinent Europa ist der zweitgrößte Kontinent der Welt: Falsch
+Der Kontinent Nordamerika ist der drittgrößte Kontinent der Welt: Wahr
+Der Kontinent Südamerika ist der viertgrößte Kontinent der Welt: Wahr
+Der Kontinent Australien ist der fünftgrößte Kontinent der Welt: Wahr
+Das Great Barrier Reef ist das größte Korallenriff der Welt: Wahr
+Der Planet Uranus hat blaue Farbe: Wahr
+Der Planet Neptun hat grüne Farbe: Wahr
+Der Planet Pluto ist der neunte Planet im Sonnensystem: Falsch
+Der Planet Pluto ist der größte Zwergplanet im Sonnensystem: Falsch
+Der Planet Mars hat zwei Monde: Wahr
+Der Planet Merkur hat keine Atmosphäre: Wahr
+Der Planet Venus hat die längste Tag-Nacht-Periode aller Planeten: Falsch
+Der Planet Jupiter hat den größten Mond im Sonnensystem: Wahr
+Der Planet Saturn hat den zweitgrößten Mond im Sonnensystem: Falsch
+Der Planet Uranus hat den drittgrößten Mond im Sonnensystem: Falsch
+Der Planet Neptun hat den viertgrößten Mond im Sonnensystem: Falsch
+Der größte Mond im Sonnensystem ist der Mond der Erde: Falsch
+Das größte Meer der Erde ist der Pazifik: Wahr
+Das kleinste Meer der Erde ist das Karibische Meer: Falsch
+Das tiefste Meer der Erde ist das Schwarze Meer: Falsch
+Das höchste Gebirge der Erde ist der Mount Everest: Wahr
+Das tiefste Tal der Erde ist das Mariana-Graben: Wahr
+Das tiefste Landloch der Erde ist der Viti-Krater auf der Insel Fiji: Falsch
+Der höchste Wasserfall der Erde ist der Angel-Wasserfall in Venezuela: Wahr
+Der größte Wüstenkontinent der Erde ist Afrika: Falsch
+Der größte Wüstenkontinent der Erde ist Australien: Falsch
+Der größte Wüstenkontinent der Erde ist Südamerika: Falsch
+Der größte Wüstenkontinent der Erde ist Nordamerika: Falsch
+Der größte Wüstenkontinent der Erde ist Asien: Wahr
+Der größte Wüstenkontinent der Erde ist Europa: Falsch
+    Der längste Fluss der Erde ist der Nil: Wahr
+    Der längste Fluss der Erde ist der Amazonas: Falsch
+    Der größte See der Erde ist der Baikalsee: Falsch
+    Der größte See der Erde ist der Kaspische See: Falsch
+    Der größte See der Erde ist der Aralsee: Falsch
+    Der größte See der Erde ist der Titicaca-See: Falsch
+    Der größte See der Erde ist der Superior-See: Wahr
+    Der größte See der Erde ist der Michigan-See: Falsch
+    Der größte See der Erde ist der Huron-See: Falsch
+    Der größte See der Erde ist der Ontario-See: Falsch
+    Der größte See der Erde ist der Erie-See: Falsch
+    Der größte See der Erde ist der Saimaa-See: Falsch
+    Der größte See der Erde ist der Ladoga-See: Falsch
+    Der größte See der Erde ist der Onega-See: Falsch
+    Der größte See der Erde ist der Vänern-See: Falsch
+    Der größte See der Erde ist der Vättern-See: Falsch
+    Der größte See der Erde ist der Mälaren-See: Falsch
+    Der größte See der Erde ist der Inari-See: Falsch
+    Der größte See der Erde ist der Päijänne-See: Falsch
+    Der größte See der Erde ist der Chiemsee: Falsch
+    Der größte See der Erde ist der Bodensee: Falsch
+    Der größte See der Erde ist der Neusiedler See: Falsch
+    Der größte See der Erde ist der Gardasee: Falsch
+    Der größte See der Erde ist der Comer See: Falsch
+    Der größte See der Erde ist der Balaton: Falsch
+    Kann man durch Schreien ein Ei kochen?: Falsch
+Können Fische schwimmen?: Wahr
+Können Hühner fliegen?: Falsch
+Können Kühe sprechen?: Falsch
+Können Katzen den Himmel sehen?: Wahr
+Können Pferde lächeln?: Falsch
+Können Ziegen singen?: Falsch
+Kann man durch Nase atmen?: Wahr
+Kann man durch das Ohr hören?: Falsch
+Kann man durch den Mund riechen?: Falsch
+Können Affen Hüte tragen?: Falsch
+Können Flamingos auf einem Bein stehen?: Wahr
+Können Giraffen ihren Kopf unter Wasser tauchen?: Falsch
+Können Hunde durch Wände gehen?: Falsch
+Können Kängurus Rückwärts springen?: Falsch
+Können Meerschweinchen surfen?: Falsch
+Können Papageien Karate kämpfen?: Falsch
+Können Schlangen sprechen?: Falsch
+Können Spinnen Flöte spielen?: Falsch
+Können Tiere Geburtstage feiern?: Falsch
+Kann man durch den Bauchnabel atmen?: Falsch
+Kann man durch die Augen hören?: Falsc
+Kann man durch den Mund atmen?: Falsch
+Kann man durch den Schwanz sehen?: Falsch
+Können Eisbären kochen?: Falsch
+Können Elefanten Gedichte schreiben?: Falsch
+Können Giraffen Ballett tanzen?: Falsch
+Können Hühner Flöte spielen?: Falsch
+Können Kühe Gitarre spielen?: Falsch
+Können Meerschweinchen Klettern?: Falsch
+Können Papageien kochen?: Falsch
+Können Schlangen Trompete spielen?: Falsch
+Können Spinnen Basketball spielen?: Falsch
+Können Tiere Fahrrad fahren?: Falsch
+Kann man durch die Nase hören?: Falsch
+Kann man durch die Ohren sehen?: Falsch
+Kann man durch den Bauchnabel riechen?: Falsch
+Kann man durch die Augen atmen?: Falsch
+Kann man durch den Mund sehen?: Falsch
+Enthält Brokkoli mehr Vitamin C als Zitronen?: Wahr
