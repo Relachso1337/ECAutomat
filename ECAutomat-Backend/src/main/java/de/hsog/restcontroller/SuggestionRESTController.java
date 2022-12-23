@@ -41,7 +41,7 @@ public class SuggestionRESTController{
 		this.mapper.enable(SerializationFeature.INDENT_OUTPUT);
 	}
 	
-	@GetMapping("Suggestions")
+	@GetMapping(value="Suggestions", produces="application/json")
 	public ResponseEntity<String> suggestions() {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -54,7 +54,7 @@ public class SuggestionRESTController{
 		return new ResponseEntity<String>(responseBody, responseStatus);
 	}
 	
-	@GetMapping("Suggestions/{id}")
+	@GetMapping(value="Suggestions/{id}", produces="application/json")
 	public ResponseEntity<String> suggestionyById(@PathVariable int id) {
 		String responseBody = "";
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -73,7 +73,7 @@ public class SuggestionRESTController{
 	
 	record SuggestionInput(String suggestionContent, Integer questionID, boolean isCorrect) {}
 	
-	@PostMapping("Suggestions")
+	@PostMapping(value="Suggestions", consumes="application/json", produces="application/json")
 	public ResponseEntity<String> addSuggestiony(@RequestBody SuggestionInput s) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -95,7 +95,7 @@ public class SuggestionRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 
-	@PutMapping("Suggestions/{id}")
+	@PutMapping(value="Suggestions/{id}", consumes="application/json", produces="application/json")
 	public ResponseEntity<String> updateSuggestiony(@RequestBody Suggestion suggestionInput, @PathVariable int id) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -115,7 +115,7 @@ public class SuggestionRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 	
-	@DeleteMapping("Suggestions/{id}")
+	@DeleteMapping(value="Suggestions/{id}", produces="application/json")
 	public ResponseEntity<String> deleteSuggestionyById(@PathVariable int id) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
