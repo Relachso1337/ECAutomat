@@ -1,6 +1,7 @@
 package de.hsog.restcontroller;
 
 import java.time.format.DateTimeParseException;
+import java.util.ArrayList;
 import java.util.NoSuchElementException;
 
 import org.springframework.http.HttpStatus;
@@ -46,7 +47,7 @@ public class QuizRESTController{
 		this.mapper.enable(SerializationFeature.INDENT_OUTPUT);
 	}
 	
-	@GetMapping("Quizes")
+	@GetMapping(value="Quizes", produces = "application/json")
 	public ResponseEntity<String> quizes() {
 		String responseBody = "";
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -59,7 +60,7 @@ public class QuizRESTController{
 		return new ResponseEntity<String>(responseBody, responseStatus);
 	}
 	
-	@GetMapping("Quizes/{id}")
+	@GetMapping(value="Quizes/{id}", produces = "application/json")
 	public ResponseEntity<String> quizById(@PathVariable int id) {
 		String responseBody = "";
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -76,16 +77,15 @@ public class QuizRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 	
-	record QuizInput(String name, String playDate, Integer maxScore, Integer playerID) {}
+	record QuizInput(String name, Integer maxScore, Integer playerID) {}
 	
-	@PostMapping("Quizes")
+	@PostMapping(value="Quizes", consumes="application/json", produces = "application/json")
 	public ResponseEntity<String> addQuiz(@RequestBody QuizInput q) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
 			Quiz quiz = new Quiz(
 					q.name(),
-					q.playDate(),
 					q.maxScore(),
 					this.playerRepository.findById(q.playerID()).get()
 					);
@@ -99,9 +99,44 @@ public class QuizRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 	
+	/**
+	 * Generates, Saves and Returns Random Quiz with n-amount of Questions
+	 * @param n - amount of questions
+	 * @return ResponseEntity<String, HttpStatus> - Quiz with random questions in Body.
+	 */
+	@PostMapping(value="Quizes/generateQuiz/{n}", consumes="application/json", produces = "application/json")
+	
+	public ResponseEntity<String> generateQuiz(@RequestBody QuizInput q, @PathVariable Integer n) {
+		String responseBody = "";
+		HttpStatus responseStatus = HttpStatus.OK;
+		try {
+			ArrayList<Question> questions = new ArrayList<>();
+			this.questionRepository.findAll().forEach(questions::add);  // adds content from iterable to arraylist (collection)
+			if (n > questions.size() || n < 1) {
+				n = questions.size();
+			}
+			Quiz quiz = new Quiz(q.name(), q.maxScore(), this.playerRepository.findById(q.playerID()).get(), new ArrayList<>());
+			for(int i=0; i<n; i++) {
+				quiz.getQuestions().add(questions.get(i));
+			}
+
+			responseBody = this.mapper.writeValueAsString(this.quizRepository.save(quiz));
+		} catch (Exception e) {
+			responseBody = e.toString();
+			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
+		}
+		return new ResponseEntity<>(responseBody, responseStatus);
+	}
+	
 	record QuizHasQuestion(Integer questionId) {}
 	
-	@PostMapping("Quizes/{id}")
+	/**
+	 * 
+	 * @param q QuizInput
+	 * @param id QuizID
+	 * @return
+	 */
+	@PostMapping(value="Quizes/{id}", consumes="application/json", produces = "application/json")
 	public ResponseEntity<String> addQuestionToQuiz(@RequestBody QuizHasQuestion q, @PathVariable int id) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -125,7 +160,7 @@ public class QuizRESTController{
 	}
 	
 
-	@PutMapping("Quizes/{id}")
+	@PutMapping(value="Quizes/{id}", consumes="application/json", produces = "application/json")
 	public ResponseEntity<String> updateQuiz(@RequestBody Quiz quizInput, @PathVariable int id) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -145,14 +180,14 @@ public class QuizRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 	
-	@DeleteMapping("Quizes/Questions/{id}")
+	@DeleteMapping(value="Quizes/Questions/{id}", produces = "application/json")
 	public ResponseEntity<String> deleteQuestionFromQuiz() {
 		String responseBody = "";
 		HttpStatus responseStatus = HttpStatus.OK;
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 	
-	@DeleteMapping("Quizes/{id}")
+	@DeleteMapping(value="Quizes/{id}", produces = "application/json")
 	public ResponseEntity<String> deleteQuizById(@PathVariable int id) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
