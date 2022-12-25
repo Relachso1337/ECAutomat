@@ -1,0 +1,40 @@
+/////////////// HTML ////////////////////////
+ <div class ="navigation">
+        <div class="navbar">
+                <a href="./startseite.html">Startseite</a>
+                <a href="quiz.html">Quiz</a>
+                <a href="./vorlesungsplan.html">Vorlesungsplan</a>
+                <a href="./mensa.html">Mensa</a>
+      </div>
+      <div class="balkenorange">
+      </div>
+      </div>
+/////////////// CSS ////////////////////////
+.navbar {
+    display: inline-block;
+    overflow: hidden;
+    background-color: #0066B3;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    padding: 30px;
+  }
+  
+  .navbar a {
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  .balkenorange{
+    height: 30px;
+    width: 100%;
+    background-color: #FF6600;
+  }
