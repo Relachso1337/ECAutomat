@@ -1,6 +1,6 @@
 package de.hsog.graphqlcontroller;
 
-import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.Optional;
 
 import org.springframework.graphql.data.method.annotation.Argument;
@@ -38,7 +38,7 @@ public class QuizController {
 		return this.quizRepository.findById(id);
 	}
 
-	record QuizInput(String name, String playDate, Integer maxScore, Integer playerID) {}
+	record QuizInput(String name, Integer maxScore, Integer playerID) {}
 	
 	@MutationMapping
 	public Quiz addQuestionToQuiz(@Argument Integer quizID, @Argument Integer questionID) {
@@ -51,7 +51,7 @@ public class QuizController {
 	@MutationMapping
 	public Quiz addQuiz(@Argument QuizInput quiz) {
 		Player player = this.userRepository.findById(quiz.playerID()).orElseThrow(() -> new IllegalArgumentException());
-		Quiz q = new Quiz(quiz.name(), quiz.playDate(), quiz.maxScore(), player);
+		Quiz q = new Quiz(quiz.name(), quiz.maxScore(), player);
 		return this.quizRepository.save(q);
 	}
 	
@@ -60,7 +60,6 @@ public class QuizController {
 		Player player = this.userRepository.findById(newQuiz.playerID()).orElseThrow(() -> new IllegalArgumentException());
 		Quiz quiz = this.quizRepository.findById(id).orElseThrow(() -> new IllegalArgumentException());
 		quiz.setMaxScore(newQuiz.maxScore());
-		quiz.setStringPlayDate(newQuiz.playDate());
 		quiz.setPlayer(player);
 		return this.quizRepository.save(quiz);
 	}
@@ -75,15 +74,23 @@ public class QuizController {
 		return true;
 	}
 	
-	@QueryMapping
 	/**
 	 * generates new Quiz with random questions, adds it to DB and returns it.
 	 * 
 	 * @return newly generated Quiz with random questions
 	 */
-	public Quiz generateRandomQuiz() {
+	@MutationMapping
+	public Quiz generateRandomQuiz(@Argument Integer n, @Argument QuizInput newQuiz) {
 		/* TODO: Generate Quiz with n-amount random Questions + add to schema.gql */
-		
-		return new Quiz();
+		ArrayList<Question> questions = new ArrayList<>();
+		this.questionRepository.findAll().forEach(questions::add);  // adds content from iterable to arraylist (collection)
+		if (n > questions.size() || n < 1) {
+			n = questions.size();
+		}
+		Quiz quiz = new Quiz(newQuiz.name(), newQuiz.maxScore(), this.userRepository.findById(newQuiz.playerID()).get(), new ArrayList<>());
+		for(int i=0; i<n; i++) {
+			quiz.getQuestions().add(questions.get(i));
+		}
+		return quiz;
 	}
 }

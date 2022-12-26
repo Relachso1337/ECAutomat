@@ -28,6 +28,7 @@ type Mutation {
 	addQuestionToQuiz(quizID: ID!, questionID: ID!): Quiz
 	updateQuiz(id: ID!, newQuiz: QuizInput): Quiz
 	deleteQuizById(id: ID!): Boolean
+	generateRandomQuiz(amountQuestions: Int!, quiz: QuizInput): Quiz
 	
 	addSuggestion(suggestion: SuggestionInput): Suggestion
 	updateSuggestion(id: ID!, newSuggestion: SuggestionInput): Suggestion
@@ -49,7 +50,6 @@ input PlayerInput {
 
 input QuizInput {
 	name: String
-	playDate: String!
 	maxScore: Int!
 	playerID: ID!
 }
@@ -76,7 +76,6 @@ type Category {
 type Quiz {
 	id: ID!
 	name: String
-	playDate: String!
 	maxScore: Int!
 	player: Player
 	questions: [Question]
