@@ -53,19 +53,21 @@ public class Quiz {
 		this.questions = new ArrayList<>();
 	}
 	
-	public Quiz(String name, String playdate, Integer maxScore, Player user) {
+	public Quiz(String name, Integer maxScore, Player user) {
 		this.name = name;
 		this.maxScore = maxScore;
 		this.player = user;
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
-		this.playdate = LocalDateTime.parse(playdate, formatter);
+		this.playdate = LocalDateTime.now();
+		// DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+		// this.playdate = LocalDateTime.parse(playdate, formatter);
 	}
 	
-	public Quiz(String name, String playdate, Integer maxScore, Player user, List<Question> questions) {
+	public Quiz(String name, Integer maxScore, Player user, List<Question> questions) {
 		this.name = name; 
 		this.maxScore = maxScore;
 		this.player = user;
 		this.questions = questions;
+		this.playdate = LocalDateTime.now();
 	}
 	
 	public Integer getId() {

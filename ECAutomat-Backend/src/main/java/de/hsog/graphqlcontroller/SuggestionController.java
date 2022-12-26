@@ -7,10 +7,7 @@ import org.springframework.graphql.data.method.annotation.MutationMapping;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
 import org.springframework.stereotype.Controller;
 
-import de.hsog.models.Question;
-import de.hsog.models.QuestionHasSuggestion;
 import de.hsog.models.Suggestion;
-import de.hsog.repositories.QuestionRepository;
 import de.hsog.repositories.SuggestionRepository;
 
 @Controller

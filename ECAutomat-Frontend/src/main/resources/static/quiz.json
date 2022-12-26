@@ -1,0 +1,372 @@
+{
+
+    "questions" : [{
+        "kategorie": 1,
+        "question":"Stefan Raab moderiert das BeSy-Praktikum",
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Der Himmel ist blau", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Der Mond ist größer als der Planet Erde",
+
+        "answer": true
+
+    }, {
+        "kategorie": 1,
+        "question":"Der Mount Everest ist der höchste Berg der Welt", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Der Nordpol ist der kälteste Ort der Erde",
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Das Elefantenohr ist das größte Ohr aller Säugetiere", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Die Antarktis ist der kälteste Ort der Erde",
+
+        "answer": true
+
+    }, {
+        "kategorie": 1,
+        "question":"Das menschliche Herz hat vier Kammern", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Der Blitz entsteht, wenn sich Wolken berühren",
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Die Spitze des Mount Everest befindet sich im Weltall", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Das Periodensystem der Elemente wurde von Dmitri Mendelejew entwickelt",
+
+        "answer": true
+
+    }, {
+        "kategorie": 1,
+        "question":"Das Gewicht des menschlichen Gehirns beträgt etwa 2 Kilo", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Der Eiffelturm ist das höchste Gebäude der Welt",
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Die Pyramiden in Gizeh wurden von den Ägyptern erbaut", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Albert Einstein war ein Physiker",
+
+        "answer": true
+
+    }, {
+        "kategorie": 1,
+        "question":"Das Weltall ist unendlich", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Die Erde ist flach",
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Die Erde dreht sich um ihre Achse in einer Richtung von Osten nach Westen", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Das menschliche Skelett besteht aus etwa 300 Knochen",
+
+        "answer": true
+
+    }, {
+        "kategorie": 1,
+        "question":"Die Galapagos-Inseln sind ein Teil von Südamerika", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Die Temperaturen auf dem Planeten Venus sind sehr niedrig",
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Der Planet Merkur ist der nächstgelegene Planet zur Sonne", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Die Sonne ist der größte Stern im Universum",
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Der Äquator teilt die Erde in zwei Hälften", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Die Atmosphäre der Erde besteht hauptsächlich aus Sauerstoff",
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Die Stadt Rom ist die Hauptstadt Italiens", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Der Golf von Mexiko ist ein Teil des Atlantiks",
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Der Planet Saturn hat keine Ringe", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Der längste Fluss der Erde ist der Amazonas",
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Die Freiheitsstatue befindet sich in New York City", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Der Kontinent Asien ist der größte Kontinent der Welt",
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Der Planet Pluto ist der neunte Planet im Sonnensystem", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Der größte Mond im Sonnensystem ist der Mond der Erde",
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Der Mond hat keine Atmosphäre", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Das kleinste Meer der Erde ist das Karibische Meer",
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Das tiefste Meer der Erde ist das Schwarze Meer", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Das tiefste Landloch der Erde ist der Viti-Krater auf der Insel Fiji",
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Der größte Wüstenkontinent der Erde ist Afrika", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Der Kontinent Afrika ist der größte Kontinent der Welt",
+
+        "answer": true
+
+    }, {
+        "kategorie": 1,
+        "question":"Der Nordpol befindet sich in der Arktis", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Der größte See der Erde ist der Bodensee",
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Das Great Barrier Reef ist das größte Korallenriff der Welt", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Kann man durch Schreien ein Ei kochen?",
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Der Planet Merkur hat keine Atmosphäre", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Können Giraffen ihren Kopf unter Wasser tauchen?",
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Der Planet Mars hat zwei Monde", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Der Planet Neptun hat grüne Farbe",
+
+        "answer": true
+
+    }, {
+        "kategorie": 1,
+        "question":"Der Planet Uranus hat blaue Farbe", 
+
+        "answer": true
+
+    }, {
+        "kategorie": 1,
+        "question":"Können Kängurus Rückwärts springen?", 
+
+        "answer": false
+
+    }, {
+        "kategorie": 1,
+        "question":"Können Meerschweinchen Klettern?", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Der Planet Jupiter hat den größten Mond im Sonnensystem", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Das größte Meer der Erde ist der Pazifik", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Das höchste Gebirge der Erde ist der Mount Everest", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Das tiefste Tal der Erde ist das Mariana-Graben", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Der höchste Wasserfall der Erde ist der Angel-Wasserfall in Venezuela", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Der größte Wüstenkontinent der Erde ist Asien", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Der längste Fluss der Erde ist der Nil", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Der größte See der Erde ist der Superior-See", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Können Katzen den Himmel sehen?", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Können Flamingos auf einem Bein stehen?", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Enthält Brokkoli mehr Vitamin C als Zitronen?", 
+
+        "answer": true
+
+    }]
+
+}
+ 

@@ -1,0 +1,81 @@
+body {
+    background-color: blanchedalmond;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    text-decoration: none;
+    color: white;
+  }
+
+  li a:hover {
+    background-color: black;
+  }
+
+#title {
+    position: absolute;
+    font-size: 50px;
+
+    color: black;
+
+    left: 25%;
+}
+
+#img_koch {
+    position: absolute;
+    top: 20%;
+
+    width: 25%;
+}
+
+#date {
+    position: absolute;
+    left: 28%;
+    top: 15%;
+
+    text-decoration: underline;
+
+    font-size: 35px;
+}
+
+/*ESSEN MENÜ*/
+
+div.essen_menu {
+    position: absolute;
+    left: 27.5%;
+    top: 20%;
+
+    font-size: 35px;
+
+}
+
+div.essen_menu ul {
+    list-style-type: none;
+    overflow: hidden;
+
+    padding: 10px;
+}
+
+
+#essen_title, #essen_kosten, #date {
+    font-weight: bold;
+}
+
+#essen_kosten {
+    position: absolute;
+    top: 85%;
+    left: 27.5%;
+
+    font-size: 30px;
+}

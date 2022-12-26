@@ -5,6 +5,7 @@ import java.util.NoSuchElementException;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -39,7 +40,7 @@ public class CategoryRESTController{
 		this.mapper.enable(SerializationFeature.INDENT_OUTPUT);
 	}
 	
-	@GetMapping("Categories")
+	@GetMapping(value="Categories", produces = "application/json")
 	public ResponseEntity<String> categories() {
 		String responseBody = "";
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -52,7 +53,7 @@ public class CategoryRESTController{
 		return new ResponseEntity<String>(responseBody, responseStatus);
 	}
 	
-	@GetMapping("Categories/{id}")
+	@GetMapping(value="Categories/{id}", produces = "application/json")
 	public ResponseEntity<String> categoryById(@PathVariable int id) {
 		String responseBody = "";
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -69,7 +70,7 @@ public class CategoryRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 	
-	@PostMapping("Categories")
+	@PostMapping(value="Categories", consumes="application/json", produces = "application/json")
 	public ResponseEntity<String> addCategory(@RequestBody Category category) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -84,7 +85,7 @@ public class CategoryRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 
-	@PutMapping("Categories/{id}")
+	@PutMapping(value="Categories/{id}", consumes="application/json", produces = "application/json")
 	public ResponseEntity<String> updateCategory(@RequestBody Category categoryInput, @PathVariable int id) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;

@@ -42,7 +42,7 @@ public class QuestionRESTController{
 		this.mapper.enable(SerializationFeature.INDENT_OUTPUT);
 	}
 	
-	@GetMapping("Questions")
+	@GetMapping(value="Questions", produces = "application/json")
 	public ResponseEntity<String> questions() {
 		String responseBody = "";
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -55,7 +55,7 @@ public class QuestionRESTController{
 		return new ResponseEntity<String>(responseBody, responseStatus);
 	}
 	
-	@GetMapping("Questions/{id}")
+	@GetMapping(value="Questions/{id}", produces = "application/json")
 	public ResponseEntity<String> questionyById(@PathVariable int id) {
 		String responseBody = "";
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -74,7 +74,7 @@ public class QuestionRESTController{
 	
 	record QuestionInput(String content, Integer points, String questionImage, Integer categoryID, String questionType) {};
 	
-	@PostMapping("Questions")
+	@PostMapping(value="Questions", consumes = "application/json", produces = "application/json")
 	public ResponseEntity<String> addQuestiony(@RequestBody QuestionInput q) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -94,7 +94,7 @@ public class QuestionRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 
-	@PutMapping("Questions/{id}")
+	@PutMapping(value="Questions/{id}", consumes = "application/json", produces = "application/json")
 	public ResponseEntity<String> updateQuestiony(@RequestBody Question questionInput, @PathVariable int id) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -114,7 +114,7 @@ public class QuestionRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 	
-	@DeleteMapping("Questions/{id}")
+	@DeleteMapping(value="Questions/{id}", produces = "application/json")
 	public ResponseEntity<String> deleteQuestionyById(@PathVariable int id) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;

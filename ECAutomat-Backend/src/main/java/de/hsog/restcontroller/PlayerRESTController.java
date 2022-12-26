@@ -38,7 +38,7 @@ public class PlayerRESTController{
 		this.mapper.enable(SerializationFeature.INDENT_OUTPUT);
 	}
 	
-	@GetMapping("Players")
+	@GetMapping(value="Players", produces = "application/json")
 	public ResponseEntity<String> players() {
 		String responseBody = "";
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -51,7 +51,7 @@ public class PlayerRESTController{
 		return new ResponseEntity<String>(responseBody, responseStatus);
 	}
 	
-	@GetMapping("Players/{id}")
+	@GetMapping(value="Players/{id}", produces = "application/json")
 	public ResponseEntity<String> playeryById(@PathVariable int id) {
 		String responseBody = "";
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -68,7 +68,7 @@ public class PlayerRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 	
-	@PostMapping("Players")
+	@PostMapping(value="Players", consumes="application/json", produces = "application/json")
 	public ResponseEntity<String> addPlayery(@RequestBody Player player) {
 		player.setId(null);
 		Player savedObj = this.playerRepository.save(player);
@@ -83,7 +83,7 @@ public class PlayerRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 
-	@PutMapping("Players/{id}")
+	@PutMapping(value="Players/{id}", consumes="application/json", produces = "application/json")
 	public ResponseEntity<String> updatePlayery(@RequestBody Player playerInput, @PathVariable int id) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
@@ -103,7 +103,7 @@ public class PlayerRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 	
-	@DeleteMapping("Players/{id}")
+	@DeleteMapping(value="Players/{id}", produces = "application/json")
 	public ResponseEntity<String> deletePlayeryById(@PathVariable int id) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
