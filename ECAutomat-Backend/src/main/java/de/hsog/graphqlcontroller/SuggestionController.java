@@ -29,7 +29,6 @@ public class SuggestionController {
 		return this.suggestionRepository.findById(id);
 	}
 	
-	/*TODO: maybe add BLOB to schema*/
 	record SuggestionInput(String suggestionContent, boolean isCorrect) {};
 		
 	@MutationMapping

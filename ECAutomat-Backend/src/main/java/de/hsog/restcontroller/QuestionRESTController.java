@@ -17,8 +17,10 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
+import de.hsog.models.MultipleChoiceQuestion;
 import de.hsog.models.Question;
 import de.hsog.models.QuestionType;
+import de.hsog.models.SimpleQuestion;
 import de.hsog.repositories.CategoryRepository;
 import de.hsog.repositories.QuestionRepository;
 
@@ -72,19 +74,26 @@ public class QuestionRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 	
-	record QuestionInput(String content, Integer points, String questionImage, Integer categoryID, String questionType) {};
+	record QuestionInput(String content, Integer points, Integer categoryID, String questionType, boolean isCorrect) {};
 	
 	@PostMapping(value="Questions", consumes = "application/json", produces = "application/json")
 	public ResponseEntity<String> addQuestiony(@RequestBody QuestionInput q) {
 		String responseBody;
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
-			Question question = new Question(
-					q.content(), 
-					q.points(), 
-					this.categoryRepository.findById(q.categoryID()).get(), 
-					QuestionType.enumOf(q.questionType())
-					);
+			Question question;
+			if (q.questionType.toUpperCase().equals("MULTIPLECHOICE")) {
+				question = new MultipleChoiceQuestion(
+						q.content, 
+						q.points, 
+						this.categoryRepository.
+											findById(q.categoryID()).get()); 
+			}  else {
+				question = new SimpleQuestion(
+						q.content(), 
+						q.points(), 
+						this.categoryRepository.findById(q.categoryID()).get(), q.isCorrect);	
+			}
 			Question savedObj = this.questionRepository.save(question);
 			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObj);
 		} catch (JsonProcessingException e) {

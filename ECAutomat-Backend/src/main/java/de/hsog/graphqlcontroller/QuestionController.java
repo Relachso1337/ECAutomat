@@ -34,12 +34,12 @@ public class QuestionController {
 		return this.questionRepository.findById(id);
 	}
 
-	record QuestionInput(String content, Integer points, String questionImage, Integer categoryID, QuestionType questionType) {};
+	record QuestionInput(String content, Integer points, String questionImage, Integer categoryID) {};
 	
 	@MutationMapping
 	public Question addQuestion(@Argument QuestionInput question) {
 		Category c = this.categoryRepository.findById(question.categoryID()).orElseThrow(() -> new IllegalArgumentException());
-		Question q = new Question(question.content(), question.points(), c, question.questionType());
+		Question q = new Question(question.content(), question.points(), c);
 		return this.questionRepository.save(q);
 	}
 	

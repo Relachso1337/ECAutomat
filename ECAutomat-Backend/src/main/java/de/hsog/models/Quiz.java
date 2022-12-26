@@ -24,7 +24,6 @@ public class Quiz {
 	@Column(name="idQuiz")
 	private Integer id;
 
-	/* TODO maybe change playdate format, to eliminate errors with GraphQL and Database (Datetime) */
 	@Column(nullable = false)
 	private LocalDateTime playdate;
 	

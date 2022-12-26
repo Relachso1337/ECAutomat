@@ -1,8 +1,5 @@
 package de.hsog.models;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -24,7 +21,7 @@ public class Suggestion {
 	
 	@ManyToOne
 	@JoinColumn(name="question", referencedColumnName = "idQuestion")
-	private Question question;
+	private MultipleChoiceQuestion question;
 	
 	@Column(nullable=false)
 	private boolean isCorrect;
@@ -39,7 +36,7 @@ public class Suggestion {
 		this.isCorrect = isCorrect;
 	}
 	
-	public Suggestion(String suggestionContent, Question quest, boolean isCorrect) {
+	public Suggestion(String suggestionContent, MultipleChoiceQuestion quest, boolean isCorrect) {
 		this.suggestionContent = suggestionContent;
 		this.question = quest;
 		this.isCorrect = isCorrect;
@@ -69,7 +66,7 @@ public class Suggestion {
 		return question.getContent();
 	}
 
-	public void setQuestions(Question question) {
+	public void setQuestions(MultipleChoiceQuestion question) {
 		this.question = question;
 	}
 

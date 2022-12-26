@@ -2,6 +2,7 @@ package de.hsog.restcontroller;
 
 import java.util.NoSuchElementException;
 
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -18,6 +19,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
 import de.hsog.models.Suggestion;
+import de.hsog.repositories.MultipleChoiceQuestionRepository;
 import de.hsog.repositories.QuestionRepository;
 import de.hsog.repositories.SuggestionRepository;
 
@@ -25,8 +27,8 @@ import de.hsog.repositories.SuggestionRepository;
 @RequestMapping(value = "/REST")
 public class SuggestionRESTController{
 
+	private MultipleChoiceQuestionRepository questionRepository;
 	private final SuggestionRepository suggestionRepository;
-	private final QuestionRepository questionRepository;
 	private final ObjectMapper mapper;
 	
 	
@@ -34,9 +36,9 @@ public class SuggestionRESTController{
 	 * CRUD based RESTController
 	 * @param suggestionRepo
 	 */
-	public SuggestionRESTController(SuggestionRepository suggestionRepo, QuestionRepository questionRepo) {
+	public SuggestionRESTController(SuggestionRepository suggestionRepo, MultipleChoiceQuestionRepository questionRepo) {
 		this.suggestionRepository = suggestionRepo;
-		this.questionRepository  = questionRepo;
+		this.questionRepository = questionRepo;
 		this.mapper = new ObjectMapper();
 		this.mapper.enable(SerializationFeature.INDENT_OUTPUT);
 	}
@@ -90,7 +92,7 @@ public class SuggestionRESTController{
 			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
 		} catch (NoSuchElementException e) {
 			responseBody = "Question not Found";
-			responseStatus = HttpStatus.INTERNAL_SERVER_ERROR;
+			responseStatus = HttpStatus.NOT_FOUND;
 		}
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}

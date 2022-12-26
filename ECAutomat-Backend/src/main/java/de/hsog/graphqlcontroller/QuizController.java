@@ -81,7 +81,6 @@ public class QuizController {
 	 */
 	@MutationMapping
 	public Quiz generateRandomQuiz(@Argument Integer n, @Argument QuizInput newQuiz) {
-		/* TODO: Generate Quiz with n-amount random Questions + add to schema.gql */
 		ArrayList<Question> questions = new ArrayList<>();
 		this.questionRepository.findAll().forEach(questions::add);  // adds content from iterable to arraylist (collection)
 		if (n > questions.size() || n < 1) {
