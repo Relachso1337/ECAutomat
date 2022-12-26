@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/vorlesungsplan.css" />
+    <script src="../javascript/vorlesungsplan.js" defer></script>
+    <title>Vorlesungsplaene</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="search-wrapper">
+        <label for="search">Studiengang suchen:</label>
+        <input type="search" id="search" data-search />
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="/startseite">Startseite</a></li>
+          <li><a href="/quiz">Quiz</a></li>
+          <li><a href="vorlesungsplan">Vorlesungsplan</a></li>
+          <li><a href="/mensa">Mensa</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="content">
+    <div class="user-cards" data-user-cards-container>
+      <template data-user-template>
+        <div class="card" onclick="anklicken(this)">
+          <div class="header" data-header></div>
+          <div class="body" data-body></div>
+        </div>
+      </template>
+    </div>
+    <iframe
+      id="fenster"
+      type="text/html"
+      src=""
+      width="500"
+      height="500"
+    ></iframe>
+    </div>
+  </body>
+</html>

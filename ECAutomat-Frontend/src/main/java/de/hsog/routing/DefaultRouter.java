@@ -1,20 +1,9 @@
 package de.hsog.routing;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.util.ResourceUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import com.fasterxml.jackson.core.exc.StreamReadException;
-import com.fasterxml.jackson.databind.DatabindException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-
-import de.hsog.dto.MensaMenu;
+import org.springframework.web.servlet.ModelAndView;
 
 
 @Controller
@@ -22,26 +11,23 @@ import de.hsog.dto.MensaMenu;
 public class DefaultRouter{
 	
 	@GetMapping(value = "")
-	public String index() {
-		return "html/index";
+	public ModelAndView index() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("html/startseite.html");
+		return modelAndView;
 	}
 	
-	@GetMapping(value = "mensaplan")
-	public String mensaplan(Model model) {	
-		try {
-			File file = ResourceUtils.getFile("classpath:static/media/misc/menu.json");
-			ObjectMapper objectMapper = new ObjectMapper();
-			MensaMenu menu = objectMapper.readValue(file, MensaMenu.class);
-			model.addAttribute("speisen", menu.getMenu());
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (StreamReadException e) {
-			e.printStackTrace();
-		} catch (DatabindException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		return "html/mensaplan";
+	@GetMapping(value = "video")
+	public ModelAndView video() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("html/video.html");
+		return modelAndView;
+	}
+	
+	@GetMapping(value="/*")
+	public ModelAndView unknownURL() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("redirect:/");
+		return modelAndView;
 	}
 }
