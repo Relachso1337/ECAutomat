@@ -215,4 +215,4 @@ async function scrapeProduct(url) {
     browser.close();
 }
 
-scrapeProduct("https://www.swfr.de/essen/mensen-cafes-speiseplaene/mensa-offenburg");
+scrapeProduct("https://www.swfr.de/essen/mensen-cafes-speiseplaene/mensa-gengenbach");
