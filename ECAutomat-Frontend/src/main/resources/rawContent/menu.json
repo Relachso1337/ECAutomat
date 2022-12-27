@@ -1,1 +1,64 @@
-{"menu":[{"tag":"Montag","essen":"-"},{"tag":"Montag","essen":"-"},{"tag":"Montag","essen":"-"},{"tag":"Dienstag","essen":"-"},{"tag":"Dienstag","essen":"-"},{"tag":"Dienstag","essen":"-"},{"tag":"Mittwoch","essen":"-"},{"tag":"Mittwoch","essen":"-"},{"tag":"Mittwoch","essen":"-"},{"tag":"Donnerstag","essen":"-"},{"tag":"Donnerstag","essen":"-"},{"tag":"Donnerstag","essen":"-"},{"tag":"Freitag","essen":"Zu allen  Menüs gibt es ein  Dessert oder  Obst!"},{"tag":"Freitag","essen":"Zu allen  Menüs gibt es ein  Dessert oder  Obst!"},{"tag":"Freitag","essen":"-"}]}
+{
+  "menu": [
+    {
+      "tag": "Montag",
+      "essen": "-"
+    },
+    {
+      "tag": "Montag",
+      "essen": "-"
+    },
+    {
+      "tag": "Montag",
+      "essen": "-"
+    },
+    {
+      "tag": "Dienstag",
+      "essen": "-"
+    },
+    {
+      "tag": "Dienstag",
+      "essen": "-"
+    },
+    {
+      "tag": "Dienstag",
+      "essen": "-"
+    },
+    {
+      "tag": "Mittwoch",
+      "essen": "-"
+    },
+    {
+      "tag": "Mittwoch",
+      "essen": "-"
+    },
+    {
+      "tag": "Mittwoch",
+      "essen": "-"
+    },
+    {
+      "tag": "Donnerstag",
+      "essen": "-"
+    },
+    {
+      "tag": "Donnerstag",
+      "essen": "-"
+    },
+    {
+      "tag": "Donnerstag",
+      "essen": "-"
+    },
+    {
+      "tag": "Freitag",
+      "essen": "Zu allen  Menüs gibt es ein  Dessert oder  Obst!"
+    },
+    {
+      "tag": "Freitag",
+      "essen": "Zu allen  Menüs gibt es ein  Dessert oder  Obst!"
+    },
+    {
+      "tag": "Freitag",
+      "essen": "-"
+    }
+  ]
+}

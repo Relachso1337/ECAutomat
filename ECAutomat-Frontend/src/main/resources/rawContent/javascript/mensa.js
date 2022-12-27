@@ -208,7 +208,7 @@ async function scrapeProduct(url) {
     
         ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-    var json = JSON.stringify(obj);
+    var json = JSON.stringify(obj, null, 2);
 
     fs.writeFile('../menu.json', json, 'utf8');
 
