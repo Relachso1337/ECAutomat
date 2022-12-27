@@ -1,7 +1,3 @@
-body {
-    background-color: blanchedalmond;
-}
-
 a:link {
     text-decoration: none;
     color: black;
@@ -48,6 +44,22 @@ a:link {
 
     font-size: 35px;
 }
+
+.title {
+    display: inline-block;
+    overflow: hidden;
+    background-color: #0066B3;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    padding: 25px;
+  }
+
+.balkenorange{
+    height: 30px;
+    width: 100%;
+    background-color: #FF6600;
+  }
 
 /*ESSEN MENÜ*/
 
