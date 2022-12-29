@@ -30,8 +30,6 @@ var minutes;
 var seconds;
 let obj;
 let fetchString = '../../../../../../ECAutomat-Backend/src/main/resources/static/quiz.json';
-const fileSystem = require("browserify-fs");
-
 // -----------------------------------------------------
 
 var interval;
@@ -251,7 +249,6 @@ function isCorrect (answer, realanswer){
 function gameOver(){
   gameoverScreen.classList.remove('hide');
   questionContainerElement.style.display = 'none';
-  writeHighscore(points);
 }
 
 if(timeButton.innerText === "0:00"){
