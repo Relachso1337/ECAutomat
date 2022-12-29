@@ -1,111 +1,127 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    font-family: Gotham Rounded;
-  }
+body{
+  margin:0;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  align-content: center;
+  width: 100%;
+  gap: 10px
+}
 
-  a:link {
-    text-decoration: none;
-    color: black;
-  }
-  div.menu {
-    position: absolute;
-    left: 60%;
-    font-size: 35px;
-    top: 0;
-  }
-  
-  ul {
-    list-style-type: none;
-    overflow: hidden;
-  }
-  li {
-    float: left;
-  }
-  li a {
-    display: block;
-    padding: 10px;
-    background-color: #333;
-    text-decoration: none;
-    color: white;
-  }
-  
-  :root {
-    --hue-neutral: 200;
-    --hue-wrong: 0;
-    --hue-correct: 145;
-  }
-  
-  body {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-color: hsl(var(--hue), 100%, 20%);
-  }
-  
-  body.correct {
-    --hue: var(--hue-correct);
-  }
-  
-  body.wrong {
-    --hue: var(--hue-wrong);
-  }
-  
-  .container {
-    width: 800px;
-    max-width: 80%;
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0 0 10px 2px;
-  }
-  
-  .btn-grid {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 10px;
-    margin: 20px 0;
-  }
-  
-  .btn {
-    --hue: var(--hue-neutral);
-    border: 1px solid hsl(var(--hue), 100%, 30%);
-    background-color: hsl(var(--hue), 100%, 50%);
-    border-radius: 5px;
-    padding: 5px 10px;
-    color: white;
-    outline: none;
-  }
-  
-  .btn:hover {
-    border-color: black;
-  }
-  
-  .btn.correct {
-    --hue: var(--hue-correct);
-    color: black;
-  }
-  
-  .btn.wrong {
-    --hue: var(--hue-wrong);
-  }
-  
-  .start-btn, .next-btn {
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 10px 20px;
-  }
-  
-  .controls {
-    gap: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .hide {
-    display: none;
-  }
+.container{
+  position: absolute;
+  top: 50%;
+  bottom: 10%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.navbar {
+  display: inline-block;
+  overflow: hidden;
+  background-color: #0066B3;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  padding: 30px;
+}
+
+.navbar a {
+  display: inline-block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.balkenorange{
+  height: 30px;
+  width: 100%;
+  background-color: #FF6600;
+}
+
+button{
+  background-color: #0066B3;
+  border: none;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  height:100px;
+  width:500px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 48px;
+  border-radius: 4px;
+}
+
+#q-btn{
+  background-color: #FF6600;
+  color: white;
+  font-size: 24px;
+}
+
+#information {
+  display: flex;
+}
+
+#information button{
+  border-radius: 70%;
+  font-size: 24px;
+  height:100px;
+  width: 100px;
+}
+
+#back-btn,#mode button,.kbtn button, .btn-grid button, .gameoverButtons button{
+  transition-duration: 0.2s;
+}
+
+.gameoverButtons button:hover, #back-btn:hover,#mode button:hover,.kbtn button:hover, .btn-grid button:hover {
+  background-color: lightblue !important;
+  color: white;
+}
+
+.hide {
+  display: none !important;
+}
+
+#back-btn{
+  background-color: #0066B3;
+  color: white;
+  border: #0066B3;
+  float: left;
+  margin-top: 2%;
+  margin-left: 5%;
+  border-radius: 70%;
+  font-size: 24px;
+  height:100px;
+  width: 100px;
+}
+
+#gameoverScreen{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gameoverButtons{
+  display: flex;
+  gap: 50px;
+}
+
+#highscoreScreen button, .gameoverButtons button{
+  border-radius: 70%;
+  font-size: 24px;
+  height:100px;
+  width: 100px;
+}
+
+#highscoreScreen{
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
