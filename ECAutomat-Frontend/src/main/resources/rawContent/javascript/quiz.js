@@ -7,13 +7,11 @@ const modebuttons = document.getElementById('mode')
 const modebutton1 = document.getElementById('m1-btn')
 const modebutton2 = document.getElementById('m2-btn')
 const katdiv = document.getElementById('kid')
-//const nextButton = document.getElementById('next-btn')
 const trueBtn = document.getElementById("trueBtn")
 const falseBtn = document.getElementById("falseBtn")
 const questionContainerElement = document.getElementById('question-container')
 const startMenuElement = document.getElementById('startDiv')
 const questionElement = document.getElementById('q-btn')
-const answerButtonsElement = document.getElementById('answer-buttons')
 const timeButton = document.getElementById('timeBtn')
 const pointsButton = document.getElementById('pointsBtn')
 const backButton = document.getElementById('back-btn')
@@ -32,113 +30,105 @@ var minutes;
 var seconds;
 let obj;
 let fetchString = '../../../../../../ECAutomat-Backend/src/main/resources/static/quiz.json';
-// -----------------------------------------------------
-
 var interval;
+// ------------------Create Random Number-----------------------------------
 
-import { writeHighscore } from './module.js';
 
 function countdown() {
   clearInterval(interval);
-  interval = setInterval( function() {
-      seconds -= 1;
-      if (minutes < 0) return;
-      else if (seconds < 0 && minutes != 0) {
-          minutes -= 1;
-          seconds = 59;
-      }
-      else if (seconds < 10) seconds = '0' + seconds;
+  interval = setInterval(function () {
+    seconds -= 1;
+    if (minutes < 0) return;
+    else if (seconds < 0 && minutes != 0) {
+      minutes -= 1;
+      seconds = 59;
+    }
+    else if (seconds < 10) seconds = '0' + seconds;
 
-      timeButton.innerHTML = minutes + ':' + seconds;
+    timeButton.innerHTML = minutes + ':' + seconds;
 
-      if (minutes == 0 && seconds == 0) clearInterval(interval);
+    if (minutes == 0 && seconds == 0) clearInterval(interval);
   }, 1000);
 }
 
-//------------------------------------------------------
-
 function getRandomNumber(min, max) {
-    let step1 = max - min + 1;
-    let step2 = Math.random() * step1;
-    let result = Math.floor(step2) + min;
-    return result;
+  let step1 = max - min + 1;
+  let step2 = Math.random() * step1;
+  let result = Math.floor(step2) + min;
+  return result;
 }
-function createArrayOfNumbers(start, end){
-    let myArray = [];
-    for(let i = start; i <= end; i++) { 
-        myArray.push(i);
-    }
-    return myArray;
+function createArrayOfNumbers(start, end) {
+  let myArray = [];
+  for (let i = start; i <= end; i++) {
+    myArray.push(i);
+  }
+  return myArray;
 }
-let numbersArray = createArrayOfNumbers(1,57);
-
+let numbersArray = createArrayOfNumbers(1, 100);
+//------------------------------------------------------
 /*
 if(numbersArray.length == 0){
   output.innerText = 'No More Random Numbers';
   return;
 }
 */
-let randomIndex = getRandomNumber(0, numbersArray.length-1);
-let randomNumber = numbersArray[randomIndex];
-numbersArray.splice(randomIndex, 1);
-
 fetch(fetchString)
-.then(res => res.json())
-.then(data => {
-  obj = data;
- })
-.then(() => {
-  trueBtn.addEventListener('click', () => {
-    falseBtn.style.backgroundColor = "#0066B3";
-    let randomIndex = getRandomNumber(0, numbersArray.length-1);
-    let randomNumber = numbersArray[randomIndex];
-    numbersArray.splice(randomIndex, 1);
-    let anser = isCorrect(true,obj.questions[randomNumber].answer);
-    questionElement.innerText = obj.questions[randomNumber].question;
-    if(anser){
-      setTimeout(() => {
-        trueBtn.style.backgroundColor = "#0066B3";
-      }, "1000")
-      trueBtn.style.backgroundColor = "#B4C424"
-      points++;
-      pointsButton.innerText = points;
-    }else{
-      setTimeout(() => {
-        trueBtn.style.backgroundColor = "#0066B3";
-        if(!isSpeedmode){
-        gameOver();
-        }
-      }, "1000")
-      trueBtn.style.backgroundColor = "Red"
-    }
+  .then(res => res.json())
+  .then(data => {
+    obj = data;
   })
-
-  falseBtn.addEventListener('click', () => {
-    trueBtn.style.backgroundColor = "#0066B3";
-    let randomIndex = getRandomNumber(0, numbersArray.length-1);
-    let randomNumber = numbersArray[randomIndex];
-    numbersArray.splice(randomIndex, 1);
-    let anser = isCorrect(true,obj.questions[randomNumber].answer);
-    questionElement.innerText = obj.questions[randomNumber].question;
-    if(anser){
-      setTimeout(() => {
-        falseBtn.style.backgroundColor = "#0066B3";
-      }, "1000")
-      falseBtn.style.backgroundColor = "#B4C424"
-      points++;
-      pointsButton.innerText = points;
-    }else{
-      setTimeout(() => {
-        falseBtn.style.backgroundColor = "#0066B3";
-        if(!isSpeedmode){
-          gameOver();
+  .then(() => {
+    trueBtn.addEventListener('click', () => {
+      falseBtn.style.backgroundColor = "#0066B3";
+      let randomIndex = getRandomNumber(0, numbersArray.length - 1);
+      let randomNumber = numbersArray[randomIndex];
+      numbersArray.splice(randomIndex, 1);
+      let anser = isCorrect(true, obj.questions[randomNumber].answer);
+      questionElement.innerText = obj.questions[randomNumber].question;
+      if (anser) {
+        setTimeout(() => {
+          trueBtn.style.backgroundColor = "#0066B3";
+        }, "1000")
+        trueBtn.style.backgroundColor = "#B4C424"
+        points++;
+        pointsButton.innerText = points;
+      } else {
+        setTimeout(() => {
+          trueBtn.style.backgroundColor = "#0066B3";
+          if (!isSpeedmode) {
+            gameOver();
           }
-      }, "1000")
-      falseBtn.style.backgroundColor = "Red"
-    }
-  })
-  
- });
+        }, "1000")
+        trueBtn.style.backgroundColor = "Red"
+      }
+    })
+
+    falseBtn.addEventListener('click', () => {
+      trueBtn.style.backgroundColor = "#0066B3";
+      let randomIndex = getRandomNumber(0, numbersArray.length - 1);
+      let randomNumber = numbersArray[randomIndex];
+      numbersArray.splice(randomIndex, 1);
+      let anser = isCorrect(true, obj.questions[randomNumber].answer);
+      questionElement.innerText = obj.questions[randomNumber].question;
+      if (anser) {
+        setTimeout(() => {
+          falseBtn.style.backgroundColor = "#0066B3";
+        }, "1000")
+        falseBtn.style.backgroundColor = "#B4C424"
+        points++;
+        pointsButton.innerText = points;
+      } else {
+        setTimeout(() => {
+          falseBtn.style.backgroundColor = "#0066B3";
+          if (!isSpeedmode) {
+            gameOver();
+          }
+        }, "1000")
+        falseBtn.style.backgroundColor = "Red"
+      }
+    })
+
+  });
 
 k1button.addEventListener('click', hideCategory)
 k2button.addEventListener('click', hideCategory)
@@ -174,21 +164,21 @@ highscoreButton.addEventListener('click', () => {
 
 backButton.addEventListener('click', () => {
   console.log(currentPage)
-  if(currentPage == 2){
+  if (currentPage == 2) {
     setScreen(2);
-  }else if(currentPage == 3){
+  } else if (currentPage == 3) {
     setScreen(3);
-  }else if (currentPage == 4){
+  } else if (currentPage == 4) {
     setScreen(4);
   }
-  else if (currentPage == 5){
+  else if (currentPage == 5) {
     setScreen(5);
   }
 })
 
 repeatButton.addEventListener('click', () => {
+  setScreen(4);
   setScreen(3);
-  setScreen(2);
 })
 
 
@@ -200,7 +190,7 @@ quitButton.addEventListener('click', () => {
 function startGame() {
   resetTime();
   countdown();
-  let randomIndex = getRandomNumber(0, numbersArray.length-1);
+  let randomIndex = getRandomNumber(0, numbersArray.length - 1);
   let randomNumber = numbersArray[randomIndex];
   numbersArray.splice(randomIndex, 1);
   pointsButton.innerText = 0;
@@ -209,15 +199,15 @@ function startGame() {
   questionContainerElement.classList.remove('hide')
   questionContainerElement.style.display = 'block';
   gameoverScreen.classList.add('hide');
-  if(isSpeedmode){
-  setTimeout(() => {
-    gameOver();
-  }, "121000")
-}
+  if (isSpeedmode) {
+    setTimeout(() => {
+      gameOver();
+    }, "121000")
+  }
   //setNextQuestion()
 }
 
-function hideCategory(){
+function hideCategory() {
   currentPage++;
   k1button.classList.add('hide')
   k2button.classList.add('hide')
@@ -225,7 +215,7 @@ function hideCategory(){
   modebuttons.classList.remove('hide')
 }
 
-function resetTime(){
+function resetTime() {
   timeButton.innerText = "2:00";
   timer = timeButton.innerHTML;
   timer = timer.split(':');
@@ -233,45 +223,45 @@ function resetTime(){
   seconds = timer[1];
 }
 
-function isCorrect (answer, realanswer){ 
-   return answer == realanswer;
- }
+function isCorrect(answer, realanswer) {
+  return answer == realanswer;
+}
 
- function setScreen (page){ 
-  if(page == 2){
-  currentPage--
-  katdiv.classList.add('hide');
-  startDiv.classList.remove('hide')
+function setScreen(page) {
+  if (page == 2) {
+    currentPage--
+    katdiv.classList.add('hide');
+    startDiv.classList.remove('hide')
   }
-  else if(page == 3){
+  else if (page == 3) {
     currentPage--;
     modebuttons.classList.add('hide')
     k1button.classList.remove('hide')
     k2button.classList.remove('hide')
     k3button.classList.remove('hide')
-  }else if(page == 4){
+  } else if (page == 4) {
     currentPage--;
     isSpeedmode = false;
     gameoverScreen.classList.add('hide');
     questionContainerElement.classList.add('hide')
     modebuttons.classList.remove('hide')
-  }else if(page == 5){
+  } else if (page == 5) {
     currentPage = 1;
     highscoreScreen.classList.add('hide')
     startDiv.classList.remove('hide')
   }
 }
 
-function gameOver(){
+function gameOver() {
   gameoverScreen.classList.remove('hide');
   questionContainerElement.style.display = 'none';
 }
 
-if(timeButton.innerText === "0:00"){
+if (timeButton.innerText === "0:00") {
   questionContainerElement.style.display = 'none';
   //block
 }
-function setTimer(){
+function setTimer() {
   setTimeout
 }
 setTimeout(() => {
