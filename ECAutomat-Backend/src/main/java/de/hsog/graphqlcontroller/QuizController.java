@@ -38,7 +38,7 @@ public class QuizController {
 		return this.quizRepository.findById(id);
 	}
 
-	record QuizInput(String name, Integer maxScore, Integer playerID) {}
+	record QuizInput(String name, Integer playerID) {}
 	
 	@MutationMapping
 	public Quiz addQuestionToQuiz(@Argument Integer quizID, @Argument Integer questionID) {
@@ -51,7 +51,7 @@ public class QuizController {
 	@MutationMapping
 	public Quiz addQuiz(@Argument QuizInput quiz) {
 		Player player = this.userRepository.findById(quiz.playerID()).orElseThrow(() -> new IllegalArgumentException());
-		Quiz q = new Quiz(quiz.name(), quiz.maxScore(), player);
+		Quiz q = new Quiz(quiz.name(), player);
 		return this.quizRepository.save(q);
 	}
 	
@@ -59,7 +59,6 @@ public class QuizController {
 	public Quiz updateQuiz(@Argument Integer id, @Argument QuizInput newQuiz) {
 		Player player = this.userRepository.findById(newQuiz.playerID()).orElseThrow(() -> new IllegalArgumentException());
 		Quiz quiz = this.quizRepository.findById(id).orElseThrow(() -> new IllegalArgumentException());
-		quiz.setMaxScore(newQuiz.maxScore());
 		quiz.setPlayer(player);
 		return this.quizRepository.save(quiz);
 	}
@@ -86,7 +85,7 @@ public class QuizController {
 		if (n > questions.size() || n < 1) {
 			n = questions.size();
 		}
-		Quiz quiz = new Quiz(newQuiz.name(), newQuiz.maxScore(), this.userRepository.findById(newQuiz.playerID()).get(), new ArrayList<>());
+		Quiz quiz = new Quiz(newQuiz.name(), this.userRepository.findById(newQuiz.playerID()).get(), new ArrayList<>());
 		for(int i=0; i<n; i++) {
 			quiz.getQuestions().add(questions.get(i));
 		}

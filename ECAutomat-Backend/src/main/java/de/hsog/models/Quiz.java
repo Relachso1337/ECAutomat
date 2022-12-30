@@ -27,9 +27,6 @@ public class Quiz {
 	@Column(nullable = false)
 	private LocalDateTime playdate;
 	
-	@Column(nullable = false)
-	private Integer maxScore;
-	
 	@Column(nullable = true)
 	private String name;
 
@@ -48,22 +45,19 @@ public class Quiz {
 	public Quiz() {
 		this.name = "Quiz";
 		this.playdate = LocalDateTime.now();
-		this.maxScore = 0;
 		this.questions = new ArrayList<>();
 	}
 	
-	public Quiz(String name, Integer maxScore, Player user) {
+	public Quiz(String name, Player user) {
 		this.name = name;
-		this.maxScore = maxScore;
 		this.player = user;
 		this.playdate = LocalDateTime.now();
 		// DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
 		// this.playdate = LocalDateTime.parse(playdate, formatter);
 	}
 	
-	public Quiz(String name, Integer maxScore, Player user, List<Question> questions) {
+	public Quiz(String name, Player user, List<Question> questions) {
 		this.name = name; 
-		this.maxScore = maxScore;
 		this.player = user;
 		this.questions = questions;
 		this.playdate = LocalDateTime.now();
@@ -92,14 +86,6 @@ public class Quiz {
 	public void setStringPlayDate(String playdate) {
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
 		this.playdate = LocalDateTime.parse(playdate, formatter); 
-	}
-
-	public Integer getMaxScore() {
-		return maxScore;
-	}
-
-	public void setMaxScore(Integer maxScore) {
-		this.maxScore = maxScore;
 	}
 
 	public String getName() {
