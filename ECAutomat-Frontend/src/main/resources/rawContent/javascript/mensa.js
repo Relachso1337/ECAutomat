@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer');
-const fs = require('fs/promises');
+var fs = require('fs');
 
 async function scrapeProduct(url) {
     const browser = await puppeteer.launch();
@@ -210,7 +210,11 @@ async function scrapeProduct(url) {
 
     var json = JSON.stringify(obj, null, 2);
 
-    fs.writeFile('../menu.json', json, 'utf8');
+    fs.writeFile('../menu.json', json, function(err, result) {
+        if(err) {
+            console.log('error', err);
+        }
+    });
 
     browser.close();
 }

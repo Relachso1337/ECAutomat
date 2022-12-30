@@ -9,6 +9,7 @@
 	<title>Mensaplan Hochschule Offenburg</title>
 	
 	<link rel="stylesheet" href="../css/mensa.css">
+	<script src="../javascript/test.js"></script>
 </head>
 
 <body>
@@ -20,6 +21,12 @@
 	  </div>
 
 	<img id="img_koch" src="../media/img/chefkoch.png">
+
+	  <button onclick="createFile()">createFile</button>
+	  <script>window.score = 100</script>
+	  <button onclick="setScore()">setScore</button>
+	  <button onclick="getScore()">getScore</button>
+	  <button onclick="deleteScore()">deleteScore</button>
 
 	<div class="essen_menu">
 		<p id="date">-</p>

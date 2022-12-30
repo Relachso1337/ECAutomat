@@ -6,6 +6,10 @@ a:link {
   li {
     float: left;
   }
+
+  button {
+    float: right;
+  }
   
   li a {
     display: block;
