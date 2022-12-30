@@ -30,30 +30,26 @@ a:link {
 
 #img_koch {
     position: absolute;
-    top: 20%;
+    top: 22.5%;
 
     width: 25%;
 }
 
 #date {
-    position: absolute;
-    left: 28%;
-    top: 15%;
-
     text-decoration: underline;
 
     font-size: 35px;
 }
 
-.title {
-    display: inline-block;
-    overflow: hidden;
-    background-color: #0066B3;
-    text-align: center;
-    top: 0;
-    width: 100%;
-    padding: 25px;
-  }
+.navbar {
+  display: inline-block;
+  overflow: hidden;
+  background-color: #0066B3;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  padding: 30px;
+}
 
 .balkenorange{
     height: 30px;
