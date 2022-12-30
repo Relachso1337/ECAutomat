@@ -23791,7 +23791,7 @@ function startGame() {
   if (isSpeedmode) {
     setTimeout(() => {
       gameOver();
-    }, "5000")
+    }, "121000")
   }
   //setNextQuestion()
 }
