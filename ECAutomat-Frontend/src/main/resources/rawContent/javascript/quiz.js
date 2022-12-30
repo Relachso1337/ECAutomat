@@ -31,6 +31,7 @@ var seconds;
 let obj;
 let fetchString = '../../../../../../ECAutomat-Backend/src/main/resources/static/quiz.json';
 var interval;
+let randomNumber;
 // ------------------Create Random Number-----------------------------------
 
 
@@ -79,12 +80,7 @@ fetch(fetchString)
   })
   .then(() => {
     trueBtn.addEventListener('click', () => {
-      falseBtn.style.backgroundColor = "#0066B3";
-      let randomIndex = getRandomNumber(0, numbersArray.length - 1);
-      let randomNumber = numbersArray[randomIndex];
-      numbersArray.splice(randomIndex, 1);
       let anser = isCorrect(true, obj.questions[randomNumber].answer);
-      questionElement.innerText = obj.questions[randomNumber].question;
       if (anser) {
         setTimeout(() => {
           trueBtn.style.backgroundColor = "#0066B3";
@@ -101,15 +97,15 @@ fetch(fetchString)
         }, "1000")
         trueBtn.style.backgroundColor = "Red"
       }
+      falseBtn.style.backgroundColor = "#0066B3";
+      let randomIndex = getRandomNumber(0, numbersArray.length - 1);
+      randomNumber = numbersArray[randomIndex];
+      numbersArray.splice(randomIndex, 1);
+      questionElement.innerText = obj.questions[randomNumber].question;
     })
 
     falseBtn.addEventListener('click', () => {
-      trueBtn.style.backgroundColor = "#0066B3";
-      let randomIndex = getRandomNumber(0, numbersArray.length - 1);
-      let randomNumber = numbersArray[randomIndex];
-      numbersArray.splice(randomIndex, 1);
       let anser = isCorrect(false, obj.questions[randomNumber].answer);
-      questionElement.innerText = obj.questions[randomNumber].question;
       if (anser) {
         setTimeout(() => {
           falseBtn.style.backgroundColor = "#0066B3";
@@ -126,6 +122,11 @@ fetch(fetchString)
         }, "1000")
         falseBtn.style.backgroundColor = "Red"
       }
+      trueBtn.style.backgroundColor = "#0066B3";
+      let randomIndex = getRandomNumber(0, numbersArray.length - 1);
+      randomNumber = numbersArray[randomIndex];
+      numbersArray.splice(randomIndex, 1);
+      questionElement.innerText = obj.questions[randomNumber].question;
     })
 
   });
@@ -191,7 +192,7 @@ function startGame() {
   resetTime();
   countdown();
   let randomIndex = getRandomNumber(0, numbersArray.length - 1);
-  let randomNumber = numbersArray[randomIndex];
+  randomNumber = numbersArray[randomIndex];
   numbersArray.splice(randomIndex, 1);
   pointsButton.innerText = 0;
   points = 0;
