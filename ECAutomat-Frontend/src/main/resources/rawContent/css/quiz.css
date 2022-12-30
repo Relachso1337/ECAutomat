@@ -77,11 +77,11 @@ button{
   width: 100px;
 }
 
-#back-btn,#mode button,.kbtn button, .btn-grid button, .gameoverButtons button{
+#startDiv button:hover, #back-btn,#mode button,#kid button, .btn-grid button, .gameoverButtons button{
   transition-duration: 0.2s;
 }
 
-.gameoverButtons button:hover, #back-btn:hover,#mode button:hover,.kbtn button:hover, .btn-grid button:hover {
+#startDiv button:hover, .gameoverButtons button:hover, #back-btn:hover,#mode button:hover,#kid button:hover, .btn-grid button:hover {
   background-color: lightblue !important;
   color: white;
 }

@@ -1,3 +1,4 @@
+const startButton = document.getElementById('startBtn')
 const k1button = document.getElementById('k1-btn')
 const k2button = document.getElementById('k2-btn')
 const k3button = document.getElementById('k3-btn')
@@ -10,6 +11,7 @@ const katdiv = document.getElementById('kid')
 const trueBtn = document.getElementById("trueBtn")
 const falseBtn = document.getElementById("falseBtn")
 const questionContainerElement = document.getElementById('question-container')
+const startMenuElement = document.getElementById('startDiv')
 const questionElement = document.getElementById('q-btn')
 const answerButtonsElement = document.getElementById('answer-buttons')
 const timeButton = document.getElementById('timeBtn')
@@ -142,6 +144,13 @@ k1button.addEventListener('click', hideCategory)
 k2button.addEventListener('click', hideCategory)
 k3button.addEventListener('click', hideCategory)
 
+startButton.addEventListener('click', () => {
+  currentPage++;
+  startMenuElement.classList.add('hide')
+  katdiv.classList.remove('hide');
+})
+
+
 modebutton1.addEventListener('click', () => {
   currentPage++;
   timeBtn.classList.add('hide')
@@ -157,20 +166,23 @@ modebutton2.addEventListener('click', () => {
 
 highscoreButton.addEventListener('click', () => {
   console.log(currentPage)
-  currentPage = 4;
+  currentPage = 5;
   highscoreScreen.classList.remove('hide');
   katdiv.classList.add('hide')
+  startDiv.classList.add('hide');
 })
 
 backButton.addEventListener('click', () => {
   console.log(currentPage)
-  if(currentPage == 3){
-    setScreen(3);
-  }else if(currentPage == 2){
+  if(currentPage == 2){
     setScreen(2);
+  }else if(currentPage == 3){
+    setScreen(3);
   }else if (currentPage == 4){
-    currentPage -= 3;
     setScreen(4);
+  }
+  else if (currentPage == 5){
+    setScreen(5);
   }
 })
 
@@ -210,7 +222,6 @@ function hideCategory(){
   k1button.classList.add('hide')
   k2button.classList.add('hide')
   k3button.classList.add('hide')
-  highscoreButton.classList.add('hide')
   modebuttons.classList.remove('hide')
 }
 
@@ -228,21 +239,26 @@ function isCorrect (answer, realanswer){
 
  function setScreen (page){ 
   if(page == 2){
+  currentPage--
+  katdiv.classList.add('hide');
+  startDiv.classList.remove('hide')
+  }
+  else if(page == 3){
     currentPage--;
     modebuttons.classList.add('hide')
     k1button.classList.remove('hide')
     k2button.classList.remove('hide')
     k3button.classList.remove('hide')
-  }else if(page == 3){
+  }else if(page == 4){
     currentPage--;
     isSpeedmode = false;
     gameoverScreen.classList.add('hide');
     questionContainerElement.classList.add('hide')
     modebuttons.classList.remove('hide')
-  }else if(page == 4){
+  }else if(page == 5){
     currentPage = 1;
     highscoreScreen.classList.add('hide')
-    katdiv.classList.remove('hide')
+    startDiv.classList.remove('hide')
   }
 }
 
