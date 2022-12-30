@@ -366,6 +366,246 @@
 
         "answer": true
 
+    },{
+        "kategorie": 1,
+        "question":"Sieht man einen Blitz bevor man ihn hört", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Sydney ist die Hauptstadt Australiens", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Ist der Vatikanstadt ein Land?", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Melbourne ist die Hauptstadt Australiens", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Google hieß zuerst BackRub", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Man kann während dem Schlaf niesen", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Tomaten sind Früchte", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Eine Schnecke kann bis zu einem Monat lang schlafen", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Es ist unmöglich mit offenen Augen zu niesen", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Coca Cola gibt es in jedem Land der Welt", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Bananen sind Beeren", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Spinnenfäden wurden früher zur Herstellung von Gitarrensaiten benutzt", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Kaffee wird aus Bohnen gemacht", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Eine Kokosnuss ist eine Nuss", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Spaghetto ist die Einzahl von Spaghetti", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"UK ist flächenmäßig genauso groß wie Frankreich", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Eisbären können nur in der Arktis, nicht aber in der Antarktis leben", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Der Mond ist breiter als Australien", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Das Nationaltier von Schottland ist ein Einhorn", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Die Schweiz hat 4 Nachbarländer", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Zeus ist der König der griechischen Götter in der griechischen Mythologie", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Südafrika hat zwei offizielle Hauptstädte", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Kein Wort im Englischen reimt sich auf Orange", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Die Währung in der Schweiz ist der Euro", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Das erste Tier was in den Weltraum geschickt wurde, war eine Fruchtfliege", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Die USA hat die längste Küste der Welt", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Der Blauwal ist das größte Tier was jemals gelebt hat", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Schweine wälzen sich im Schlamm, weil sie nicht sauber sein wollen", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Ein Faultier braucht zwei Wochen eine Mahlzeit zu verdauen", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Fledermäuse sind blind", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Grönland ist die größte Insel der Welt", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Eine Ameise kann das 1000 fache ihres eigenen Körpergewichts hochheben", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Alaska hat die meisten aktiven Vulkane in der ganzen USA", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Ein Oktopus hat sieben Herzen", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Kanada hat die längste Küste der Welt", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Ein Affe war das erste Tier im Weltraum", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Der Bluttyp 0- negativ ist der häufigste", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Der Mensch hat vier Lungen", 
+
+        "answer": false
+
+    },{
+        "kategorie": 1,
+        "question":"Pizza Hawaii kommt aus Kanada", 
+
+        "answer": true
+
+    },{
+        "kategorie": 1,
+        "question":"Käsekuchen kommt aus Italien", 
+
+        "answer": false
+
     }]
 
 }

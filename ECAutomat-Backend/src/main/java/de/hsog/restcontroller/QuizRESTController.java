@@ -77,7 +77,7 @@ public class QuizRESTController{
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
 	
-	record QuizInput(String name, Integer maxScore, Integer playerID) {}
+	record QuizInput(String name, Integer playerID) {}
 	
 	@PostMapping(value="Quizes", consumes="application/json", produces = "application/json")
 	public ResponseEntity<String> addQuiz(@RequestBody QuizInput q) {
@@ -86,7 +86,6 @@ public class QuizRESTController{
 		try {
 			Quiz quiz = new Quiz(
 					q.name(),
-					q.maxScore(),
 					this.playerRepository.findById(q.playerID()).get()
 					);
 
@@ -115,7 +114,7 @@ public class QuizRESTController{
 			if (n > questions.size() || n < 1) {
 				n = questions.size();
 			}
-			Quiz quiz = new Quiz(q.name(), q.maxScore(), this.playerRepository.findById(q.playerID()).get(), new ArrayList<>());
+			Quiz quiz = new Quiz(q.name(), this.playerRepository.findById(q.playerID()).get(), new ArrayList<>());
 			for(int i=0; i<n; i++) {
 				quiz.getQuestions().add(questions.get(i));
 			}
@@ -166,7 +165,6 @@ public class QuizRESTController{
 		HttpStatus responseStatus = HttpStatus.OK;
 		try {
 			Quiz quizDB = this.quizRepository.findById(id).get();
-			quizDB.setMaxScore(quizInput.getMaxScore());
 			quizDB.setStringPlayDate(quizInput.getPlayDate().toString());
 			Quiz savedObj = this.quizRepository.save(quizDB);
 			responseBody = this.mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObj);

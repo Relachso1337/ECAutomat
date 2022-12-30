@@ -1,0 +1,405 @@
+{
+    "questions" : [{
+        "kategorie": 2,
+        "question":"Luxemburg ist der Staat mit der höchsten Wirtschaftskraft pro Kopf in Europa",
+        "answer": true
+    }, {
+        "kategorie": 2,
+        "question":"Die EU wickelt knapp zwei Drittel des Warenhandels innerhalb der eigenen Grenzen ab.", 
+        "answer":true
+    },
+    {
+        "kategorie": 2,
+        "question":"Die beiden wichtigsten Handelspartner der EU sind Norwegen und die Schweiz.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Griechenland war 2021 der Staat mit dem höchsten öffentlichen Schuldenstand relativ zur Wirtschaftskraft in der EU.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Pro Kopf zahlte 2020 kein Staat in der EU so viel an Bürgerinnen und Bürger wie Deutschland.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Der Euro als Währung wurde bisher in 19 Ländern eingeführt.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Ein Komplementär haftet nur mit seiner Einlage, welche er in die KG eingebracht hat.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Der Euro als Währung wurde am 01.01.2002 eingeführt.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Zahlungsunfähigkeit nennt man auch Insolation.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die Währung Nicaraguas heißt Cordoba.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Bier unterliegt in Deutschland keiner bestimmten Verbrauchssteuer.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Der Autor bestimmt den Marktpreis für ein von ihm geschriebenes Buch.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"UPS ist der größte private Zusteller weltweit.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Das gesetliche Zahlungsmittel in Irland ist der Euro.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Eine andere Bezeichnung für Buchgeld ist auch Giralgeld.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Abkürzung AGB steht für Allgemeines Geschäftsbuch.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Eine Kommanditgesellschaft zeichnet sich durch Voll- und Teilhafter aus.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Bernard Arnault ist der derzeit reichste Mensch der Welt.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"In den USA wurde die monetaristische Idee zuerst umgesetzt.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die Co. ist eine Rechtsform für deutsche Unternehmen.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Rückversicherer versichern das Ausfallrisiko von Großschäden.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Gibt es einen Anbieter für mehrere Güter, so spricht man von einem Monopol.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Es gibt keine Heiratssteuer.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Wenn Erlöse und Kosten identisch sind, spricht man von einem big-point.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Ein Polypol ist eine Marktform im Sinne der VWL.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Der Steuersatz für Lebensmittel beträgt derzeit in Deutschland 19 Prozent.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Eine AG schüttet ihren Aktionären eine Dividende aus.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Der Staat regelt den Preis in einem funktionierenden Markt.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Bei Angebot > Nachfrage liegt ein Käufermarkt vor.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Interessen von Produzenten vertreten hauptsächlich die Gewerkschaften.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die Wirtschaftskammer vertritt hauptsächlich die Interessen von Konsumenten.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Verzinsung des in einem Unternehmen eingesetzten Kapitals nennt man auch Ertrag.", 
+        "answer": false
+    },  {
+        "kategorie": 2,
+        "question":"Die Umsatzrentabilität berechnet sich aus (Gewinn/Umsatz) x 100.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Bei einem Sporthändler gehören die Geschäftsräume zum Anlagevermögen.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"In der Bilanz verbucht man Forderungen als Fremdkapital auf der rechten Seite.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Den Deckungsbeitrag ermittelt man aus dem Verkaufserlös abzüglich variabler und fixer Kosten.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Der Düngemittelverbrauch ist eine denkbare Kostenstelle einer Gärtnerei.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Durch Marktregulierungen soll der Missbrauch von Marktmacht vermieden werden.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Stabilität des Preisniveaus gehört zu den Hauptfeldern der Stabilisierung des Wirtschaftsprozesses in der sozialen Marktwirtschaft.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Im 1967 in Kraft getretenen Stabilitätsgesetz wird eine Arbeitslosenquote von unter 10 Prozent als Meßlatte für einen hohen Beschäftigungsgrad angesehen.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Im Grundgesetz steht, dass jeder Bürger bei Bedarf, staatliche Unterstützung ausschließlich zur Befriedigung seiner wirtschaftlichen Grundbedürfnisse bekommt.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Das „magische Viereck“ wurde in den 1990er-Jahren durch den Umweltschutz als weiteres Stabilitätsziel der sozialen Marktwirtschaft ergänzt.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Das Bundeskartellamt hat die Aufgabe, Unternehmen hinsichtlich einer korrekten Steuerzahlung zu überwachen.", 
+        "answer": false
+    },  {
+        "kategorie": 2,
+        "question":"Der Bundespräsident hat keine wirtschaftspolitische Bedeutung.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die EU begrenzt die nationalen wirtschaftlichen Handlungsmöglichkeiten nicht.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die Europäische Zentralbank hat Souveränitätsrechte zur Einflussnahme auf die bundesdeutsche Wirtschaftspolitik.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die geldpolitischen Entscheidungen im Euroraum trifft das Europaparlament.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Im EZB-Rat hat bei politischen Entscheidungen jedes Mitglied das gleiche Stimmrecht.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Der Analyserahmen der EZB besteht aus der wirtschaftlichen, sowie einer historischen Analyse.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Anknüpfungspunkt für ihre Geldpolitik haben Zentralbanken beim Bedarf der Geschäftsbanken an Zentralbankgeld.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Das zentrale Instrument der Geldpolitik ist unbarer Zahlungsverkehr.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Eine Leitzinserhöhung verringert die Inflation tendenziell.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Durch eine Leitzinserhöhung wird der gewünschte Effekt auf die Inflation sofort erzielt.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Kann der Leitzins nicht weiter gesenkt werden, sind Wertpapierankäufe das nächste Mittel, um die Inflation zu fördern.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"In Dänemark ist der Euro das gesetzliche Zahlungsmittel.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Der „Schwarze Freitag“ bezeichnet den größten Zusammenbruch der New Yorker Börse am 25. Oktober 1929.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Umsatzsteuer ist die wichtigste Einnahmequelle des Staates.", 
+        "answer": false
+    },  {
+        "kategorie": 2,
+        "question":"Endverbraucher tragen die volle Last der Umsatzsteuer.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Einkommenssteuererklärung jedes Mitarbeiters erfolgt beim Finanzamt in der Stadt des Unternehmenssitzes.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Jugendliche älter als 14 Jahre gelten als voll geschäftfähig.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Eine Stagflation ist die Stagnation der Wirtschaftsleistung nach einer hohen Inflation.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Deutschlands Wirtschaftsform ist nicht im Grundgesetz verankert.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Höhe der Ausbildungsvergütung gehört nicht zu den Bestimmungen der Ausbildungsordnung.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"An einem Bankfeiertag wickeln Kreditinstitute keine Bankgeschäfte ab.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Börse spricht von einem Bullenmarkt, wenn die Kurse über längere Zeit stark steigen.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Nachfrager haben auf dem Markt keinen Einfluss darauf, was produziert wird.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Bei einem Oligopol gibt es für ein Produkt einige Anbieter.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Das Inlandsprinzip besagt, dass das BIP keine Leistungen von Ausländern erfasst.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Das BIP ist ein Maß für die wirtschaftliche Leistungsfähigkeit eines Landes.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"HDI steht für High Definition Interface.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die 4 Grundvariablen des HDI sind Einkommen, Lebenserwartung, Alphabetisierung und Bildungsdauer.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Luxemburg hat mit 102.000 Dollar ein eher hohes BIP.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Planwirtschaft beruht auf dem Grundsatz des Individualismus.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Privatbesitz ist in einer Planwirtschaft ausdrücklich verboten.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Grundlagen für das Maß der Konjunktur sind Produktion, Beschäftigungsgrad und Preisentwicklung.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Saisonale Schwankungen sind nicht vom Wetter abhängig.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Konjunkturelle Schwankungen entstehen durch ein Ungleichgewicht zwischen Nachfrage und Angebot.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Strukturelle Schwankungen bedeuten keine tiefgreifende Veränderung in Wirtschaftssektoren.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die 4 Konjunkturzyklen sind Expansion, Hochkonjunktur, Rezession und Depression.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Steigende Produktion und optimistische Prognosen sind noch keine Zeichen für eine expansive Phase.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Von einer Rezession spricht man, wenn eine Wirtschaft in zwei aufeinanderfolgenden Quartalen nicht wächst oder zurück geht.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Übervolle Lager und ein Rückgang der Nachfrage sind Zeichen einer Expansion.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Vollbeschäftigung und hohe Aktienkurse sind Zeichen einer Hochkonjunktur.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die VWL soll keine Prognosen über zukünftige wirtschaftliche Zusammenhänge abgeben.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die VWL lässt sich in die zwei großen Teilbereiche Mikroökonomie und Makroökonomie einteilen.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Einzelne Haushalte werden in der VWL nicht näher betrachtet.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die Entscheidungen einzelner Marktteilnehmer sind von der Arbeitsteiligkeit der Produktionsprozesse und der Allokation knapper Ressourcen und Güter geprägt.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Preistheorie untersucht die Preisbildung als Ergebnis der Fantasie der Produzenten.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Ein wichtiger Teilbereich der Makroökonomie ist die Wachstums- und Konjunkturtheorie.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Immaterielle Mittel und Leistungen gehören nicht zu den Produktionsfaktoren.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Produktionsfaktoren sind Arbeit, Kapital, Wissen und Boden.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Unter dem Produktionsfaktor Arbeit versteht man ausschließlich anstrengende körperliche Tätigkeiten.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Unter dem Produktionsfaktor Kapital versteht man verfügbare Produktionsmittel und andererseits finanzielle Mittel.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Ein Exportüberschuss kann nicht zu einer Inflation führen.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Ein Handelsembargo ist eine politisch motivierte Sanktion gegenüber Staaten.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Der Aktionär hat zwar einen Anspruch auf einen Teil des Gewinns, aber er hat kein Mitspracherecht in der Hauptversammlung.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Eine GmbH kann zu jedem zulässigen Zweck ohne Stammkapital gegründet werden.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die Bonität ist ein Index für die Wirtschaftlichkeit des Kreditnehmers hinsichtlich der Fähigkeit zur Rückzahlung des Kredits.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Organe der AG sind Vorstand, Aufsichtsrat und Hauptversammlung.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Bitcoin ist eine Währung mit deflationärem Charakter.", 
+        "answer":true
+    }
+]
+}

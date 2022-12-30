@@ -1,5 +1,6 @@
 package de.hsog.restcontroller;
 
+import java.util.List;
 import java.util.NoSuchElementException;
 
 import org.springframework.http.HttpStatus;
@@ -77,12 +78,12 @@ public class QuestionRESTController{
 	record QuestionInput(String content, Integer points, Integer categoryID, String questionType, boolean isCorrect) {};
 	
 	@PostMapping(value="Questions", consumes = "application/json", produces = "application/json")
-	public ResponseEntity<String> addQuestiony(@RequestBody QuestionInput q) {
+	public ResponseEntity<String> addQuestion(@RequestBody QuestionInput q) {
 		String responseBody;
-		HttpStatus responseStatus = HttpStatus.OK;
+		HttpStatus responseStatus = HttpStatus.CREATED;
 		try {
 			Question question;
-			if (q.questionType.toUpperCase().equals("MULTIPLECHOICE")) {
+			if (q.questionType != null && q.questionType.toUpperCase().equals("MULTIPLECHOICE")) {
 				question = new MultipleChoiceQuestion(
 						q.content, 
 						q.points, 
@@ -102,6 +103,32 @@ public class QuestionRESTController{
 		}
 		return new ResponseEntity<>(responseBody, responseStatus);
 	}
+	
+	/**
+	 * Adds multiple Questions at once
+	 * @param inputlist
+	 * @return
+	 */
+	@PostMapping(value="Questions/all", consumes="application/json", produces="application/json")
+	public ResponseEntity<String> addAllQuestions(@RequestBody List<QuestionInput> inputlist) {
+		String responseBody = "";
+		HttpStatus responseStatus = HttpStatus.CREATED;
+		try {
+			for (QuestionInput qInput : inputlist) {
+				Integer points = qInput.points;
+				if (points == null) {
+					points = 100;
+				}
+				this.addQuestion(new QuestionInput(qInput.content, points, qInput.categoryID, qInput.questionType, qInput.isCorrect));
+			}
+		} catch (Exception e) {
+			responseBody = e.toString();
+			responseStatus = HttpStatus.CONFLICT;
+		}
+		return new ResponseEntity<>(responseBody, responseStatus);		
+	}
+	
+	
 
 	@PutMapping(value="Questions/{id}", consumes = "application/json", produces = "application/json")
 	public ResponseEntity<String> updateQuestiony(@RequestBody Question questionInput, @PathVariable int id) {

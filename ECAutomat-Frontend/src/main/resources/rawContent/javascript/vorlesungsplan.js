@@ -14,7 +14,7 @@ searchInput.addEventListener("input", e => {
     })
    
 })
-fetch("http://87.162.240.81:8888/api/v1/REST/vorlesung")
+fetch("http://localhost:8888/api/v1/REST/vorlesung")
 .then (res => res.json())
 .then(data => {
     users = data.map(user => {
