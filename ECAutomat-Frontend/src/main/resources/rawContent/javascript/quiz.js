@@ -194,6 +194,7 @@ function startGame() {
   let randomNumber = numbersArray[randomIndex];
   numbersArray.splice(randomIndex, 1);
   pointsButton.innerText = 0;
+  points = 0;
   questionElement.innerText = obj.questions[randomNumber].question;
   modebuttons.classList.add('hide')
   questionContainerElement.classList.remove('hide')
