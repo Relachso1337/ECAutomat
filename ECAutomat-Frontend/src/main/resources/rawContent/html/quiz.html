@@ -11,7 +11,7 @@
   <title>Quiz App</title>
 </head>
 
-<body onload="getButtonScore()">
+<body>
   <div class="menu">
     <div class="navbar">
       <img src="../media/img/hs_logo_white.png" width="700" height="100">
@@ -55,7 +55,7 @@
     <div class="controls">
       <div id="startDiv">
         <button id="startBtn">Start</button>
-        <button id="highscoreBtn">Highscores</button>
+        <button onclick="getButtonScore()" id="highscoreBtn">Highscores</button>
          </div>
       <div id="mode" class="hide">
         <button id="m1-btn" class="start-btn btn">Klassisch</button>
