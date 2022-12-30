@@ -108,7 +108,7 @@ fetch(fetchString)
       let randomIndex = getRandomNumber(0, numbersArray.length - 1);
       let randomNumber = numbersArray[randomIndex];
       numbersArray.splice(randomIndex, 1);
-      let anser = isCorrect(true, obj.questions[randomNumber].answer);
+      let anser = isCorrect(false, obj.questions[randomNumber].answer);
       questionElement.innerText = obj.questions[randomNumber].question;
       if (anser) {
         setTimeout(() => {
