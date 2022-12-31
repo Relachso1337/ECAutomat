@@ -1,39 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="../css/quiz.css" rel="stylesheet">
-  <script defer src="../javascript/quiz.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css">
+  <script type="module" src="../javascript/quiz.js"></script>
   <title>Quiz App</title>
 </head>
-<body>
-    <div class="menu">
-        <ul>
-            <li><a href="/">Startseite</a></li>
-            <li><a href="/quiz">Quiz</a></li>
-            <li><a href="/vorlesungsplan">Vorlesungsplan</a></li>
-            <li><a href="/mensa">Mensa</a></li>
-        </ul>
-    </div>
 
+<body>
+  <div class="menu">
+    <div class="navbar">
+      <img src="../media/img/hs_logo_white.png" width="700" height="100">
+    </div>
+    <div class="balkenorange">
+    </div>
+  </div>
+  <button id="back-btn" class="start-btn btn"><i class="fa-sharp fa-solid fa-arrow-left"></i></button>
+  <div id="gameoverScreen" class="hide">
+    <h1>Da geht aber noch mehr!<h1>
+        <div class="gameoverButtons">
+          <button id="repeatBtn" class="btn"><i class="fa-solid fa-repeat"></i></button>
+          <button id="quitBtn" class="btn"> <i class="fa-solid fa-xmark"></i></button>
+        </div>
+  </div>
+
+  <div id="highscoreScreen" class="hide">
+    <div id="classicHighscore">
+      <i class="fa-solid fa-infinity"></i>
+      <button id="classicScoreBtn" class="btn">Score</button>
+    </div>
+    <div id="speedHighscore">
+      <i class="fa-regular fa-clock"></i>
+      <button id="speedScoreBtn" class="btn">Score</button>
+    </div>
+  </div>
   <div class="container">
     <div id="question-container" class="hide">
-      <div id="question">Question</div>
+      <div id="information">
+        <button id="pointsBtn" class="btn">42</button>
+        <button class="js-timeout" id="timeBtn" class="btn">2:00</button>
+      </div>
+      <div id="question">
+        <button id="q-btn" class="start-btn btn">Question</button>
+      </div>
       <div id="answer-buttons" class="btn-grid">
-        <button class="btn">Answer 1</button>
-        <button class="btn">Answer 2</button>
-        <button class="btn">Answer 3</button>
-        <button class="btn">Answer 4</button>
+        <button id="trueBtn" class="btn">Wahr</button>
+        <button id="falseBtn" class="btn">Falsch</button>
       </div>
     </div>
     <div class="controls">
-      <button id="k1-btn" class="start-btn btn">Kategorie 1</button>
-      <button id="k2-btn" class="start-btn btn">Kategorie 2</button>
-      <button id="k3-btn" class="start-btn btn">Kategorie 3</button>
-      <button id="next-btn" class="next-btn btn hide">Next</button>
+      <div id="mode" class="hide">
+        <button id="m1-btn" class="start-btn btn">Klassisch</button>
+        <button id="m2-btn" class="start-btn btn">Zeitmodus</button>
+      </div>
+      <div id="kid" class="kbtn">
+        <button id="k1-btn" class="start-btn btn">Allgemeinwissen</button>
+        <button id="k2-btn" class="start-btn btn">Finanzen</button>
+        <button id="k3-btn" class="start-btn btn">Technik</button>
+        <button id="highscoreBtn">Highscores</button>
+      </div>
     </div>
-  </div>
 </body>
+
 </html>

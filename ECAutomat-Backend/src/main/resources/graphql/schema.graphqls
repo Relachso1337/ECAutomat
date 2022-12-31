@@ -50,7 +50,6 @@ input PlayerInput {
 
 input QuizInput {
 	name: String
-	maxScore: Int!
 	playerID: ID!
 }
 
@@ -76,7 +75,6 @@ type Category {
 type Quiz {
 	id: ID!
 	name: String
-	maxScore: Int!
 	player: Player
 	questions: [Question]
 }

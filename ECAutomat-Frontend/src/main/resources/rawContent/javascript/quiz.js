@@ -278,3 +278,62 @@ function setTimer() {
 setTimeout(() => {
   falseBtn.style.backgroundColor = "#0066B3";
 }, "10000")
+
+window.createFile = function() {
+  fs.readFile('score.txt', 'utf-8', function(err, data) {
+    if(err) {
+      fs.writeFile('score.txt', "0_0", function() {
+        console.log("file created");
+    });
+    } else {
+      console.log("File exists already")
+    }
+  });
+}
+
+window.setScore = function() {
+  fs.readFile('score.txt', 'utf-8', function(err, data) {
+      var preScore = data.substr(0, data.indexOf("_"));
+      var preScore2 = data.substr(data.indexOf("_") + 1);
+
+    if(isSpeedmode) {
+      if(score > preScore2) {
+        fs.writeFile('score.txt', preScore + "_" + score, function() {
+            console.log("score2 updated");
+            console.log(preScore + "_" + score);
+        });
+    }
+    } else if(score > preScore) {
+      fs.writeFile('score.txt', score + "_" + preScore2, function() {
+          console.log("score1 updated");
+          console.log(score + "_" + preScore2);
+      });
+    }
+  });
+}
+
+window.getScore = function() {
+  fs.readFile('score.txt', 'utf-8', function(err, data) {
+      console.log(data);
+  });
+}
+
+window.getButtonScore = function() {
+  fs.readFile('score.txt', 'utf-8', function(err, data) {
+    var classic = data.substr(0, data.indexOf("_"));
+    var time = data.substr(data.indexOf("_") + 1);
+
+    document.getElementById('classicScoreBtn').innerHTML = classic;
+    document.getElementById('speedScoreBtn').innerHTML = time;
+  });
+}
+
+window.deleteScore = function() {
+  fs.unlink('score.txt', (err) => {
+      if (err) {
+          throw err;
+      }
+  
+      console.log("Score deleted");
+  });
+}

@@ -9,34 +9,45 @@
 	<title>Mensaplan Hochschule Offenburg</title>
 	
 	<link rel="stylesheet" href="../css/mensa.css">
+	<script src="../javascript/test.js"></script>
+	<script src="../javascript/mensaScript.js"></script>
 </head>
 
 <body>
-	
-	<h1 id="title">HOCHSCHULE OFFENBURG MENSAPLAN</h1>
-
-	<p id="date">-</p>
-
-	<img id="img_koch" src="../media/img/chefkoch.png">
-
-	<div class="essen_menu">
-		<ul>
-			<li id="essen_title">Menü 1</li><br>
-			<li id="essen_1">-</li>
-			
-			<br><br><br>
-
-			<li id="essen_title">Menü 2</li><br>
-			<li id="essen_2">-</li>
-
-			<br><br><br>
-
-			<li id="essen_title">Menü 3</li><br>
-			<li id="essen_3">-</li>
-		</ul>
+	<div class="navbar">
+		<img src="../media/img/hs_logo_white.png" width="500" height="100">
 	</div>
+	<div class="balkenorange"></div>
+	<div id="maincontainer" class="slideIn">
+		<img id="img_koch" src="../media/img/chefkoch.png">
 
-	<p id="essen_kosten">Studierende, Schüler 3,45€ / Mitarbeitende 4,75€ / Gäste 6,90€</p>
+		<button onclick="createFile()">createFile</button>
+		<script>window.score = 100</script>
+		<button onclick="setScore()">setScore</button>
+		<button onclick="getScore()">getScore</button>
+		<button onclick="deleteScore()">deleteScore</button>
+  
+	  <div class="essen_menu">
+		  <p id="date">-</p>
+  
+		  <ul>
+			  <li id="essen_title">Menü 1</li><br>
+			  <li id="essen_1">-</li>
+			  
+			  <br><br><br>
+  
+			  <li id="essen_title">Menü 2</li><br>
+			  <li id="essen_2">-</li>
+  
+			  <br><br><br>
+  
+			  <li id="essen_title">Menü 3</li><br>
+			  <li id="essen_3">-</li>
+		  </ul>
+	  </div>
+  
+	  <p id="essen_kosten">Studierende, Schüler 3,45€ / Mitarbeitende 4,75€ / Gäste 6,90€</p>		
+	</div>
 
 	<script>
 		fetch('../menu.json')
@@ -69,7 +80,7 @@
 				document.getElementById('essen_1').innerHTML = data.menu[3].essen;
 				document.getElementById('essen_2').innerHTML = data.menu[4].essen;
 				document.getElementById('essen_3').innerHTML = data.menu[5].essen;
-			}, 10000);
+			}, 10*1000);
 
 			setTimeout(() => {
 				document.getElementById('date').innerHTML = wochentag[2] + ", " + (tag-(date.getDay()-3)) + "." + monat + "." + jahr;
@@ -77,7 +88,7 @@
 				document.getElementById('essen_1').innerHTML = data.menu[6].essen;
 				document.getElementById('essen_2').innerHTML = data.menu[7].essen;
 				document.getElementById('essen_3').innerHTML = data.menu[8].essen;
-			}, 20000);
+			}, 20*1000);
 			
 			setTimeout(() => {
 				document.getElementById('date').innerHTML = wochentag[3] + ", " + (tag-(date.getDay()-4)) + "." + monat + "." + jahr;
@@ -85,7 +96,7 @@
 				document.getElementById('essen_1').innerHTML = data.menu[9].essen;
 				document.getElementById('essen_2').innerHTML = data.menu[10].essen;
 				document.getElementById('essen_3').innerHTML = data.menu[11].essen;
-			}, 30000);
+			}, 30*1000);
 
 			setTimeout(() => {
 				document.getElementById('date').innerHTML = wochentag[4] + ", " + (tag-(date.getDay()-5)) + "." + monat + "." + jahr;
@@ -93,11 +104,11 @@
 				document.getElementById('essen_1').innerHTML = data.menu[12].essen;
 				document.getElementById('essen_2').innerHTML = data.menu[13].essen;
 				document.getElementById('essen_3').innerHTML = data.menu[14].essen;
-			}, 40000);
+			}, 40*1000);
 
 			setTimeout(() => {
 				document.location.reload();
-			}, 50000);
+			}, 50*1000);
 		});
 	</script>
 
