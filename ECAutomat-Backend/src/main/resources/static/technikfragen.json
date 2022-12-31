@@ -1,0 +1,408 @@
+{
+    "questions" : [{
+        "kategorie": 3,
+        "question":"Der Hauptzweck von Deichen ist der Hochwasserschutz",
+        "answer": true
+    }, {
+        "kategorie": 3,
+        "question":"Die Netzspannung die aus der Steckdose kommt nennt man Wechselspannung", 
+        "answer":true
+    },
+    {
+        "kategorie": 3,
+        "question":"AC/DC ist nicht nur der Name einer Band sondern steht in der Elektrotechnik für Wechselstrom/Gleichstrom", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"HDTV steht für High (Description) Television", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Das erste Smartphone kam 1999 (1996) auf den Markt", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Konrad Zuse (Alan Turing) erfand den ersten funktionsfähigen Computer der Welt", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Die Abkürzung 'LCD' steht für Liquid Crystal Display (Light Crystal Display)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"(Ein Vergaser spritzt das Benzin schneller in den Brennraum, um die Geschwindigkeit noch weiter zu erhöhen) Ein Vergaser kombiniert Kraftstoff und angesaugte Frischluft miteinander, sodass ein zündfähiges Kraftstoff-Luft-Gemisch entsteht", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Thomas Edison (Alexander Graham Bell) ist der Erfinder der Glühbirne", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"1.000.000 (10000) Megabyte sind ein Terabyte", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Haeckse ist die im deutschen Sprachraum gebräuchliche Bezeichnung für weibliche Hacker", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"(Eine Lichtmaschine versorgt die Scheinwerfer eines Fahrzeugs mit Strom) Eine Lichtmaschine betreibt die elektronischen Geräte eines Fahrzeugs und lädt die Batterie", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Die Abkürzung USB steht für Universal Serial Bus (Universal Safe Bus)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Die erste Kamera der Welt brauchte 8 (4) Stunden um ein Bild aufzunehmen", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Der Name 'Bluetooth' kommt von einem dänischen Wikingerkönig (Die erste Antenne für Datenübertragung war blau und sah aus wie ein großer Zahn)"
+        , 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Trägheit ist das Bestreben von physikalischen Körpern, in ihrem Bewegungszustand zu verharren, solange keine äußeren Kräfte oder Drehmomente auf sie einwirken. (Trägheit ist die Kraft, die für alle Kreisbewegungen verantwortlich ist)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Wostok 1 das erste bemannte Raumschiff (die erste Raumfähre)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Das Ziel des 'Manhatten Project' war der Bau der Atombombe", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Unter Augmented Reality versteht man den 3D-Effekt im Kino (false)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Die Einheit für physikalische Arbeit ist Watt (Newtonmeter)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Arbeit ist Kraft mal Weg (Geschwindigkeit)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Durch eine feste Rolle wird (die Größe und auch) die Richtung einer Kraft geändert", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Das Gesetz von 'actio und reactio' nennt man Wechselwirkungsgesetz (Wechselgesetz)", 
+        "answer":true
+    },
+  {
+        "kategorie": 3,
+        "question":"Die Masse ist ortsabhängig", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Ein Geigerzähler misst die (Luftfeuchtigkeit) Strahlung", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Teilt man einen Magnet in genau in der Mitte, entstehen zwei neue Magneten", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Kupfer wird in fast allen Kabeln verwendet", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Die Maßeinheit Volt wurde nach dem Franzosen O.Volto benannt (false)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Das Einheitszeichen für elektrische Stromstärke ist A", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Software, die völlig kostenlos ist, nennt man Freeware", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Ein Bit hat 8 (12) Byte", 
+        "answer": false
+    },  {
+        "kategorie": 3,
+        "question":"Bit ist die kleinste digitale Informationseinheit", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Bildpunkte bezeichnet man auch als Pixel (Hertz)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Shareware ist Software die man für eine bestimmte Zeit kostenlos testen kann (mit anderen Nutzern teilen kann)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"In einem Binärsystem gibt es nur die Zahlen 0 und 1", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Die RAM eines Computers ist nur der Lesespeicher eines Computers (false)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Der Prozessor (die Festplatte) ist die Rechenzentrale des Computers", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Ein Dateiname durfte früher maximal 8 (6) Buchstaben haben", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"80% der Emails, die täglich versendet werden, sind Spam", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Die Geschwindigkeit des Lichts beträgt 300.000 Km/s (false)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"100 Grad Celsius entsprechen 173 Kelvin (false)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Eisen ist magnetisch", 
+        "answer": false
+    },  {
+        "kategorie": 3,
+        "question":"Mit einem Gleichrichter kann man aus Wechselstrom Gleichstrom erzeugen", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Von allen elektromagnetischen Strahlungen, hat Röntgenstrahlung die kürzeste Wellenlänge", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Eine statische Gleichgewichtsbedingung lautet 'Die Summe aller Kräfte ist gleich null'", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Das Kreuzprodukt von Kraftvektor und Ortsvektor ergibt einen Momentenvektor", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Die Reibkraft ist das Produkt aus Normalkraft und Reibungskoeffizient (false)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Statik ist die Lehre vom Gleichgewicht am ruhenden und starren Körper", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Der erste Satz der Statik lautet 'Kräfte, mit denen ruhende Körper aufeinander wirken, treten stets paarweise auf und sind im Gleichgewicht' (false)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Elektrischer Strom ist die Bezeichnung für eine ungerichtete Bewegung von Ladungsträgern (false)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Spannung = Widerstand * Strom", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Der Strom in einer Reihenschaltung ist überall gleich groß", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"In einer Parallelschaltung fließt durch den größten Einzelwiderstand der kleinste Strom", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Wenn der Widerstand halbiert wird, wird der Strom dreifach so groß. (false)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"LED ist eine Abkürzung für Light Extracting Diode (false).", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Eine Diode ist vergleichbar mit einem Ventil", 
+        "answer": false
+    },  {
+        "kategorie": 3,
+        "question":"Eine blaue LED benötigt die meiste Energie", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Ein (eigentlich Mikrofon) Lautsprecher wandelt akustische Wellen in ein elektrisches Signal um (false)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Die maximale Spannung einer AAA Batterie beträgt 1.5V", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Der Wärmeleitungskoeffizient beschreibt die Fähigkeit eines Materials, Wärme zu leiten", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Der freie Fall ist eine spezielle Form der gleichmäßig beschleunigten Bewegung", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Mechanik wird nicht als Teilgebiet der Physik angesehen (false)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Das erste Newtonsche Gesetz ist das Aktionsprinzip (false)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Ein Starrkörper ist ein Körper, der sich unter Wirkung von Kräften nicht verformt", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Ein Hebel ist im Gleichgewicht, wenn das links drehende Drehmoment gleich dem rechts drehenden Drehmoment ist.", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Die mechanische Leistung gibt an, wie schnell mechanische Arbeit verrichtet wird", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Wirken zwei Teilkräfte in die gleiche Richtung, so erhält man die Gesamtkraft, indem man die Beträge der Teilkräfte miteinander multipliziert. (false)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Gase verteilen sich ungleichmäßig in dem zur Verfügung stehenden Raum (false)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Bei einer Bewegung mit konstanter Geschwindigkeit nimmt die Beschleunigung eines Objekts in gleichen Zeitabschnitten um den jeweils gleichen Betrag zu beziehungsweise ab. (false)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"In der Kinematik, werden die Kraft und die Masse berücksichtigt (false)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Statt Rasenmäher, benutzt Google eine Herde Ziegen um das hohe Gras ihrer Zentrale zu fressen.", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Das Wort Roboter stammt von dem tschechischen Wort "robota" was so viel wie "Sklaverei" oder "Zwangsarbeit" bedeutet", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Die erste Computermaus bestand aus Holz", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Das erste jemals gescannte Produkt war eine Packung Kaugummi", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Pro Monat verarbeitet Google mehr als 35 Milliarden Anfragen", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Die Download-Geschwindigkeit bei der NASA beträgt 91GB/s", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Es haben mehr Menschen zugang zu Smartphones als zu funktionierenden Toiletten", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Der 'Lisa' von Apple war der erste kommerzielle Computer mit einer GUI und einer Maus", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Über 90% der weltweiten Zahlungsmittel sind digital", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Das Wort CAPTCHA ist ein Akronym und steht für 'Completely Automatic Public Turning Test to Tell Computers and Humans Apart'", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Das erste Produkt des Handyherstellers Nokia war Toilettenpapier", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Bevor Netflix als Streaming-Dienst an den Start ging, war Netflix eine Online-Videothek mit Versand", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Ursprünglich war Amazon ein Onlinebuchhandel", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Alfred Nobel ist der Erfinder des Dynamit", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Der erste Wecker konnte nur um 4 Uhr Morgens klingeln", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Benjamin Franklin erfand den Blitzableiter", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Das 'I' in Iphone steht für Inspire (false)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Microsoft beherrschte in den 80er Jahren den Markt für Heimcomputer (falsch) (Commodore)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Java ist die meistegenutzte Programmiersprache weltweit (false)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Der Automobilhersteller 'Porsche' hat seinen Hauptsitz in München (false)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Ein Shortcut ist eine Computerschnittstelle (falsch)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Der höchste Fernsehturm der Welt steht in Moskau (false) (Tokio)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Das sichern von Daten, auf einen 2. Datenträger, nennt man in der Informatik Back-end (false)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"T-Online war der erste kommerzielle Internet-Provider Deutschlands (false) (EUnet)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Der ELektromotor wurde in Schweden erfunden (false) (Italien)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Das 'FM' am Radio steht für Frequenzmoderation (false) (Frequenzmodulation)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Der Schatten, den eine Windkraftanlage auf die Erde wirft nennt man auch Windschatten (false) (Schlagschatten)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Unbenutzte Batterien können nicht auslaufen (false)", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Google war die erste Suchmaschine (false) (Archie)", 
+        "answer":true
+    },
+ {
+        "kategorie": 3,
+        "question":"Die erste Spielekonsole auf dem Markt war der Atari 2600 (false) (Magnavox Odyssey)", 
+        "answer":true
+    }
+]
+}

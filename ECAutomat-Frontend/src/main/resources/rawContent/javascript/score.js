@@ -23716,9 +23716,21 @@ fetch(fetchString)
 
   });
 
-k1button.addEventListener('click', hideCategory)
-k2button.addEventListener('click', hideCategory)
-k3button.addEventListener('click', hideCategory)
+k1button.addEventListener('click', () => {
+  hideCategory();
+  numbersArray = createArrayOfNumbers(0, 100);
+})
+
+k2button.addEventListener('click', () => {
+  hideCategory();
+  numbersArray = createArrayOfNumbers(100, 200);
+})
+
+k3button.addEventListener('click', () => {
+  hideCategory();
+  numbersArray = createArrayOfNumbers(200, 300);
+})
+
 
 startButton.addEventListener('click', () => {
   currentPage++;

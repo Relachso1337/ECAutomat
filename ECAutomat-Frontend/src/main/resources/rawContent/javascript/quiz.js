@@ -1,6 +1,3 @@
-var fs = require('browserify-fs');
-global.window.score = 0;
-
 const startButton = document.getElementById('startBtn')
 const k1button = document.getElementById('k1-btn')
 const k2button = document.getElementById('k2-btn')
@@ -35,6 +32,7 @@ let obj;
 let fetchString = '../../../../../../ECAutomat-Backend/src/main/resources/static/quiz.json';
 var interval;
 let randomNumber;
+let numbersArray;
 // ------------------Create Random Number-----------------------------------
 
 
@@ -68,7 +66,6 @@ function createArrayOfNumbers(start, end) {
   }
   return myArray;
 }
-let numbersArray = createArrayOfNumbers(1, 100);
 //------------------------------------------------------
 /*
 if(numbersArray.length == 0){
@@ -142,7 +139,9 @@ k1button.addEventListener('click', hideCategory)
 k2button.addEventListener('click', hideCategory)
 k3button.addEventListener('click', hideCategory)
 
+
 startButton.addEventListener('click', () => {
+  numbersArray = createArrayOfNumbers(200, 300);
   currentPage++;
   startMenuElement.classList.add('hide')
   katdiv.classList.remove('hide');
@@ -279,56 +278,3 @@ function setTimer() {
 setTimeout(() => {
   falseBtn.style.backgroundColor = "#0066B3";
 }, "10000")
-
-window.createFile = function() {
-  fs.writeFile('score.txt', "0_0", function() {
-      console.log("created");
-  });
-}
-
-window.setScore = function() {
-  fs.readFile('score.txt', 'utf-8', function(err, data) {
-      var preScore = data.substr(0, data.indexOf("_"));
-      var preScore2 = data.substr(data.indexOf("_") + 1);
-
-    if(isSpeedmode) {
-      if(score > preScore2) {
-        fs.writeFile('score.txt', preScore + "_" + score, function() {
-            console.log("score2 updated");
-            console.log(preScore + "_" + score);
-        });
-    }
-    } else if(score > preScore) {
-      fs.writeFile('score.txt', score + "_" + preScore2, function() {
-          console.log("score1 updated");
-          console.log(score + "_" + preScore2);
-      });
-    }
-  });
-}
-
-window.getScore = function() {
-  fs.readFile('score.txt', 'utf-8', function(err, data) {
-      console.log(data);
-  });
-}
-
-window.getButtonScore = function() {
-  fs.readFile('score.txt', 'utf-8', function(err, data) {
-    var classic = data.substr(0, data.indexOf("_"));
-    var time = data.substr(data.indexOf("_") + 1);
-
-    document.getElementById('classicScoreBtn').innerHTML = classic;
-    document.getElementById('speedScoreBtn').innerHTML = time;
-  });
-}
-
-window.deleteScore = function() {
-  fs.unlink('score.txt', (err) => {
-      if (err) {
-          throw err;
-      }
-  
-      console.log("Score deleted");
-  });
-}

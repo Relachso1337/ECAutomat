@@ -16,7 +16,7 @@
         "kategorie": 1,
         "question":"Der Mond ist größer als der Planet Erde",
 
-        "answer": true
+        "answer": false
 
     }, {
         "kategorie": 1,
@@ -606,6 +606,812 @@
 
         "answer": false
 
+    },
+    {
+        "kategorie": 2,
+        "question":"Luxemburg ist der Staat mit der höchsten Wirtschaftskraft pro Kopf in Europa",
+        "answer": true
+    }, {
+        "kategorie": 2,
+        "question":"Die EU wickelt knapp zwei Drittel des Warenhandels innerhalb der eigenen Grenzen ab.", 
+        "answer":true
+    },
+    {
+        "kategorie": 2,
+        "question":"Die beiden wichtigsten Handelspartner der EU sind Norwegen und die Schweiz.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Griechenland war 2021 der Staat mit dem höchsten öffentlichen Schuldenstand relativ zur Wirtschaftskraft in der EU.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Pro Kopf zahlte 2020 kein Staat in der EU so viel an Bürgerinnen und Bürger wie Deutschland.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Der Euro als Währung wurde bisher in 19 Ländern eingeführt.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Ein Komplementär haftet nur mit seiner Einlage, welche er in die KG eingebracht hat.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Der Euro als Währung wurde am 01.01.2002 eingeführt.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Zahlungsunfähigkeit nennt man auch Insolation.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die Währung Nicaraguas heißt Cordoba.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Bier unterliegt in Deutschland keiner bestimmten Verbrauchssteuer.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Der Autor bestimmt den Marktpreis für ein von ihm geschriebenes Buch.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"UPS ist der größte private Zusteller weltweit.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Das gesetliche Zahlungsmittel in Irland ist der Euro.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Eine andere Bezeichnung für Buchgeld ist auch Giralgeld.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Abkürzung AGB steht für Allgemeines Geschäftsbuch.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Eine Kommanditgesellschaft zeichnet sich durch Voll- und Teilhafter aus.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Bernard Arnault ist der derzeit reichste Mensch der Welt.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"In den USA wurde die monetaristische Idee zuerst umgesetzt.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die Co. ist eine Rechtsform für deutsche Unternehmen.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Rückversicherer versichern das Ausfallrisiko von Großschäden.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Gibt es einen Anbieter für mehrere Güter, so spricht man von einem Monopol.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Es gibt keine Heiratssteuer.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Wenn Erlöse und Kosten identisch sind, spricht man von einem big-point.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Ein Polypol ist eine Marktform im Sinne der VWL.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Der Steuersatz für Lebensmittel beträgt derzeit in Deutschland 19 Prozent.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Eine AG schüttet ihren Aktionären eine Dividende aus.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Der Staat regelt den Preis in einem funktionierenden Markt.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Bei Angebot > Nachfrage liegt ein Käufermarkt vor.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Interessen von Produzenten vertreten hauptsächlich die Gewerkschaften.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die Wirtschaftskammer vertritt hauptsächlich die Interessen von Konsumenten.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Verzinsung des in einem Unternehmen eingesetzten Kapitals nennt man auch Ertrag.", 
+        "answer": false
+    },  {
+        "kategorie": 2,
+        "question":"Die Umsatzrentabilität berechnet sich aus (Gewinn/Umsatz) x 100.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Bei einem Sporthändler gehören die Geschäftsräume zum Anlagevermögen.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"In der Bilanz verbucht man Forderungen als Fremdkapital auf der rechten Seite.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Den Deckungsbeitrag ermittelt man aus dem Verkaufserlös abzüglich variabler und fixer Kosten.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Der Düngemittelverbrauch ist eine denkbare Kostenstelle einer Gärtnerei.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Durch Marktregulierungen soll der Missbrauch von Marktmacht vermieden werden.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Stabilität des Preisniveaus gehört zu den Hauptfeldern der Stabilisierung des Wirtschaftsprozesses in der sozialen Marktwirtschaft.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Im 1967 in Kraft getretenen Stabilitätsgesetz wird eine Arbeitslosenquote von unter 10 Prozent als Meßlatte für einen hohen Beschäftigungsgrad angesehen.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Im Grundgesetz steht, dass jeder Bürger bei Bedarf, staatliche Unterstützung ausschließlich zur Befriedigung seiner wirtschaftlichen Grundbedürfnisse bekommt.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Das „magische Viereck“ wurde in den 1990er-Jahren durch den Umweltschutz als weiteres Stabilitätsziel der sozialen Marktwirtschaft ergänzt.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Das Bundeskartellamt hat die Aufgabe, Unternehmen hinsichtlich einer korrekten Steuerzahlung zu überwachen.", 
+        "answer": false
+    },  {
+        "kategorie": 2,
+        "question":"Der Bundespräsident hat keine wirtschaftspolitische Bedeutung.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die EU begrenzt die nationalen wirtschaftlichen Handlungsmöglichkeiten nicht.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die Europäische Zentralbank hat Souveränitätsrechte zur Einflussnahme auf die bundesdeutsche Wirtschaftspolitik.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die geldpolitischen Entscheidungen im Euroraum trifft das Europaparlament.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Im EZB-Rat hat bei politischen Entscheidungen jedes Mitglied das gleiche Stimmrecht.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Der Analyserahmen der EZB besteht aus der wirtschaftlichen, sowie einer historischen Analyse.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Anknüpfungspunkt für ihre Geldpolitik haben Zentralbanken beim Bedarf der Geschäftsbanken an Zentralbankgeld.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Das zentrale Instrument der Geldpolitik ist unbarer Zahlungsverkehr.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Eine Leitzinserhöhung verringert die Inflation tendenziell.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Durch eine Leitzinserhöhung wird der gewünschte Effekt auf die Inflation sofort erzielt.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Kann der Leitzins nicht weiter gesenkt werden, sind Wertpapierankäufe das nächste Mittel, um die Inflation zu fördern.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"In Dänemark ist der Euro das gesetzliche Zahlungsmittel.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Der „Schwarze Freitag“ bezeichnet den größten Zusammenbruch der New Yorker Börse am 25. Oktober 1929.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Umsatzsteuer ist die wichtigste Einnahmequelle des Staates.", 
+        "answer": false
+    },  {
+        "kategorie": 2,
+        "question":"Endverbraucher tragen die volle Last der Umsatzsteuer.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Einkommenssteuererklärung jedes Mitarbeiters erfolgt beim Finanzamt in der Stadt des Unternehmenssitzes.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Jugendliche älter als 14 Jahre gelten als voll geschäftfähig.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Eine Stagflation ist die Stagnation der Wirtschaftsleistung nach einer hohen Inflation.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Deutschlands Wirtschaftsform ist nicht im Grundgesetz verankert.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Höhe der Ausbildungsvergütung gehört nicht zu den Bestimmungen der Ausbildungsordnung.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"An einem Bankfeiertag wickeln Kreditinstitute keine Bankgeschäfte ab.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Börse spricht von einem Bullenmarkt, wenn die Kurse über längere Zeit stark steigen.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Nachfrager haben auf dem Markt keinen Einfluss darauf, was produziert wird.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Bei einem Oligopol gibt es für ein Produkt einige Anbieter.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Das Inlandsprinzip besagt, dass das BIP keine Leistungen von Ausländern erfasst.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Das BIP ist ein Maß für die wirtschaftliche Leistungsfähigkeit eines Landes.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"HDI steht für High Definition Interface.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die 4 Grundvariablen des HDI sind Einkommen, Lebenserwartung, Alphabetisierung und Bildungsdauer.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Luxemburg hat mit 102.000 Dollar ein eher hohes BIP.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Planwirtschaft beruht auf dem Grundsatz des Individualismus.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Privatbesitz ist in einer Planwirtschaft ausdrücklich verboten.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Grundlagen für das Maß der Konjunktur sind Produktion, Beschäftigungsgrad und Preisentwicklung.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Saisonale Schwankungen sind nicht vom Wetter abhängig.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Konjunkturelle Schwankungen entstehen durch ein Ungleichgewicht zwischen Nachfrage und Angebot.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Strukturelle Schwankungen bedeuten keine tiefgreifende Veränderung in Wirtschaftssektoren.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die 4 Konjunkturzyklen sind Expansion, Hochkonjunktur, Rezession und Depression.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Steigende Produktion und optimistische Prognosen sind noch keine Zeichen für eine expansive Phase.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Von einer Rezession spricht man, wenn eine Wirtschaft in zwei aufeinanderfolgenden Quartalen nicht wächst oder zurück geht.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Übervolle Lager und ein Rückgang der Nachfrage sind Zeichen einer Expansion.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Vollbeschäftigung und hohe Aktienkurse sind Zeichen einer Hochkonjunktur.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die VWL soll keine Prognosen über zukünftige wirtschaftliche Zusammenhänge abgeben.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die VWL lässt sich in die zwei großen Teilbereiche Mikroökonomie und Makroökonomie einteilen.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Einzelne Haushalte werden in der VWL nicht näher betrachtet.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die Entscheidungen einzelner Marktteilnehmer sind von der Arbeitsteiligkeit der Produktionsprozesse und der Allokation knapper Ressourcen und Güter geprägt.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Preistheorie untersucht die Preisbildung als Ergebnis der Fantasie der Produzenten.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Ein wichtiger Teilbereich der Makroökonomie ist die Wachstums- und Konjunkturtheorie.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Immaterielle Mittel und Leistungen gehören nicht zu den Produktionsfaktoren.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Produktionsfaktoren sind Arbeit, Kapital, Wissen und Boden.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Unter dem Produktionsfaktor Arbeit versteht man ausschließlich anstrengende körperliche Tätigkeiten.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Unter dem Produktionsfaktor Kapital versteht man verfügbare Produktionsmittel und andererseits finanzielle Mittel.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Ein Exportüberschuss kann nicht zu einer Inflation führen.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Ein Handelsembargo ist eine politisch motivierte Sanktion gegenüber Staaten.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Der Aktionär hat zwar einen Anspruch auf einen Teil des Gewinns, aber er hat kein Mitspracherecht in der Hauptversammlung.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Eine GmbH kann zu jedem zulässigen Zweck ohne Stammkapital gegründet werden.", 
+        "answer":false
+    },  {
+        "kategorie": 2,
+        "question":"Die Bonität ist ein Index für die Wirtschaftlichkeit des Kreditnehmers hinsichtlich der Fähigkeit zur Rückzahlung des Kredits.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Die Organe der AG sind Vorstand, Aufsichtsrat und Hauptversammlung.", 
+        "answer":true
+    },  {
+        "kategorie": 2,
+        "question":"Bitcoin ist eine Währung mit deflationärem Charakter.", 
+        "answer":true
+    },
+    {
+        "kategorie": 3,
+        "question":"Der Hauptzweck von Deichen ist der Hochwasserschutz",
+        "answer": true
+    }, {
+        "kategorie": 3,
+        "question":"Die Netzspannung die aus der Steckdose kommt nennt man Wechselspannung", 
+        "answer":true
+    },
+    {
+        "kategorie": 3,
+        "question":"AC/DC ist nicht nur der Name einer Band sondern steht in der Elektrotechnik für Wechselstrom/Gleichstrom", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"HDTV steht für High Description Television", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Das erste Smartphone kam 1996 auf den Markt", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Alan Turing erfand den ersten funktionsfähigen Computer der Welt", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Die Abkürzung 'LCD' steht für Light Crystal Display", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Ein Vergaser spritzt das Benzin schneller in den Brennraum, um die Geschwindigkeit noch weiter zu erhöhen", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Alexander Graham Bell ist der Erfinder der Glühbirne", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"10.000 Megabyte sind ein Terabyte", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Haeckse ist die im deutschen Sprachraum gebräuchliche Bezeichnung für weibliche Hacker", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Eine Lichtmaschine versorgt die Scheinwerfer eines Fahrzeugs mit Strom", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Die Abkürzung USB steht für Universal Safe Bus)", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Die erste Kamera der Welt brauchte 4 Stunden um ein Bild aufzunehmen", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Der Name 'Bluetooth' kommt von einem dänischen Wikingerkönig", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Trägheit ist die Kraft, die für alle Kreisbewegungen verantwortlich ist", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question": "Die 'Wostok 1' war der erste Satellit im Weltraum", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Das Ziel des 'Manhatten Project' war der Bau der Atombombe", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Unter Augmented Reality versteht man den 3D-Effekt im Kino", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Die Einheit für physikalische Arbeit ist Newtonmeter", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Arbeit ist Kraft mal Geschwindigkeit", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Durch eine feste Rolle wird die Größe und auch die Richtung einer Kraft geändert", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Das Gesetz von 'actio und reactio' nennt man Wechselgesetz", 
+        "answer":true
+    },
+  {
+        "kategorie": 3,
+        "question":"Die Masse ist ortsabhängig", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Ein Geigerzähler misst die Luftfeuchtigkeit", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Teilt man einen Magnet in genau in der Mitte, entstehen zwei neue Magneten", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Kupfer wird in fast allen Kabeln verwendet", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Die Maßeinheit Volt wurde nach dem Franzosen O.Volto benannt", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Das Einheitszeichen für elektrische Stromstärke ist A", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Software, die völlig kostenlos ist, nennt man Freeware", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Ein Bit hat 12 Byte", 
+        "answer": false
+    },  {
+        "kategorie": 3,
+        "question":"Bit ist die kleinste digitale Informationseinheit", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Bildpunkte bezeichnet man auch als Hertz", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Shareware ist Software, die man für eine bestimmte Zeit kostenlos mit anderen Nutzern teilen kann", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"In einem Binärsystem gibt es nur die Zahlen 0 und 1", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Die RAM eines Computers ist nur der Lesespeicher eines Computers", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"die Festplatte ist die Rechenzentrale des Computers", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Ein Dateiname durfte früher maximal 4 Buchstaben haben", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"80% der Emails, die täglich versendet werden, sind Spam", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Die Geschwindigkeit des Lichts beträgt 300.000 Km/s", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"100 Grad Celsius entsprechen 173 Kelvin", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Eisen ist magnetisch", 
+        "answer": false
+    },  {
+        "kategorie": 3,
+        "question":"Mit einem Gleichrichter kann man aus Wechselstrom Gleichstrom erzeugen", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Von allen elektromagnetischen Strahlungen, hat Röntgenstrahlung die kürzeste Wellenlänge", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Eine statische Gleichgewichtsbedingung lautet 'Die Summe aller Kräfte ist gleich null'", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Das Kreuzprodukt von Kraftvektor und Ortsvektor ergibt einen Momentenvektor", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Die Reibkraft ist das Produkt aus Normalkraft und Reibungskoeffizient", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Statik ist die Lehre vom Gleichgewicht am ruhenden und starren Körper", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Der erste Satz der Statik lautet 'Kräfte, mit denen ruhende Körper aufeinander wirken, treten stets paarweise auf und sind im Gleichgewicht'", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Elektrischer Strom ist die Bezeichnung für eine ungerichtete Bewegung von Ladungsträgern", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Spannung = Widerstand * Strom", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Der Strom in einer Reihenschaltung ist überall gleich groß", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"In einer Parallelschaltung fließt durch den größten Einzelwiderstand der kleinste Strom", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Wenn der Widerstand halbiert wird, wird der Strom dreifach so groß", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"LED ist eine Abkürzung für Light Extracting Diode", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Eine Diode ist vergleichbar mit einem Ventil", 
+        "answer": true
+    },  {
+        "kategorie": 3,
+        "question":"Eine blaue LED benötigt die meiste Energie", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Ein (eigentlich Mikrofon) Lautsprecher wandelt akustische Wellen in ein elektrisches Signal um", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Die maximale Spannung einer AAA Batterie beträgt 1.5V", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Der Wärmeleitungskoeffizient beschreibt die Fähigkeit eines Materials, Wärme zu leiten", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Der freie Fall ist eine spezielle Form der gleichmäßig beschleunigten Bewegung", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Mechanik wird nicht als Teilgebiet der Physik angesehen", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Das erste Newtonsche Gesetz ist das Aktionsprinzip", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Ein Starrkörper ist ein Körper, der sich unter Wirkung von Kräften nicht verformt", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Ein Hebel ist im Gleichgewicht, wenn das links drehende Drehmoment gleich dem rechts drehenden Drehmoment ist.", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Die mechanische Leistung gibt an, wie schnell mechanische Arbeit verrichtet wird", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Wirken zwei Teilkräfte in die gleiche Richtung, so erhält man die Gesamtkraft, indem man die Beträge der Teilkräfte miteinander multipliziert", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Gase verteilen sich ungleichmäßig in dem zur Verfügung stehenden Raum", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Bei einer Bewegung mit konstanter Geschwindigkeit nimmt die Beschleunigung eines Objekts in gleichen Zeitabschnitten um den jeweils gleichen Betrag zu beziehungsweise ab", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"In der Kinematik, werden die Kraft und die Masse berücksichtigt", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Statt Rasenmäher, benutzt Google eine Herde Ziegen um das hohe Gras ihrer Zentrale zu fressen.", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Das Wort Roboter stammt von dem tschechischen Wort 'robota' was so viel wie 'Sklaverei' oder 'Zwangsarbeit' bedeutet", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Die erste Computermaus bestand aus Holz", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Das erste jemals gescannte Produkt war eine Packung Kaugummi", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Pro Monat verarbeitet Google mehr als 35 Milliarden Anfragen", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Die Download-Geschwindigkeit bei der NASA beträgt 91GB/s", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Es haben mehr Menschen zugang zu Smartphones als zu funktionierenden Toiletten", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Der 'Lisa' von Apple war der erste kommerzielle Computer mit einer GUI und einer Maus", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Über 90% der weltweiten Zahlungsmittel sind digital", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Das Wort CAPTCHA ist ein Akronym und steht für 'Completely Automatic Public Turning Test to Tell Computers and Humans Apart'", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Das erste Produkt des Handyherstellers Nokia war Toilettenpapier", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Bevor Netflix als Streaming-Dienst an den Start ging, war Netflix eine Online-Videothek mit Versand", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Ursprünglich war Amazon ein Onlinebuchhandel", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Alfred Nobel ist der Erfinder des Dynamit", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Der erste Wecker konnte nur um 4 Uhr Morgens klingeln", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Benjamin Franklin erfand den Blitzableiter", 
+        "answer":true
+    },  {
+        "kategorie": 3,
+        "question":"Das 'I' in Iphone steht für Inspire", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Microsoft beherrschte in den 80er Jahren den Markt für Heimcomputer", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Java ist die meistegenutzte Programmiersprache weltweit", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Der Automobilhersteller 'Porsche' hat seinen Hauptsitz in München", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Ein Shortcut ist eine Computerschnittstelle", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Der höchste Fernsehturm der Welt steht in Moskau", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Das sichern von Daten, auf einen 2. Datenträger, nennt man in der Informatik Back-end", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"T-Online war der erste kommerzielle Internet-Provider Deutschlands", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Der Elektromotor wurde in Schweden erfunden", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Das 'FM' am Radio steht für Frequenzmoderation", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Der Schatten, den eine Windkraftanlage auf die Erde wirft nennt man auch Windschatten", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Unbenutzte Batterien können nicht auslaufen", 
+        "answer":false
+    },  {
+        "kategorie": 3,
+        "question":"Google war die erste Suchmaschine", 
+        "answer":false
+    },
+ {
+        "kategorie": 3,
+        "question":"Die erste Spielekonsole auf dem Markt war der Atari 2600", 
+        "answer":false
     }]
 
 }
