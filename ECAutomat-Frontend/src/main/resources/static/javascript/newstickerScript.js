@@ -1,3 +1,9 @@
+import data from '../media/news/news.json'
+
+
+alert(data);
+
+
 // setTimeout(function() {
 //     var container = document.getElementById("redcontainer");
 //     container.classList.remove("slideOut");

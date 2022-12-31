@@ -9,39 +9,45 @@
 	<title>Mensaplan Hochschule Offenburg</title>
 	
 	<link rel="stylesheet" href="../css/mensa.css">
+	<script src="../javascript/test.js"></script>
+	<script src="../javascript/mensaScript.js"></script>
 </head>
 
 <body>
-	
-	<div class="title">
-		<h1>HOCHSCHULE OFFENBURG MENSAPLAN</h1>
+	<div class="navbar">
+		<img src="../media/img/hs_logo_white.png" width="500" height="100">
 	</div>
+	<div class="balkenorange"></div>
+	<div id="maincontainer" class="slideIn">
+		<img id="img_koch" src="../media/img/chefkoch.png">
 
-	<p id="date">-</p>
-
-    <div class="balkenorange">
-    </div>
-
-	<img id="img_koch" src="../media/img/chefkoch.png">
-
-	<div class="essen_menu">
-		<ul>
-			<li id="essen_title">Menü 1</li><br>
-			<li id="essen_1">-</li>
-			
-			<br><br><br>
-
-			<li id="essen_title">Menü 2</li><br>
-			<li id="essen_2">-</li>
-
-			<br><br><br>
-
-			<li id="essen_title">Menü 3</li><br>
-			<li id="essen_3">-</li>
-		</ul>
+		<button onclick="createFile()">createFile</button>
+		<script>window.score = 100</script>
+		<button onclick="setScore()">setScore</button>
+		<button onclick="getScore()">getScore</button>
+		<button onclick="deleteScore()">deleteScore</button>
+  
+	  <div class="essen_menu">
+		  <p id="date">-</p>
+  
+		  <ul>
+			  <li id="essen_title">Menü 1</li><br>
+			  <li id="essen_1">-</li>
+			  
+			  <br><br><br>
+  
+			  <li id="essen_title">Menü 2</li><br>
+			  <li id="essen_2">-</li>
+  
+			  <br><br><br>
+  
+			  <li id="essen_title">Menü 3</li><br>
+			  <li id="essen_3">-</li>
+		  </ul>
+	  </div>
+  
+	  <p id="essen_kosten">Studierende, Schüler 3,45€ / Mitarbeitende 4,75€ / Gäste 6,90€</p>		
 	</div>
-
-	<p id="essen_kosten">Studierende, Schüler 3,45€ / Mitarbeitende 4,75€ / Gäste 6,90€</p>
 
 	<script>
 		fetch('../menu.json')
