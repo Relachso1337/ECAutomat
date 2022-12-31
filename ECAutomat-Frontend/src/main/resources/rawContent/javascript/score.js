@@ -23859,8 +23859,14 @@ setTimeout(() => {
 }, "10000")
 
 window.createFile = function() {
-  fs.writeFile('score.txt', "0_0", function() {
-      console.log("created");
+  fs.readFile('score.txt', 'utf-8', function(err, data) {
+    if(err) {
+      fs.writeFile('score.txt', "0_0", function() {
+        console.log("file created");
+    });
+    } else {
+      console.log("File exists already")
+    }
   });
 }
 
