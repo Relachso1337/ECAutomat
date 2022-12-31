@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100% !important;
+    min-height: 88vh !important;
+}
+
+.buttons {
+    width: 75%;
+    height: 75%;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 51px;
+}
+
