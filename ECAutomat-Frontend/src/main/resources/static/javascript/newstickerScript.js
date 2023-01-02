@@ -2,13 +2,29 @@ var paragraphs = [];
 var pointer = 0;
 var isDoneReading = false;
 
+window.onload = function() {
+	mediaToArray();
+}
+
 async function mediaToArray() {
 	let obj;
 	const res = await fetch('../media/news/news.json')
 	obj = await res.json();
-	obj.forEach(element => {
+	obj.paragraphs.forEach(element => {
 		paragraphs.push(element.content);
 	});
+	var headline = document.getElementById("headlines");
+	var author = document.getElementById("author");
+	headline.innerHTML = obj.headline;
+	author.innerHTML = "Author: " + obj.author;
+	var qrcode = new QRCode("qrcode", {
+		text: "wdaawd",
+		width: 128,
+		height: 128,
+		correctionLevel: QRCode.CorrectLevel.H
+	})
+	qrcode.clear(); // clear the code.
+	qrcode.makeCode(obj.url); // make another code.
 }
 
 function convertContent(content) {
@@ -44,23 +60,24 @@ function displayAllContent(delay) {
 		}
 		if (isDoneReading) {
 			setTimeout(function() {
-				window.location.replace("../html/mensa.html");
+				window.location.replace("/mensa");
 			}, delay);			
 		}
 	}, delay);
 }
-
-mediaToArray();
 setTimeout(function() {
-	var headlines = document.getElementById("headlines");
+	var headlines = document.getElementById("headlinecontainer");
 	var maincontainer = document.getElementById("imageandnewscontainer");
+	headlines.classList.remove("fadeOut");
 	headlines.classList.add("fadeOut");
-	maincontainer.style.backgroundImage = 'linear-gradient(180deg, rgba(0,102,127,0.4) 0%, rgba(0,102,127,1) 100%), url("../media/news/1.jpg")';
-	maincontainer.style.backgroundPosition = 'center';
-	maincontainer.style.backgroundRepeat = 'no-repeat';
-	maincontainer.style.backgroundSize = 'cover';
-	headlines.remove();
-	displayAllContent(25000);
+	setTimeout(function() {
+		maincontainer.style.backgroundImage = 'linear-gradient(180deg, rgba(0,102,127,0.4) 0%, rgba(0,102,127,1) 100%), url("../media/news/1.jpg")';
+		maincontainer.style.backgroundPosition = 'center';
+		maincontainer.style.backgroundRepeat = 'no-repeat';
+		maincontainer.style.backgroundSize = 'cover';
+		headlines.remove();
+		displayAllContent(25000);
+	}, 1500);
 }, 5000);
 
 
