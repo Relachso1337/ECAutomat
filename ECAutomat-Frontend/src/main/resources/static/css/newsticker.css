@@ -29,6 +29,10 @@ body, html, main {
     left: 4%;
 }
 
+.author {
+    color: #FFFFFF;
+}
+
 .headline {
     color: #FFFFFF;
     font-size: 100px;
