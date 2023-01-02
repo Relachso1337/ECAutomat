@@ -11,6 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import de.hsog.utils.NewsArticle;
 import de.hsog.utils.Webscraper;
 
 @RestController
@@ -41,10 +42,16 @@ public class NewstickerRouter {
 		if (counter > linkList.size())
 			counter = 0;
 		String link = linkList.get(counter % linkList.size());
-		scraper.getNewsImage(link);
+		NewsArticle article = new NewsArticle();
+		article.setAuthor(scraper.getNewsAuthor(link));
+		article.setImageDir(scraper.getNewsImage(link));
+		article.setDate(scraper.getNewsDate(link));
+		article.setHeadline(scraper.getNewsHeadline(link));
+		article.setUrl("http://hs-offenburg.de" + link);
+		article.setParagraphs(scraper.getNewsContent(link));
 		try {
 			outputStream = new FileOutputStream("./src/main/resources/static/media/news/news.json");
-			outputStream.write(this.mapper.writeValueAsBytes(scraper.getNewsContent(link)));
+			outputStream.write(this.mapper.writeValueAsBytes(article));
 		} catch (Exception e) {
 			return e.toString();
 		} finally {

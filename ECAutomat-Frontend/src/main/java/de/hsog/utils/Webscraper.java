@@ -77,6 +77,82 @@ public class Webscraper {
 		return saveDir;
 	}
 	
+	public String getNewsHeadline(String url) {
+		WebClient client = new WebClient();
+		String webLink = "https://www.hs-offenburg.de" + url;
+		String headline = "";
+		client.getOptions().setCssEnabled(false);
+		client.getOptions().setJavaScriptEnabled(false);
+		try {
+			HtmlPage page = client.getPage(webLink);
+			HtmlElement el = page.getFirstByXPath("//h3[@itemprop='headline']");
+			headline = el.getTextContent();
+			
+		} catch (FailingHttpStatusCodeException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			client.close();
+		}
+		return headline;
+	}
+	
+	public String getNewsAuthor(String url) {
+		WebClient client = new WebClient();
+		String webLink = "https://www.hs-offenburg.de" + url;
+		String author = "";
+		client.getOptions().setCssEnabled(false);
+		client.getOptions().setJavaScriptEnabled(false);
+		try {
+			HtmlPage page = client.getPage(webLink);
+			HtmlElement el = page.getFirstByXPath("//span[@itemprop='author']//span[@itemprop='name']");
+			author = el.getTextContent();
+		} catch (FailingHttpStatusCodeException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			client.close();
+		}
+		return author;
+	}
+	
+	public String getNewsDate(String url) {
+		WebClient client = new WebClient();
+		String webLink = "https://www.hs-offenburg.de" + url;
+		String date_ = "1 Januar 1999";
+		client.getOptions().setCssEnabled(false);
+		client.getOptions().setJavaScriptEnabled(false);
+		try {
+			HtmlPage page = client.getPage(webLink);
+			HtmlElement el = page.getFirstByXPath("//time[@itemprop='datePublished']");
+			date_ = el.getTextContent();
+		} catch (FailingHttpStatusCodeException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			client.close();
+		}
+		return date_;
+	}
+	
 	/**
 	 * Gets content from an Article
 	 * @return
