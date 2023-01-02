@@ -12,7 +12,7 @@ setTimeout(function() {
     void container.offsetWidth;
     container.classList.add("slideOut");
     setTimeout(function() {
-        window.location.replace("../html/newsticker.html");
+        window.location.replace("/news");
     }, 1400);
     
 }, 180000);
