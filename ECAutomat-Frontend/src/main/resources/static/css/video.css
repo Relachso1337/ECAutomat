@@ -1,7 +1,23 @@
 video {
-	position: fixed; right: 0; bottom: 0;
-min-width: 100%; min-height: 100%;
-width: auto; height: auto; z-index: -100;
-background: url(polina.jpg) no-repeat;
-background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+	height: 90%;
+
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: black;
+}
+
+a {
+
+	color: white !important;
+	font-size: 40px !important;
+
 }

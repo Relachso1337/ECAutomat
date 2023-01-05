@@ -12,7 +12,7 @@ body {
     height: 75%;
     margin: auto;
     padding: 10px;
-    
+
 }
 
 .logo {
@@ -23,8 +23,6 @@ body {
 }
 
 a {
-    color: black;
-    text-decoration: none;
-    font-size: 51px;
+    color: black !important;
+    font-size: 51px !important;
 }
-
