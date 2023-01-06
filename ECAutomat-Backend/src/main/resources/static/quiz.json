@@ -1,1013 +1,1203 @@
 {
 
     "questions" : [{
-        "kategorie": 1,
-        "question":"Stefan Raab moderiert das BeSy-Praktikum",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Der Himmel ist blau", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Der Mond ist größer als der Planet Erde",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Der Mount Everest ist der höchste Berg der Welt", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Der Nordpol ist der kälteste Ort der Erde",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Das Elefantenohr ist das größte Ohr aller Säugetiere", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Die Antarktis ist der kälteste Ort der Erde",
-
-        "answer": true
-
-    }, {
-        "kategorie": 1,
-        "question":"Das menschliche Herz hat vier Kammern", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Der Blitz entsteht, wenn sich Wolken berühren",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Die Spitze des Mount Everest befindet sich im Weltall", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Das Periodensystem der Elemente wurde von Dmitri Mendelejew entwickelt",
-
-        "answer": true
-
-    }, {
-        "kategorie": 1,
-        "question":"Das Gewicht des menschlichen Gehirns beträgt etwa 2 Kilo", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Der Eiffelturm ist das höchste Gebäude der Welt",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Die Pyramiden in Gizeh wurden von den Ägyptern erbaut", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Albert Einstein war ein Physiker",
-
-        "answer": true
-
-    }, {
-        "kategorie": 1,
-        "question":"Das Weltall ist unendlich", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Die Erde ist flach",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Die Erde dreht sich um ihre Achse in einer Richtung von Osten nach Westen", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Das menschliche Skelett besteht aus etwa 300 Knochen",
-
-        "answer": true
-
-    }, {
-        "kategorie": 1,
-        "question":"Die Galapagos-Inseln sind ein Teil von Südamerika", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Die Temperaturen auf dem Planeten Venus sind sehr niedrig",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Der Planet Merkur ist der nächstgelegene Planet zur Sonne", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Die Sonne ist der größte Stern im Universum",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Der Äquator teilt die Erde in zwei Hälften", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Die Atmosphäre der Erde besteht hauptsächlich aus Sauerstoff",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Die Stadt Rom ist die Hauptstadt Italiens", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Der Golf von Mexiko ist ein Teil des Atlantiks",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Der Planet Saturn hat keine Ringe", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Der längste Fluss der Erde ist der Amazonas",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Die Freiheitsstatue befindet sich in New York City", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Der Kontinent Asien ist der größte Kontinent der Welt",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Der Planet Pluto ist der neunte Planet im Sonnensystem", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Der größte Mond im Sonnensystem ist der Mond der Erde",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Der Mond hat keine Atmosphäre", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Das kleinste Meer der Erde ist das Karibische Meer",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Das tiefste Meer der Erde ist das Schwarze Meer", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Das tiefste Landloch der Erde ist der Viti-Krater auf der Insel Fiji",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Der größte Wüstenkontinent der Erde ist Afrika", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Der Kontinent Afrika ist der größte Kontinent der Welt",
-
-        "answer": true
-
-    }, {
-        "kategorie": 1,
-        "question":"Der Nordpol befindet sich in der Arktis", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Der größte See der Erde ist der Bodensee",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Das Great Barrier Reef ist das größte Korallenriff der Welt", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Kann man durch Schreien ein Ei kochen?",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Der Planet Merkur hat keine Atmosphäre", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Können Giraffen ihren Kopf unter Wasser tauchen?",
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Der Planet Mars hat zwei Monde", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Der Planet Neptun hat grüne Farbe",
-
-        "answer": true
-
-    }, {
-        "kategorie": 1,
-        "question":"Der Planet Uranus hat blaue Farbe", 
-
-        "answer": true
-
-    }, {
-        "kategorie": 1,
-        "question":"Können Kängurus Rückwärts springen?", 
-
-        "answer": false
-
-    }, {
-        "kategorie": 1,
-        "question":"Können Meerschweinchen Klettern?", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Der Planet Jupiter hat den größten Mond im Sonnensystem", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Das größte Meer der Erde ist der Pazifik", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Das höchste Gebirge der Erde ist der Mount Everest", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Das tiefste Tal der Erde ist das Mariana-Graben", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Der höchste Wasserfall der Erde ist der Angel-Wasserfall in Venezuela", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Der größte Wüstenkontinent der Erde ist Asien", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Der längste Fluss der Erde ist der Nil", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Der größte See der Erde ist der Superior-See", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Können Katzen den Himmel sehen?", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Können Flamingos auf einem Bein stehen?", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Enthält Brokkoli mehr Vitamin C als Zitronen?", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Sieht man einen Blitz bevor man ihn hört", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Sydney ist die Hauptstadt Australiens", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Ist der Vatikanstadt ein Land?", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Melbourne ist die Hauptstadt Australiens", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Google hieß zuerst BackRub", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Man kann während dem Schlaf niesen", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Tomaten sind Früchte", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Eine Schnecke kann bis zu einem Monat lang schlafen", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Es ist unmöglich mit offenen Augen zu niesen", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Coca Cola gibt es in jedem Land der Welt", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Bananen sind Beeren", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Spinnenfäden wurden früher zur Herstellung von Gitarrensaiten benutzt", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Kaffee wird aus Bohnen gemacht", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Eine Kokosnuss ist eine Nuss", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Spaghetto ist die Einzahl von Spaghetti", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"UK ist flächenmäßig genauso groß wie Frankreich", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Eisbären können nur in der Arktis, nicht aber in der Antarktis leben", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Der Mond ist breiter als Australien", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Das Nationaltier von Schottland ist ein Einhorn", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Die Schweiz hat 4 Nachbarländer", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Zeus ist der König der griechischen Götter in der griechischen Mythologie", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Südafrika hat zwei offizielle Hauptstädte", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Kein Wort im Englischen reimt sich auf Orange", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Die Währung in der Schweiz ist der Euro", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Das erste Tier was in den Weltraum geschickt wurde, war eine Fruchtfliege", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Die USA hat die längste Küste der Welt", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Der Blauwal ist das größte Tier was jemals gelebt hat", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Schweine wälzen sich im Schlamm, weil sie nicht sauber sein wollen", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Ein Faultier braucht zwei Wochen eine Mahlzeit zu verdauen", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Fledermäuse sind blind", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Grönland ist die größte Insel der Welt", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Eine Ameise kann das 1000 fache ihres eigenen Körpergewichts hochheben", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Alaska hat die meisten aktiven Vulkane in der ganzen USA", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Ein Oktopus hat sieben Herzen", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Kanada hat die längste Küste der Welt", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Ein Affe war das erste Tier im Weltraum", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Der Bluttyp 0- negativ ist der häufigste", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Der Mensch hat vier Lungen", 
-
-        "answer": false
-
-    },{
-        "kategorie": 1,
-        "question":"Pizza Hawaii kommt aus Kanada", 
-
-        "answer": true
-
-    },{
-        "kategorie": 1,
-        "question":"Käsekuchen kommt aus Italien", 
-
-        "answer": false
-
-    },
-    {
-        "kategorie": 2,
-        "question":"Luxemburg ist der Staat mit der höchsten Wirtschaftskraft pro Kopf in Europa",
-        "answer": true
-    }, {
-        "kategorie": 2,
-        "question":"Die EU wickelt knapp zwei Drittel des Warenhandels innerhalb der eigenen Grenzen ab.", 
-        "answer":true
-    },
-    {
-        "kategorie": 2,
-        "question":"Die beiden wichtigsten Handelspartner der EU sind Norwegen und die Schweiz.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Griechenland war 2021 der Staat mit dem höchsten öffentlichen Schuldenstand relativ zur Wirtschaftskraft in der EU.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Pro Kopf zahlte 2020 kein Staat in der EU so viel an Bürgerinnen und Bürger wie Deutschland.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Der Euro als Währung wurde bisher in 19 Ländern eingeführt.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Ein Komplementär haftet nur mit seiner Einlage, welche er in die KG eingebracht hat.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Der Euro als Währung wurde am 01.01.2002 eingeführt.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Zahlungsunfähigkeit nennt man auch Insolation.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Die Währung Nicaraguas heißt Cordoba.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Bier unterliegt in Deutschland keiner bestimmten Verbrauchssteuer.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Der Autor bestimmt den Marktpreis für ein von ihm geschriebenes Buch.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"UPS ist der größte private Zusteller weltweit.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Das gesetliche Zahlungsmittel in Irland ist der Euro.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Eine andere Bezeichnung für Buchgeld ist auch Giralgeld.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Die Abkürzung AGB steht für Allgemeines Geschäftsbuch.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Eine Kommanditgesellschaft zeichnet sich durch Voll- und Teilhafter aus.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Bernard Arnault ist der derzeit reichste Mensch der Welt.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"In den USA wurde die monetaristische Idee zuerst umgesetzt.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Die Co. ist eine Rechtsform für deutsche Unternehmen.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Rückversicherer versichern das Ausfallrisiko von Großschäden.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Gibt es einen Anbieter für mehrere Güter, so spricht man von einem Monopol.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Es gibt keine Heiratssteuer.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Wenn Erlöse und Kosten identisch sind, spricht man von einem big-point.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Ein Polypol ist eine Marktform im Sinne der VWL.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Der Steuersatz für Lebensmittel beträgt derzeit in Deutschland 19 Prozent.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Eine AG schüttet ihren Aktionären eine Dividende aus.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Der Staat regelt den Preis in einem funktionierenden Markt.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Bei Angebot > Nachfrage liegt ein Käufermarkt vor.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Die Interessen von Produzenten vertreten hauptsächlich die Gewerkschaften.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Die Wirtschaftskammer vertritt hauptsächlich die Interessen von Konsumenten.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Die Verzinsung des in einem Unternehmen eingesetzten Kapitals nennt man auch Ertrag.", 
-        "answer": false
-    },  {
-        "kategorie": 2,
-        "question":"Die Umsatzrentabilität berechnet sich aus (Gewinn/Umsatz) x 100.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Bei einem Sporthändler gehören die Geschäftsräume zum Anlagevermögen.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"In der Bilanz verbucht man Forderungen als Fremdkapital auf der rechten Seite.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Den Deckungsbeitrag ermittelt man aus dem Verkaufserlös abzüglich variabler und fixer Kosten.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Der Düngemittelverbrauch ist eine denkbare Kostenstelle einer Gärtnerei.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Durch Marktregulierungen soll der Missbrauch von Marktmacht vermieden werden.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Stabilität des Preisniveaus gehört zu den Hauptfeldern der Stabilisierung des Wirtschaftsprozesses in der sozialen Marktwirtschaft.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Im 1967 in Kraft getretenen Stabilitätsgesetz wird eine Arbeitslosenquote von unter 10 Prozent als Meßlatte für einen hohen Beschäftigungsgrad angesehen.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Im Grundgesetz steht, dass jeder Bürger bei Bedarf, staatliche Unterstützung ausschließlich zur Befriedigung seiner wirtschaftlichen Grundbedürfnisse bekommt.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Das „magische Viereck“ wurde in den 1990er-Jahren durch den Umweltschutz als weiteres Stabilitätsziel der sozialen Marktwirtschaft ergänzt.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Das Bundeskartellamt hat die Aufgabe, Unternehmen hinsichtlich einer korrekten Steuerzahlung zu überwachen.", 
-        "answer": false
-    },  {
-        "kategorie": 2,
-        "question":"Der Bundespräsident hat keine wirtschaftspolitische Bedeutung.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Die EU begrenzt die nationalen wirtschaftlichen Handlungsmöglichkeiten nicht.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Die Europäische Zentralbank hat Souveränitätsrechte zur Einflussnahme auf die bundesdeutsche Wirtschaftspolitik.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Die geldpolitischen Entscheidungen im Euroraum trifft das Europaparlament.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Im EZB-Rat hat bei politischen Entscheidungen jedes Mitglied das gleiche Stimmrecht.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Der Analyserahmen der EZB besteht aus der wirtschaftlichen, sowie einer historischen Analyse.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Anknüpfungspunkt für ihre Geldpolitik haben Zentralbanken beim Bedarf der Geschäftsbanken an Zentralbankgeld.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Das zentrale Instrument der Geldpolitik ist unbarer Zahlungsverkehr.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Eine Leitzinserhöhung verringert die Inflation tendenziell.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Durch eine Leitzinserhöhung wird der gewünschte Effekt auf die Inflation sofort erzielt.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Kann der Leitzins nicht weiter gesenkt werden, sind Wertpapierankäufe das nächste Mittel, um die Inflation zu fördern.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"In Dänemark ist der Euro das gesetzliche Zahlungsmittel.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Der „Schwarze Freitag“ bezeichnet den größten Zusammenbruch der New Yorker Börse am 25. Oktober 1929.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Die Umsatzsteuer ist die wichtigste Einnahmequelle des Staates.", 
-        "answer": false
-    },  {
-        "kategorie": 2,
-        "question":"Endverbraucher tragen die volle Last der Umsatzsteuer.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Die Einkommenssteuererklärung jedes Mitarbeiters erfolgt beim Finanzamt in der Stadt des Unternehmenssitzes.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Jugendliche älter als 14 Jahre gelten als voll geschäftfähig.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Eine Stagflation ist die Stagnation der Wirtschaftsleistung nach einer hohen Inflation.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Deutschlands Wirtschaftsform ist nicht im Grundgesetz verankert.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Die Höhe der Ausbildungsvergütung gehört nicht zu den Bestimmungen der Ausbildungsordnung.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"An einem Bankfeiertag wickeln Kreditinstitute keine Bankgeschäfte ab.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Die Börse spricht von einem Bullenmarkt, wenn die Kurse über längere Zeit stark steigen.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Die Nachfrager haben auf dem Markt keinen Einfluss darauf, was produziert wird.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Bei einem Oligopol gibt es für ein Produkt einige Anbieter.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Das Inlandsprinzip besagt, dass das BIP keine Leistungen von Ausländern erfasst.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Das BIP ist ein Maß für die wirtschaftliche Leistungsfähigkeit eines Landes.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"HDI steht für High Definition Interface.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Die 4 Grundvariablen des HDI sind Einkommen, Lebenserwartung, Alphabetisierung und Bildungsdauer.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Luxemburg hat mit 102.000 Dollar ein eher hohes BIP.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Die Planwirtschaft beruht auf dem Grundsatz des Individualismus.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Privatbesitz ist in einer Planwirtschaft ausdrücklich verboten.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Die Grundlagen für das Maß der Konjunktur sind Produktion, Beschäftigungsgrad und Preisentwicklung.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Saisonale Schwankungen sind nicht vom Wetter abhängig.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Konjunkturelle Schwankungen entstehen durch ein Ungleichgewicht zwischen Nachfrage und Angebot.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Strukturelle Schwankungen bedeuten keine tiefgreifende Veränderung in Wirtschaftssektoren.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Die 4 Konjunkturzyklen sind Expansion, Hochkonjunktur, Rezession und Depression.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Steigende Produktion und optimistische Prognosen sind noch keine Zeichen für eine expansive Phase.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Von einer Rezession spricht man, wenn eine Wirtschaft in zwei aufeinanderfolgenden Quartalen nicht wächst oder zurück geht.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Übervolle Lager und ein Rückgang der Nachfrage sind Zeichen einer Expansion.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Vollbeschäftigung und hohe Aktienkurse sind Zeichen einer Hochkonjunktur.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Die VWL soll keine Prognosen über zukünftige wirtschaftliche Zusammenhänge abgeben.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Die VWL lässt sich in die zwei großen Teilbereiche Mikroökonomie und Makroökonomie einteilen.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Einzelne Haushalte werden in der VWL nicht näher betrachtet.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Die Entscheidungen einzelner Marktteilnehmer sind von der Arbeitsteiligkeit der Produktionsprozesse und der Allokation knapper Ressourcen und Güter geprägt.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Die Preistheorie untersucht die Preisbildung als Ergebnis der Fantasie der Produzenten.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Ein wichtiger Teilbereich der Makroökonomie ist die Wachstums- und Konjunkturtheorie.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Immaterielle Mittel und Leistungen gehören nicht zu den Produktionsfaktoren.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Produktionsfaktoren sind Arbeit, Kapital, Wissen und Boden.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Unter dem Produktionsfaktor Arbeit versteht man ausschließlich anstrengende körperliche Tätigkeiten.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Unter dem Produktionsfaktor Kapital versteht man verfügbare Produktionsmittel und andererseits finanzielle Mittel.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Ein Exportüberschuss kann nicht zu einer Inflation führen.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Ein Handelsembargo ist eine politisch motivierte Sanktion gegenüber Staaten.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Der Aktionär hat zwar einen Anspruch auf einen Teil des Gewinns, aber er hat kein Mitspracherecht in der Hauptversammlung.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Eine GmbH kann zu jedem zulässigen Zweck ohne Stammkapital gegründet werden.", 
-        "answer":false
-    },  {
-        "kategorie": 2,
-        "question":"Die Bonität ist ein Index für die Wirtschaftlichkeit des Kreditnehmers hinsichtlich der Fähigkeit zur Rückzahlung des Kredits.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Die Organe der AG sind Vorstand, Aufsichtsrat und Hauptversammlung.", 
-        "answer":true
-    },  {
-        "kategorie": 2,
-        "question":"Bitcoin ist eine Währung mit deflationärem Charakter.", 
-        "answer":true
+            "kategorie": 1,
+            "question":"Youtube gehört zu Google",
+    
+            "answer": true
+    
+        }, {
+            "kategorie": 1,
+            "question":"Der meistgenutzte Buchstabe in deutschsprachigen Texten ist N", 
+    
+            "answer": false,
+            "rightAnswer": "Es ist der Buchstabe E."
+    
+        },{
+            "kategorie": 1,
+            "question":"Der Mond ist größer als der Planet Erde",
+    
+            "answer": false, 
+            "rightAnswer": "Die Erde ist größer als der Mond."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Der Mount Everest ist der höchste Berg der Welt", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Der Nordpol ist der kälteste Ort der Erde",
+    
+            "answer": false, 
+            "rightAnswer": "Der kälteste Ort der Erde ist die Wostock-Station in der Ostantarktis (-93°C)."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Das Elefantenohr ist das größte Ohr aller Säugetiere", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"In der Antarktis liegt der kälteste Ort der Erde",
+    
+            "answer": true
+    
+        }, {
+            "kategorie": 1,
+            "question":"Das menschliche Herz hat vier Kammern", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Der Blitz entsteht, wenn sich Wolken berühren",
+    
+            "answer": false, 
+            "rightAnswer": "Die Regentropfen in einer Gewitterwolke sind elektrisch geladen. Im oberen Teil positiv und im unteren negativ. Dieser Ladungsunterschied führt zu einer elektrischen Spannung. Wenn diese sehr hoch ist, entlädt sie sich in einem Blitz."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Die Spitze des Mount Everest befindet sich im Weltall", 
+    
+            "answer": false, 
+            "rightAnswer": "Die Spitze des Mount Everest befindet sich in einer Höhe von 8848m Höhe und nicht im Weltall."
+    
+        },{
+            "kategorie": 1,
+            "question":"Das Periodensystem der Elemente wurde von Dmitri Mendelejew entwickelt",
+    
+            "answer": true
+    
+        }, {
+            "kategorie": 1,
+            "question":"Das Gewicht des menschlichen Gehirns beträgt etwa 2 Kilo", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Der Eiffelturm ist das höchste Gebäude der Welt",
+    
+            "answer": false, 
+            "rightAnswer": "Das höchste Gebäude der Welt is das Burj Khalifa in Dubai."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Die Pyramiden in Gizeh wurden von den Ägyptern erbaut", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Albert Einstein war ein Physiker",
+    
+            "answer": true
+    
+        }, {
+            "kategorie": 1,
+            "question":"Das Weltall ist unendlich", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Die Sonne dreht sich um die Erde",
+    
+            "answer": false, 
+            "rightAnswer": "Die Erde dreht sich in einem 365 Tage Zyklus um die Sonne."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Die Erde dreht sich um ihre Achse in einer Richtung von Osten nach Westen", 
+    
+            "answer": false, 
+            "rightAnswer": "Sie dreht sich um ihre Achse von West nach Ost."
+    
+        },{
+            "kategorie": 1,
+            "question":"Das menschliche Skelett besteht aus etwa 300 Knochen",
+    
+            "answer": true
+    
+        }, {
+            "kategorie": 1,
+            "question":"Die Galapagos-Inseln sind ein Teil von Nordamerika", 
+    
+            "answer": false, 
+            "rightAnswer": "Die Inseln gehören zu Ecuador und sind somit ein Teil von Südamerika."
+    
+        },{
+            "kategorie": 1,
+            "question":"Die Temperaturen auf dem Planeten Venus sind sehr niedrig",
+    
+            "answer": false, 
+            "rightAnswer": "Sie sind sehr hoch(465°C)."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Der Planet Merkur ist der nächstgelegene Planet zur Sonne", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Die Sonne ist der größte Stern im Universum",
+    
+            "answer": false, 
+            "rightAnswer": "Die Sonne ist ein Zwergstern und somit nicht der größte Stern im Universum."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Der Äquator teilt die Erde in zwei Hälften", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Die Atmosphäre der Erde besteht hauptsächlich aus Sauerstoff",
+    
+            "answer": false, 
+            "rightAnswer": "Sie besteht zu 78,084% aus Stickstoff und nur zu 20,942% aus Sauerstoff."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Die Stadt Rom ist die Hauptstadt Italiens", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Der Golf von Mexiko ist ein Teil des Atlantiks",
+    
+            "answer": false, 
+            "rightAnswer": "Der Golf ist ein Randmeer des Atlantischen Ozeans."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Der Planet Saturn hat keine Ringe", 
+    
+            "answer": false, 
+            "rightAnswer": "Der Saturn hat Saturnringe aus Milliarden kleiner Monde, Brocken aus Fels und Eis."
+    
+        },{
+            "kategorie": 1,
+            "question":"Der längste Fluss der Erde ist der Amazonas",
+    
+            "answer": false, 
+            "rightAnswer": "Es ist der Nil."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Die Freiheitsstatue befindet sich in New York City", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Der Kontinent Asien ist der größte Kontinent der Welt",
+    
+            "answer": true
+    
+        }, {
+            "kategorie": 1,
+            "question":"Der Planet Pluto ist der neunte Planet im Sonnensystem", 
+    
+            "answer": false, 
+            "rightAnswer": "Pluto wurde 2006 der Planetenstatus aberkannt und er ist somit nicht mehr der neunte Planet im Sonnensystem."
+    
+        },{
+            "kategorie": 1,
+            "question":"Der größte Mond im Sonnensystem ist der Mond der Erde",
+    
+            "answer": false, 
+            "rightAnswer": "Es ist der Ganymed, der dritte und größte der vier Galileischen Monde des Gasplaneten Jupiter."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Der Mond hat keine Atmosphäre", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Das kleinste Meer der Erde ist das Karibische Meer",
+    
+            "answer": false, 
+            "rightAnswer": "Es ist das Nordpolarmeer."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Das tiefste Meer der Erde ist das Schwarze Meer", 
+    
+            "answer": false, 
+            "rightAnswer": "Es ist der pazifische Ozean."
+    
+        },{
+            "kategorie": 1,
+            "question":"Das tiefste Landloch der Erde ist der Viti-Krater auf der Insel Fiji",
+    
+            "answer": false, 
+            "rightAnswer": "Es liegt auf der Halbinsel Kola und wurde von einem sowjetischen Forscherteam gebohrt."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Die größte Wüste der Erde ist in Afrika", 
+    
+            "answer": false, 
+            "rightAnswer": "Es ist die Eiswüste in der Antarktis."
+    
+        },{
+            "kategorie": 1,
+            "question":"Der Kontinent Afrika ist der größte Kontinent der Welt",
+    
+            "answer": false,
+            "rightAnswer": "Es ist Asien."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Der Nordpol befindet sich in der Arktis", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Der größte Süßwassersee der Erde ist der Bodensee",
+    
+            "answer": false, 
+            "rightAnswer": "Es ist der Superior See in Nordamerika."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Das Great Barrier Reef ist das größte Korallenriff der Welt", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Kann man durch Schreien ein Ei kochen?",
+    
+            "answer": false, 
+            "rightAnswer": "Nein kann man nicht."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Der Planet Merkur hat keine Atmosphäre", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Können Giraffen ihren Kopf unter Wasser tauchen?",
+    
+            "answer": false, 
+            "rightAnswer": "Nein, ihr Hals ist zu lang."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Der Planet Mars hat zwei Monde", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Der Planet Neptun hat grüne Farbe",
+    
+            "answer": true
+    
+        }, {
+            "kategorie": 1,
+            "question":"Der Planet Uranus hat blaue Farbe", 
+    
+            "answer": true
+    
+        }, {
+            "kategorie": 1,
+            "question":"Können Kängurus Rückwärts springen?", 
+    
+            "answer": false, 
+            "rightAnswer": "Kängurus können sich nicht rückwärts bewegen."
+    
+        }, {
+            "kategorie": 1,
+            "question":"Können Meerschweinchen Klettern?", 
+    
+            "answer": false, 
+            "rightAnswer": "Nein und ebenfalls nicht sehr gut springen."
+    
+        },{
+            "kategorie": 1,
+            "question":"Der Planet Jupiter hat den größten Mond im Sonnensystem", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Das größte Meer der Erde ist der Pazifik", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Das höchste Gebirge der Erde ist der Mount Everest", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Das tiefste Tal der Erde ist das Mariana-Graben", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Der höchste Wasserfall der Erde ist der Angel-Wasserfall in Venezuela", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Der größte Wüstenkontinent der Erde ist Asien", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Der längste Fluss der Erde ist der Nil", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Der größte See der Erde ist der Superior-See", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Können Katzen den Himmel sehen?", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Können Flamingos auf einem Bein stehen?", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Enthält Brokkoli mehr Vitamin C als Zitronen?", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Sieht man einen Blitz bevor man ihn hört", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Sydney ist die Hauptstadt Australiens", 
+    
+            "answer": false, 
+            "rightAnswer": "Nein, es ist Canberra"
+    
+        },{
+            "kategorie": 1,
+            "question":"Ist der Vatikanstadt ein Land?", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Melbourne ist die Hauptstadt Australiens", 
+    
+            "answer": false, 
+            "rightAnswer": "Nein, es ist Canberra."
+    
+        },{
+            "kategorie": 1,
+            "question":"Google hieß zuerst BackRub", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Man kann während dem Schlaf niesen", 
+    
+            "answer": false, 
+            "rightAnswer": "Reflexe wie das Husten oder Niesen können in der Tiefschlafphase nicht ausgeführt werden, da sich der Körper in einer Schlafparalyse befindet."
+    
+        },{
+            "kategorie": 1,
+            "question":"Tomaten sind Früchte", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Eine Schnecke kann bis zu einem Monat lang schlafen", 
+    
+            "answer": false, 
+            "rightAnswer": "Schnecken können bis zu drei Jahren ununterbrochen schlafen."
+    
+        },{
+            "kategorie": 1,
+            "question":"Es ist unmöglich mit offenen Augen zu niesen", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Coca Cola gibt es in jedem Land der Welt", 
+    
+            "answer": false, 
+            "rightAnswer": "Nein, nicht in Nordkorea und Kuba"
+    
+        },{
+            "kategorie": 1,
+            "question":"Bananen sind Beeren", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Spinnenfäden wurden früher zur Herstellung von Gitarrensaiten benutzt", 
+    
+            "answer": false, 
+            "rightAnswer": "Nein, aber zur Herstellung von Geigensaiten"
+    
+        },{
+            "kategorie": 1,
+            "question":"Kaffee wird aus Bohnen gemacht", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Eine Kokosnuss ist eine Nuss", 
+    
+            "answer": false, 
+            "rightAnswer": "Nein, eine Steinfrucht."
+    
+        },{
+            "kategorie": 1,
+            "question":"Spaghetto ist die Einzahl von Spaghetti", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"UK ist flächenmäßig genauso groß wie Frankreich", 
+    
+            "answer": false, 
+            "rightAnswer": "Nein, Frankreich ist mehr als doppelt so groß."
+    
+        },{
+            "kategorie": 1,
+            "question":"Eisbären kommen nur in der Arktis, nicht aber in der Antarktis vor", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Der Mond ist breiter als Australien", 
+    
+            "answer": false, 
+            "rightAnswer": "Australien ist breiter als der Mond."
+    
+        },{
+            "kategorie": 1,
+            "question":"Das Nationaltier von Schottland ist ein Einhorn", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Die Schweiz hat 4 Nachbarländer", 
+    
+            "answer": false, 
+            "rightAnswer": "Es sind fünf: Deutschland, Frankreich, Italien, Liechtenstein und Österreich."
+    
+        },{
+            "kategorie": 1,
+            "question":"Zeus ist der König der griechischen Götter in der griechischen Mythologie", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Südafrika hat zwei offizielle Hauptstädte", 
+    
+            "answer": false, 
+            "rightAnswer": "Es sind sogar drei: Kapstadt, Bioemfontein und Pretoria."
+    
+        },{
+            "kategorie": 1,
+            "question":"Kein Wort im Englischen reimt sich auf Orange", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Die Währung in der Schweiz ist der Euro", 
+    
+            "answer": false,
+             "rightAnswer": "Es sind Schweizer Franken."
+    
+        },{
+            "kategorie": 1,
+            "question":"Das erste Tier was in den Weltraum geschickt wurde, war eine Fruchtfliege", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Die USA hat die längste Küste der Welt", 
+    
+            "answer": false, 
+            "rightAnswer": "Die längste Küste der Welt liegt in Kanada."
+    
+        },{
+            "kategorie": 1,
+            "question":"Der Blauwal ist das größte Tier was jemals gelebt hat", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Schweine wälzen sich im Schlamm, weil sie nicht sauber sein wollen", 
+    
+            "answer": false, 
+            "rightAnswer": "Schweine können nicht schwitzen und nutzen den Schlamm als Abkühlung."
+    
+        },{
+            "kategorie": 1,
+            "question":"Ein Faultier braucht zwei Wochen eine Mahlzeit zu verdauen", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Fledermäuse sind blind", 
+    
+            "answer": false, 
+            "rightAnswer": "Sie sind nicht blind, können aber sehr schlecht sehen."
+    
+        },{
+            "kategorie": 1,
+            "question":"Grönland ist die größte Insel der Welt", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Eine Ameise kann das 1000 fache ihres eigenen Körpergewichts hochheben", 
+    
+            "answer": false, 
+            "rightAnswer": "Eine Ameise kann das 20-fache - 40-fache ihre Körpergewichts tragen."
+    
+        },{
+            "kategorie": 1,
+            "question":"Alaska hat die meisten aktiven Vulkane in der ganzen USA", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Ein Oktopus hat sieben Herzen", 
+    
+            "answer": false, 
+            "rightAnswer": "Ein Oktopus hat drei Herzen."
+    
+        },{
+            "kategorie": 1,
+            "question":"Kanada hat die längste Küste der Welt", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Ein Affe war das erste Tier im Weltraum", 
+    
+            "answer": false, 
+            "rightAnswer": "Fruchtfliegen waren das erste Tier im Weltraum."
+    
+        },{
+            "kategorie": 1,
+            "question":"Der Bluttyp 0- negativ ist der häufigste", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Der Mensch hat vier Lungen", 
+    
+            "answer": false, 
+            "rightAnswer": "Ein Mensch hat eine Lunge mit zwei Lungenflügeln"
+    
+        },{
+            "kategorie": 1,
+            "question":"Pizza Hawaii kommt aus Kanada", 
+    
+            "answer": true
+    
+        },{
+            "kategorie": 1,
+            "question":"Käsekuchen kommt aus Italien", 
+    
+            "answer": false, 
+            "rightAnswer": "Die Urform des Käsekuchens stammt aus Griechenland."
+    
+        },
+            {
+                "kategorie": 2,
+                "question": "Luxemburg war 2021 der Staat mit der höchsten Wirtschaftskraft pro Kopf in Europa",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Die EU wickelt knapp zwei Drittel des Warenhandels innerhalb der eigenen Grenzen ab.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Die beiden wichtigsten Handelspartner der EU sind Norwegen und die Schweiz.",
+                "answer": false,
+                "rightAnswer": "Die wichtigsten Handelspartner waren 2021 China und die USA."
+            },
+            {
+                "kategorie": 2,
+                "question": "Griechenland war 2021 der Staat mit dem höchsten öffentlichen Schuldenstand relativ zur Wirtschaftskraft in der EU.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Die italienische Automarke Lamborghini gehört zu VW.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Der Euro als Währung wurde bisher in 19 Ländern eingeführt.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Ein Komplementär haftet nur mit seiner Einlage, welche er in die KG eingebracht hat.",
+                "answer": false,
+                "rightAnswer": "Er haftet unbeschränkt mit seinem privaten Vermögen."
+            },
+            {
+                "kategorie": 2,
+                "question": "Der Euro als Währung wurde am 01.01.2002 eingeführt.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Zahlungsunfähigkeit nennt man auch Insolation.",
+                "answer": false,
+                "rightAnswer": "Insolvenz wäre richtig."
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Währung Nicaraguas heißt Cordoba.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Bier unterliegt in Deutschland keiner bestimmten Verbrauchssteuer.",
+                "answer": false,
+                "rightAnswer": "Seit dem 01.01.1993 ist Bier in der EU einheitlich besteuert. Auf einen großen Kasten Bier entfällt knapp 1 Euro Biersteuer."
+            },
+            {
+                "kategorie": 2,
+                "question": "Der Autor bestimmt den Marktpreis für ein von ihm geschriebenes Buch.",
+                "answer": false,
+                "rightAnswer": "Der Marktpreis entsteht in der Regel durch das Zusammenwirken von Angebot und Nachfrage."
+            },
+            {
+                "kategorie": 2,
+                "question": "UPS ist der größte private Zusteller weltweit.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Das gesetliche Zahlungsmittel in Irland ist der Euro.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Eine andere Bezeichnung für Buchgeld ist auch Giralgeld.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Abkürzung AGB steht für Allgemeines Geschäftsbuch.",
+                "answer": false,
+                "rightAnswer": "AGB steht für Allgemeine Geschäftsbedingungen."
+            },
+            {
+                "kategorie": 2,
+                "question": "Eine Kommanditgesellschaft zeichnet sich durch Voll- und Teilhafter aus.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Der Musiker David Bowie eröffnete eine eigene Online-Bank.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Münzgeld als Zahlungsmittel wurde zuerst in den USA verwendet.",
+                "answer": false,
+                "rightAnswer": "Es wurde zuerst in der Türkei verwendet."
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Co. ist eine Rechtsform für deutsche Unternehmen.",
+                "answer": false,
+                "rightAnswer": "Der Zusatz Co. ist ein Hinweis auf eine Rechtsform von Personengesellschaften mit mehr als zwei Gesellschaftern."
+            },
+            {
+                "kategorie": 2,
+                "question": "Rückversicherer versichern das Ausfallrisiko von Großschäden.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Gibt es einen Anbieter für mehrere Güter, so spricht man von einem Monopol.",
+                "answer": false,
+                "rightAnswer": "Das Monopol besteht, wenn ein Gut nur von einem Anbieter bezogen werden kann."
+            },
+            {
+                "kategorie": 2,
+                "question": "Es gibt keine Heiratssteuer.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Wenn Erlöse und Kosten identisch sind, spricht man von einem big-point.",
+                "answer": false,
+                "rightAnswer": "Man spricht dann von einem Break-even-Point."
+            },
+            {
+                "kategorie": 2,
+                "question": "Ein Polypol ist eine Marktform im Sinne der VWL.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Der Steuersatz für Lebensmittel beträgt 2023 in Deutschland 19 Prozent.",
+                "answer": false,
+                "rightAnswer": "Für die meisten Lebensmittel gilt der ermäßigte Mehrwertsteuersatz von 7 Prozent."
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Abkürzung GbR bedeutet Genossenschaft beider Rechts.",
+                "answer": false,
+                "rightAnswer": "GbR steht für Gesellschaft bürgerlichen Rechts."
+            },
+            {
+                "kategorie": 2,
+                "question": "Der Staat regelt den Preis in einem funktionierenden Markt.",
+                "answer": false,
+                "rightAnswer": "Der Staat schafft nur den Rahmen für den Markt und kann bspw. Einkommen umverteilen oder den Markt in Krisen unterstützen."
+            },
+            {
+                "kategorie": 2,
+                "question": "Bei Angebot > Nachfrage liegt ein Käufermarkt vor.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Interessen von Produzenten vertreten hauptsächlich die Gewerkschaften.",
+                "answer": false,
+                "rightAnswer": "Gewerkschaften vertreten die Interessen von Arbeitnehmerinnen und Arbeitnehmern."
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Wirtschaftskammer vertritt hauptsächlich die Interessen von Konsumenten.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Verzinsung des in einem Unternehmen eingesetzten Kapitals nennt man auch Ertrag.",
+                "answer": false,
+                "rightAnswer": "Erträge sind alle Zunahmen des Vermögens innerhalb einer Wirtschaftsperiode."
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Umsatzrentabilität berechnet sich aus (Gewinn/Umsatz) x 100.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Bei einem Sporthändler gehören die Geschäftsräume zum Anlagevermögen.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "In der Bilanz verbucht man Forderungen als Fremdkapital auf der rechten Seite.",
+                "answer": false,
+                "rightAnswer": "Forderungen werden als Umlaufvermögen auf der Aktiv-Seite gebucht."
+            },
+            {
+                "kategorie": 2,
+                "question": "Den Deckungsbeitrag ermittelt man aus dem Verkaufserlös abzüglich variabler und fixer Kosten.",
+                "answer": false,
+                "rightAnswer": "Deckungsbeitrag = Erlös abzüglich variabler Kosten."
+            },
+            {
+                "kategorie": 2,
+                "question": "Der Düngemittelverbrauch ist eine denkbare Kostenstelle einer Gärtnerei.",
+                "answer": false,
+                "rightAnswer": "Eine denkbare Kostenstelle für den Düngemittelverbrauch ist die Produktion."
+            },
+            {
+                "kategorie": 2,
+                "question": "Durch Marktregulierungen soll der Missbrauch von Marktmacht vermieden werden.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Stabilität des Preisniveaus gehört zu den Hauptfeldern der Stabilisierung des Wirtschaftsprozesses in der sozialen Marktwirtschaft.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Im 1967 in Kraft getretenen Stabilitätsgesetz wird eine Arbeitslosenquote von unter 10 Prozent als Meßlatte für einen hohen Beschäftigungsgrad angesehen.",
+                "answer": false,
+                "rightAnswer": "Ein hoher Beschäftigungsstand gilt als erreicht, wenn die Arbeitslosenquote bei etwa 2 Prozent liegt."
+            },
+            {
+                "kategorie": 2,
+                "question": "Im Grundgesetz steht, dass jeder Bürger bei Bedarf, staatliche Unterstützung ausschließlich zur Befriedigung seiner wirtschaftlichen Grundbedürfnisse bekommt.",
+                "answer": false,
+                "rightAnswer": "Ein sogenanntes Grundeinkommen gibt es in Deutschland nicht. Fördermittel werden nur auf Antrag unter bestimmten Voraussetzungen zugelassen."
+            },
+            {
+                "kategorie": 2,
+                "question": "Das „magische Viereck“ wurde in den 1990er-Jahren durch den Umweltschutz als weiteres Stabilitätsziel der sozialen Marktwirtschaft ergänzt.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Das Bundeskartellamt hat die Aufgabe, Unternehmen hinsichtlich einer korrekten Steuerzahlung zu überwachen.",
+                "answer": false,
+                "rightAnswer": "Das Bundeskartellamt setzt u.A. das Kartellverbot durch und überprüft Unternehmen hinsichtlich einer marktbeherrschenden Position."
+            },
+            {
+                "kategorie": 2,
+                "question": "Der Bundespräsident hat keine wirtschaftspolitische Bedeutung.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Der Sitz der EZB befindet sich in Berlin.",
+                "answer": false,
+                "rightAnswer": "Der Hauptsitz der Europäischen Zentralbank befindet sich in Frankfurt."
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Europäische Zentralbank hat Souveränitätsrechte zur Einflussnahme auf die bundesdeutsche Wirtschaftspolitik.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Die geldpolitischen Entscheidungen im Euroraum trifft das Europaparlament.",
+                "answer": false,
+                "rightAnswer": "Das Europaparlament bestimmt bspw. die Verteilung des Haushaltes."
+            },
+            {
+                "kategorie": 2,
+                "question": "Im EZB-Rat hat bei politischen Entscheidungen jedes Mitglied das gleiche Stimmrecht.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Der Analyserahmen der EZB besteht aus der wirtschaftlichen, sowie einer historischen Analyse.",
+                "answer": false,
+                "rightAnswer": "Er umfasst eine wirtschaftliche und eine finanzielle Analyse."
+            },
+            {
+                "kategorie": 2,
+                "question": "Anknüpfungspunkt für ihre Geldpolitik haben Zentralbanken beim Bedarf der Geschäftsbanken an Zentralbankgeld.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Das zentrale Instrument der Geldpolitik ist unbarer Zahlungsverkehr.",
+                "answer": false,
+                "rightAnswer": "Ein zentrales Instrument ist das Stabil-Halten der Inflation durch Anpassung von Zinssätzen."
+            },
+            {
+                "kategorie": 2,
+                "question": "Eine Leitzinserhöhung verringert die Inflation tendenziell.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Durch eine Leitzinserhöhung wird der gewünschte Effekt auf die Inflation sofort erzielt.",
+                "answer": false,
+                "rightAnswer": "Der Effekt tritt für gewöhnlich erst verzögert auf."
+            },
+            {
+                "kategorie": 2,
+                "question": "Kann der Leitzins nicht weiter gesenkt werden, sind Wertpapierankäufe das nächste Mittel, um die Inflation zu fördern.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "In Dänemark ist der Euro das gesetzliche Zahlungsmittel.",
+                "answer": false,
+                "rightAnswer": "Die Währung in Dänemark ist die Dänische Krone."
+            },
+            {
+                "kategorie": 2,
+                "question": "Der „Schwarze Freitag“ bezeichnet den größten Zusammenbruch der New Yorker Börse am 25. Oktober 1929.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Umsatzsteuer ist die wichtigste Einnahmequelle des Staates.",
+                "answer": false,
+                "rightAnswer": "Die wichtigste Einnahmequelle ist die Lohnsteuer."
+            },
+            {
+                "kategorie": 2,
+                "question": "Endverbraucher tragen die volle Last der Umsatzsteuer.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Einkommenssteuererklärung jedes Mitarbeiters erfolgt beim Finanzamt in der Stadt des Unternehmenssitzes.",
+                "answer": false,
+                "rightAnswer": "Sie erfolgt am Wohnsitz des Arbeitnehmers."
+            },
+            {
+                "kategorie": 2,
+                "question": "Jugendliche älter als 14 Jahre gelten als voll geschäftfähig.",
+                "answer": false,
+                "rightAnswer": "Sie gelten bis zur Volljährigkeit als beschränkt geschäftsfähig."
+            },
+            {
+                "kategorie": 2,
+                "question": "Eine Stagflation ist die Stagnation der Wirtschaftsleistung nach einer hohen Inflation.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Deutschlands Wirtschaftsform ist nicht im Grundgesetz verankert.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Höhe der Ausbildungsvergütung gehört nicht zu den Bestimmungen der Ausbildungsordnung.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "An einem Bankfeiertag wickeln Kreditinstitute keine Bankgeschäfte ab.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Börse spricht von einem Bullenmarkt, wenn die Kurse über längere Zeit stark steigen.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Nachfrager haben auf dem Markt keinen Einfluss darauf, was produziert wird.",
+                "answer": false,
+                "rightAnswer": "Die Nachfrager bestimmen mit ihrer Marktmacht was produziert wird."
+            },
+            {
+                "kategorie": 2,
+                "question": "Bei einem Oligopol gibt es für ein Produkt einige Anbieter.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Das Inlandsprinzip besagt, dass das BIP keine Leistungen von Ausländern erfasst.",
+                "answer": false,
+                "rightAnswer": "Es besagt, dass produzierte Güter und Dienstleistungen im Inland grundsätzlich erfasst werden."
+            },
+            {
+                "kategorie": 2,
+                "question": "Das BIP ist ein Maß für die wirtschaftliche Leistungsfähigkeit eines Landes.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "HDI steht für High Definition Interface.",
+                "answer": false,
+                "rightAnswer": "HDI steht für Human Development Index."
+            },
+            {
+                "kategorie": 2,
+                "question": "Die 4 Grundvariablen des HDI sind Einkommen, Lebenserwartung, Alphabetisierung und Bildungsdauer.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Luxemburg hatte 2021 mit 114.370 Euro eines der höchsten BIP.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Planwirtschaft beruht auf dem Grundsatz des Individualismus.",
+                "answer": false
+            },
+            {
+                "kategorie": 2,
+                "question": "Bei einer Planwirtschaft sind Produktionsmittel hauptsächlich kollektives Eigentum, während in einer Marktwirtschaft Privateigentum eingesetzt wird.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Grundlagen für das Maß der Konjunktur sind Produktion, Beschäftigungsgrad und Preisentwicklung.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Saisonale Schwankungen sind nicht vom Wetter abhängig.",
+                "answer": false,
+                "rightAnswer": "Saisonale Schwankungen sind Folgen klimatischer und institutioneller Ereignisse wie z.B. Sommerurlaub oder Weihnachtseinkäufe."
+            },
+            {
+                "kategorie": 2,
+                "question": "Konjunkturelle Schwankungen entstehen durch ein Ungleichgewicht zwischen Nachfrage und Angebot.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Strukturelle Schwankungen bedeuten keine tiefgreifende Veränderung in Wirtschaftssektoren.",
+                "answer": false,
+                "rightAnswer": "Strukturelle Schwankungen dauern 40-60 Jahre an und werden durch tiefgreifende Veränderungen erst ausgelöst."
+            },
+            {
+                "kategorie": 2,
+                "question": "Die 4 Konjunkturzyklen sind Expansion, Hochkonjunktur, Rezession und Depression.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Steigende Produktion und optimistische Prognosen sind noch keine Zeichen für eine expansive Phase.",
+                "answer": false,
+                "rightAnswer": "Die expansive Phase ist ein Aufschwung, bei dem Unternehmen in der Regel eine verbesserte Auftragslage verzeichnen können."
+            },
+            {
+                "kategorie": 2,
+                "question": "Von einer Rezession spricht man, wenn eine Wirtschaft in zwei aufeinanderfolgenden Quartalen nicht wächst oder zurück geht.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Übervolle Lager und ein Rückgang der Nachfrage sind Zeichen einer Expansion.",
+                "answer": false,
+                "rightAnswer": "Ein Rückgang der Nachfrage und geringe Auslastung sind Zeichen einer Rezession."
+            },
+            {
+                "kategorie": 2,
+                "question": "Vollbeschäftigung und hohe Aktienkurse sind Zeichen einer Hochkonjunktur.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Die VWL soll keine Prognosen über zukünftige wirtschaftliche Zusammenhänge abgeben.",
+                "answer": false,
+                "rightAnswer": "Die Aufgabe der Volkswirtschaftslehre ist es, vorherzusagen, wie sich die Wirtschaft langfristig entwickeln wird."
+            },
+            {
+                "kategorie": 2,
+                "question": "Die VWL lässt sich in die zwei großen Teilbereiche Mikroökonomie und Makroökonomie einteilen.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Einzelne Haushalte werden in der VWL nicht näher betrachtet.",
+                "answer": false,
+                "rightAnswer": "Privathaushalte sind eine Wirtschaftseinheit in der VWL, wie auch die Betriebe."
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Entscheidungen einzelner Marktteilnehmer sind von der Arbeitsteiligkeit der Produktionsprozesse und der Allokation knapper Ressourcen und Güter geprägt.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Preistheorie untersucht die Preisbildung als Ergebnis der Fantasie der Produzenten.",
+                "answer": false,
+                "rightAnswer": "Die Preistheorie erforscht und erklärt die Preisbildung auf Konsumgütermärkten und Märkten für Produktionsgüter in der VWL."
+            },
+            {
+                "kategorie": 2,
+                "question": "Ein wichtiger Teilbereich der Makroökonomie ist die Wachstums- und Konjunkturtheorie.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Immaterielle Mittel und Leistungen gehören nicht zu den Produktionsfaktoren.",
+                "answer": false,
+                "rightAnswer": "Immaterielle Mittel wie bspw. Patente sind Produktionsfaktoren."
+            },
+            {
+                "kategorie": 2,
+                "question": "Produktionsfaktoren sind Arbeit, Kapital, Wissen und Boden.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Unter dem Produktionsfaktor Arbeit versteht man ausschließlich anstrengende körperliche Tätigkeiten.",
+                "answer": false,
+                "rightAnswer": "Arbeit kann dabei jede dem eigentlichen Betriebszweck zugehörige Tätigkeit sein."
+            },
+            {
+                "kategorie": 2,
+                "question": "Unter dem Produktionsfaktor Kapital versteht man verfügbare Produktionsmittel und andererseits finanzielle Mittel.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Ein Exportüberschuss kann nicht zu einer Inflation führen.",
+                "answer": false,
+                "rightAnswer": "Ein Exportüberschuss kann zu einer Inflation beitragen, da erhöhte Abhängigkeit von internationalen Märkten entsteht und das der nationalen Wirtschaft schaden kann."
+            },
+            {
+                "kategorie": 2,
+                "question": "Ein Handelsembargo ist eine politisch motivierte Sanktion gegenüber Staaten.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Der Aktionär mit Stammaktien hat zwar einen Anspruch auf einen Teil des Gewinns, aber er hat kein Mitspracherecht in der Hauptversammlung.",
+                "answer": false,
+                "rightAnswer": "Aktionäre mit Stammaktien haben ein Stimmrecht bei der Hauptversammlung und erhalten einen Teil des Gewinns, während Inhaber von Vorzugsaktien kein Stimmrecht haben und dafür eine höhere Dividende erhalten."
+            },
+            {
+                "kategorie": 2,
+                "question": "Eine GmbH kann zu jedem zulässigen Zweck ohne Stammkapital gegründet werden.",
+                "answer": false,
+                "rightAnswer": "Das gesetzliche Mindeststammkapital einer GmbH beträgt 25.000 Euro."
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Bonität ist ein Index für die Wirtschaftlichkeit des Kreditnehmers hinsichtlich der Fähigkeit zur Rückzahlung des Kredits.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Die Organe der AG sind Vorstand, Aufsichtsrat und Hauptversammlung.",
+                "answer": true
+            },
+            {
+                "kategorie": 2,
+                "question": "Bitcoin ist eine Währung mit deflationärem Charakter.",
+                "answer": true
     },
     {
         "kategorie": 3,
@@ -1015,7 +1205,7 @@
         "answer": true
     }, {
         "kategorie": 3,
-        "question":"Die Netzspannung die aus der Steckdose kommt nennt man Wechselspannung", 
+        "question":"Die Netzspannung die aus der Steckdose kommt ist die Wechselspannung", 
         "answer":true
     },
     {
@@ -1025,31 +1215,38 @@
     },  {
         "kategorie": 3,
         "question":"HDTV steht für High Description Television", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "HDTV steht für High Definition Television."
     },  {
         "kategorie": 3,
-        "question":"Das erste Smartphone kam 1996 auf den Markt", 
-        "answer":false
+        "question":"Das erste Smartphone kam 2002 auf den Markt", 
+        "answer":false,
+        "rightAnswer": "Das erste Smartphone kam 1994 auf den Markt."
     },  {
         "kategorie": 3,
         "question":"Alan Turing erfand den ersten funktionsfähigen Computer der Welt", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Konrad Zuse"
     },  {
         "kategorie": 3,
         "question":"Die Abkürzung 'LCD' steht für Light Crystal Display", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "LCD steht für Liquid Crystal Display."
     },  {
         "kategorie": 3,
         "question":"Ein Vergaser spritzt das Benzin schneller in den Brennraum, um die Geschwindigkeit noch weiter zu erhöhen", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Ein Vergaser spritzt das Benzin schneller in den Brennraum, um die Geschwindigkeit noch weiter zu erhöhen) Ein Vergaser kombiniert Kraftstoff und angesaugte Frischluft miteinander, sodass ein zündfähiges Kraftstoff-Luft-Gemisch entsteht."
     },  {
         "kategorie": 3,
         "question":"Alexander Graham Bell ist der Erfinder der Glühbirne", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Der Erfinder der Glühbirne ist Thomas Edison."
     },  {
         "kategorie": 3,
         "question":"10.000 Megabyte sind ein Terabyte", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "1.000.000 Megabyte sind ein Terabyte."
     },  {
         "kategorie": 3,
         "question":"Haeckse ist die im deutschen Sprachraum gebräuchliche Bezeichnung für weibliche Hacker", 
@@ -1057,15 +1254,18 @@
     },  {
         "kategorie": 3,
         "question":"Eine Lichtmaschine versorgt die Scheinwerfer eines Fahrzeugs mit Strom", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": " Eine Lichtmaschine betreibt die elektronischen Geräte eines Fahrzeugs und lädt die Batterie."
     },  {
         "kategorie": 3,
-        "question":"Die Abkürzung USB steht für Universal Safe Bus)", 
-        "answer":false
+        "question":"Die Abkürzung USB steht für Universal Safe Bus", 
+        "answer":false,
+        "rightAnswer": "Die Abkürzung USB steht für Universal Serial Bus"
     },  {
         "kategorie": 3,
         "question":"Die erste Kamera der Welt brauchte 4 Stunden um ein Bild aufzunehmen", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Die erste Kamera der Welt brauchte 8 Stunden um ein Bild aufzunehmen"
     },  {
         "kategorie": 3,
         "question":"Der Name 'Bluetooth' kommt von einem dänischen Wikingerkönig", 
@@ -1073,34 +1273,40 @@
     },  {
         "kategorie": 3,
         "question":"Trägheit ist die Kraft, die für alle Kreisbewegungen verantwortlich ist", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Trägheit ist das Bestreben von physikalischen Körpern, in ihrem Bewegungszustand zu verharren, solange keine äußeren Kräfte oder Drehmomente auf sie einwirken."
     },  {
         "kategorie": 3,
         "question": "Die 'Wostok 1' war der erste Satellit im Weltraum", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Die 'Wostok 1' war die erste Raumfähre im Weltraum"
     },  {
         "kategorie": 3,
         "question":"Das Ziel des 'Manhatten Project' war der Bau der Atombombe", 
         "answer":true
     },  {
         "kategorie": 3,
-        "question":"Unter Augmented Reality versteht man den 3D-Effekt im Kino", 
-        "answer":false
+        "question":"Unter 'Augmented Reality' versteht man den 3D-Effekt im Kino", 
+        "answer":false,
+        "rightAnswer": "Unter 'Augmented Reality' versteht man das Zusammenspiel von digitalem und analogem Leben."
     },  {
         "kategorie": 3,
         "question":"Die Einheit für physikalische Arbeit ist Newtonmeter", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Die Einheit für physikalische Arbeit ist Watt."
     },  {
         "kategorie": 3,
         "question":"Arbeit ist Kraft mal Geschwindigkeit", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Arbeit ist Kraft mal Weg."
     },  {
         "kategorie": 3,
         "question":"Durch eine feste Rolle wird die Größe und auch die Richtung einer Kraft geändert", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Eine feste Rolle ändert nur die Richtung einer Kraft, nicht die Größe."
     },  {
         "kategorie": 3,
-        "question":"Das Gesetz von 'actio und reactio' nennt man Wechselgesetz", 
+        "question":"Das Gesetz von 'actio und reactio' nennt man Wechselwirkungsgesetz", 
         "answer":true
     },
   {
@@ -1110,7 +1316,8 @@
     },  {
         "kategorie": 3,
         "question":"Ein Geigerzähler misst die Luftfeuchtigkeit", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Ein Geigerzähler misst die Strahlung."
     },  {
         "kategorie": 3,
         "question":"Teilt man einen Magnet in genau in der Mitte, entstehen zwei neue Magneten", 
@@ -1122,11 +1329,12 @@
     },  {
         "kategorie": 3,
         "question":"Die Maßeinheit Volt wurde nach dem Franzosen O.Volto benannt", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Die Maßeinheit Volt wurde nach dem italienischen Physiker Alessandro Volta benannt."
     },  {
         "kategorie": 3,
         "question":"Das Einheitszeichen für elektrische Stromstärke ist A", 
-        "answer":false
+        "answer":true
     },  {
         "kategorie": 3,
         "question":"Software, die völlig kostenlos ist, nennt man Freeware", 
@@ -1134,7 +1342,8 @@
     },  {
         "kategorie": 3,
         "question":"Ein Bit hat 12 Byte", 
-        "answer": false
+        "answer": false,
+        "rightAnswer": "Ein Bit hat 8 Byte."
     },  {
         "kategorie": 3,
         "question":"Bit ist die kleinste digitale Informationseinheit", 
@@ -1142,11 +1351,13 @@
     },  {
         "kategorie": 3,
         "question":"Bildpunkte bezeichnet man auch als Hertz", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Bildpunkte nennt man Pixel."
     },  {
         "kategorie": 3,
         "question":"Shareware ist Software, die man für eine bestimmte Zeit kostenlos mit anderen Nutzern teilen kann", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Shareware ist Software die man für eine bestimmte Zeit kostenlos testen kann."
     },  {
         "kategorie": 3,
         "question":"In einem Binärsystem gibt es nur die Zahlen 0 und 1", 
@@ -1154,31 +1365,36 @@
     },  {
         "kategorie": 3,
         "question":"Die RAM eines Computers ist nur der Lesespeicher eines Computers", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "RAM ist der Arbeitsspeicher eines Computers."
     },  {
         "kategorie": 3,
         "question":"die Festplatte ist die Rechenzentrale des Computers", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Der Prozessor ist die Rechenzentrale des Computers."
     },  {
         "kategorie": 3,
-        "question":"Ein Dateiname durfte früher maximal 4 Buchstaben haben", 
-        "answer":false
+        "question":"Ein Dateiname durfte in den 1970er Jahren maximal 4 Buchstaben haben.", 
+        "answer":false,
+        "rightAnswer": "Damals durfte ein Dateiname maximal 8 Zeichen haben."
     },  {
         "kategorie": 3,
         "question":"80% der Emails, die täglich versendet werden, sind Spam", 
         "answer":true
     },  {
         "kategorie": 3,
-        "question":"Die Geschwindigkeit des Lichts beträgt 300.000 Km/s", 
-        "answer":false
+        "question":"Die Geschwindigkeit des Lichts beträgt ca. 300.000 Km/s", 
+        "answer":false,
+        "rightAnswer": "Die Geschwindigkeit des Lichts beträgt ca. 300.000 m/s"
     },  {
         "kategorie": 3,
-        "question":"100 Grad Celsius entsprechen 173 Kelvin", 
-        "answer":false
+        "question":"100 Grad Celsius entsprechen ca. 173 Kelvin", 
+        "answer":false,
+        "rightAnswer": "100 Grad Celsius entsprechen ca. 373 Kelvin"
     },  {
         "kategorie": 3,
-        "question":"Eisen ist magnetisch", 
-        "answer": false
+        "question":"Plasma kann Strom leiten.", 
+        "answer": true
     },  {
         "kategorie": 3,
         "question":"Mit einem Gleichrichter kann man aus Wechselstrom Gleichstrom erzeugen", 
@@ -1198,19 +1414,21 @@
     },  {
         "kategorie": 3,
         "question":"Die Reibkraft ist das Produkt aus Normalkraft und Reibungskoeffizient", 
-        "answer":false
+        "answer":true
     },  {
         "kategorie": 3,
         "question":"Statik ist die Lehre vom Gleichgewicht am ruhenden und starren Körper", 
         "answer":true
     },  {
         "kategorie": 3,
-        "question":"Der erste Satz der Statik lautet 'Kräfte, mit denen ruhende Körper aufeinander wirken, treten stets paarweise auf und sind im Gleichgewicht'", 
-        "answer":false
+        "question":"Im Raum gibt es 3 Freiheitsgrade", 
+        "answer":false,
+        "rightAnswer": "Im Raum gibt es 6 Freiheitsgrade."
     },  {
         "kategorie": 3,
         "question":"Elektrischer Strom ist die Bezeichnung für eine ungerichtete Bewegung von Ladungsträgern", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Elektrischer Strom ist eine gerichtete Bewegung von Ladungsträgern."
     },  {
         "kategorie": 3,
         "question":"Spannung = Widerstand * Strom", 
@@ -1226,11 +1444,13 @@
     },  {
         "kategorie": 3,
         "question":"Wenn der Widerstand halbiert wird, wird der Strom dreifach so groß", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Der Strom wird dann doppelt so groß."
     },  {
         "kategorie": 3,
         "question":"LED ist eine Abkürzung für Light Extracting Diode", 
-        "answer":false
+        "answer":false, 
+        "rightAnswer": "LED steht für Light Emitting Diode"
     },  {
         "kategorie": 3,
         "question":"Eine Diode ist vergleichbar mit einem Ventil", 
@@ -1241,8 +1461,9 @@
         "answer":true
     },  {
         "kategorie": 3,
-        "question":"Ein (eigentlich Mikrofon) Lautsprecher wandelt akustische Wellen in ein elektrisches Signal um", 
-        "answer":false
+        "question":"Ein Lautsprecher wandelt akustische Wellen in ein elektrisches Signal um", 
+        "answer":false,
+        "rightAnswer": "Ein Mikrofon wandelt akustische Wellen in ein elektrisches Signal um."
     },  {
         "kategorie": 3,
         "question":"Die maximale Spannung einer AAA Batterie beträgt 1.5V", 
@@ -1258,11 +1479,13 @@
     },  {
         "kategorie": 3,
         "question":"Mechanik wird nicht als Teilgebiet der Physik angesehen", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Die Mechanik ist ein Teilgebiet der Physik."
     },  {
         "kategorie": 3,
         "question":"Das erste Newtonsche Gesetz ist das Aktionsprinzip", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Das erste Newtonsche Gesetz ist das Trägheitsgesetz."
     },  {
         "kategorie": 3,
         "question":"Ein Starrkörper ist ein Körper, der sich unter Wirkung von Kräften nicht verformt", 
@@ -1278,19 +1501,23 @@
     },  {
         "kategorie": 3,
         "question":"Wirken zwei Teilkräfte in die gleiche Richtung, so erhält man die Gesamtkraft, indem man die Beträge der Teilkräfte miteinander multipliziert", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Wirken zwei Teilkräfte in die gleiche Richtung, so erhält man die Gesamtkraft, indem man die Beträge der Teilkräfte miteinander addiert."
     },  {
         "kategorie": 3,
         "question":"Gase verteilen sich ungleichmäßig in dem zur Verfügung stehenden Raum", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Gase verteilen sich gleichmäßig in dem zur Verfügung stehenden Raum"
     },  {
         "kategorie": 3,
         "question":"Bei einer Bewegung mit konstanter Geschwindigkeit nimmt die Beschleunigung eines Objekts in gleichen Zeitabschnitten um den jeweils gleichen Betrag zu beziehungsweise ab", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Bei einer Bewegung mit konstanter Beschleunigung nimmt die Geschwindigkeit eines Objekts in gleichen Zeitabschnitten um den jeweils gleichen Betrag zu beziehungsweise ab"
     },  {
         "kategorie": 3,
         "question":"In der Kinematik, werden die Kraft und die Masse berücksichtigt", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "In der Kinematik, werden die Kraft und die Masse nicht berücksichtigt"
     },  {
         "kategorie": 3,
         "question":"Statt Rasenmäher, benutzt Google eine Herde Ziegen um das hohe Gras ihrer Zentrale zu fressen.", 
@@ -1313,11 +1540,11 @@
         "answer":true
     },  {
         "kategorie": 3,
-        "question":"Die Download-Geschwindigkeit bei der NASA beträgt 91GB/s", 
+        "question":"Die Download-Geschwindigkeit bei der NASA betrug im Jahr 2022 400GB/s", 
         "answer":true
     },  {
         "kategorie": 3,
-        "question":"Es haben mehr Menschen zugang zu Smartphones als zu funktionierenden Toiletten", 
+        "question":"Im Jahr 2022 hatten mehr Menschen zugang zu Smartphones als zu funktionierenden Toiletten", 
         "answer":true
     },  {
         "kategorie": 3,
@@ -1357,61 +1584,76 @@
         "answer":true
     },  {
         "kategorie": 3,
-        "question":"Das 'I' in Iphone steht für Inspire", 
-        "answer":false
+        "question":"Laut Apple Gründer Steve Jobs, steht das 'I' in Iphone für 'Inspire'", 
+        "answer":false,
+        "rightAnswer": "Man weiß bis heute nicht, wofür das I eigentlich steht."
     },  {
         "kategorie": 3,
         "question":"Microsoft beherrschte in den 80er Jahren den Markt für Heimcomputer", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Marktführer inden 80er Jahren war Commodore"
     },  {
         "kategorie": 3,
         "question":"Java ist die meistegenutzte Programmiersprache weltweit", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Python"
     },  {
         "kategorie": 3,
         "question":"Der Automobilhersteller 'Porsche' hat seinen Hauptsitz in München", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Der Hauptsitz von Porsche ist in Stuttgart."
     },  {
         "kategorie": 3,
         "question":"Ein Shortcut ist eine Computerschnittstelle", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Ein Shortcut ist eine Tastenkombination, durch ein bestimmter Befehl ausgeführt wird"
     },  {
         "kategorie": 3,
         "question":"Der höchste Fernsehturm der Welt steht in Moskau", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Der höchste Fernsehturm der Welt steht in Tokio."
     },  {
         "kategorie": 3,
         "question":"Das sichern von Daten, auf einen 2. Datenträger, nennt man in der Informatik Back-end", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Das sichern von Daten, auf einen 2. Datenträger, nennt man in der Informatik Backup."
     },  {
         "kategorie": 3,
         "question":"T-Online war der erste kommerzielle Internet-Provider Deutschlands", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "EUnet war der erste kommerzielle Internet-Provider Deutschlands."
     },  {
         "kategorie": 3,
         "question":"Der Elektromotor wurde in Schweden erfunden", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Der Elektromotor wurde in Italien erfunden"
     },  {
         "kategorie": 3,
         "question":"Das 'FM' am Radio steht für Frequenzmoderation", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "FM steht für Frequenzmodulation."
     },  {
         "kategorie": 3,
         "question":"Der Schatten, den eine Windkraftanlage auf die Erde wirft nennt man auch Windschatten", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Der Schatten, den eine Windkraftanlage auf die Erde wirft nennt Schlagschatten."
     },  {
         "kategorie": 3,
         "question":"Unbenutzte Batterien können nicht auslaufen", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Unbenutzte Batterien können auch auslaufen."
     },  {
         "kategorie": 3,
         "question":"Google war die erste Suchmaschine", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Die erste Suchmaschine war Archie."
+        
     },
  {
         "kategorie": 3,
         "question":"Die erste Spielekonsole auf dem Markt war der Atari 2600", 
-        "answer":false
+        "answer":false,
+        "rightAnswer": "Die erste Spielekonsole auf dem Markt war der Magnavox Odyssey."
     }]
 
 }

@@ -103,6 +103,11 @@ button{
   width: 100px;
 }
 
+#upperButton,#timeBtn,#pointsBtn{
+  background-color: #FF6600;
+  color: white;
+}
+
 #gameoverScreen{
   margin-left: auto;
   margin-right: auto;
@@ -121,7 +126,12 @@ button{
 }
 
 #highscoreScreen{
-  display:inline-block;
+  display:flex;
   margin-left: auto;
   margin-right: auto;
+  gap: 70px
+}
+
+#hsBox{
+  display: inline-block;
 }

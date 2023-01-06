@@ -29,15 +29,40 @@
   </div>
 
   <div id="highscoreScreen" class="hide">
-    <div id="classicHighscore">
+    <div id="hsBox">
+      <button id="upperButton" class="btn"> <i class="fa-solid fa-brain"></i></button>
+    <div id="genHs">
       <i class="fa-solid fa-infinity"></i>
-      <button id="classicScoreBtn" class="btn">Score</button>
+      <button id="genHsBtn" class="btn">Score</button>
     </div>
-    <div id="speedHighscore">
+    <div id="genHsTime">
       <i class="fa-regular fa-clock"></i>
-      <button id="speedScoreBtn" class="btn">Score</button>
+      <button id="genHsBtnTime" class="btn">Score</button>
     </div>
   </div>
+  <div id="hsBox">
+    <button id="upperButton" class="btn"><i class="fa-solid fa-euro-sign"></i></button>
+  <div id="ecoHs">
+    <i class="fa-solid fa-infinity"></i>
+    <button id="ecoHsBtn" class="btn">Score</button>
+  </div>
+  <div id="ecoHsTime">
+    <i class="fa-regular fa-clock"></i>
+    <button id="ecoHsBtnTime" class="btn">Score</button>
+  </div>
+</div>
+<div id="hsBox">
+  <button id="upperButton" class="btn"><i class="fa-solid fa-gear"></i></button>
+<div id="techHs">
+  <i class="fa-solid fa-infinity"></i>
+  <button id="techHsBtn" class="btn">Score</button>
+</div>
+<div id="techHsTime">
+  <i class="fa-regular fa-clock"></i>
+  <button id="techHsBtnTime" class="btn">Score</button>
+</div>
+</div>
+</div>
   <div class="container">
     <div id="question-container" class="hide">
       <div id="information">
@@ -55,7 +80,7 @@
     <div class="controls">
       <div id="startDiv">
         <button id="startBtn">Start</button>
-        <button onclick="getButtonScore()" id="highscoreBtn">Highscores</button>
+        <button onclick="getScore()" id="highscoreBtn">Highscores</button>
          </div>
       <div id="mode" class="hide">
         <button id="m1-btn" class="start-btn btn">Klassisch</button>
