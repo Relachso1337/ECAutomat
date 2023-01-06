@@ -2,7 +2,7 @@
     "questions": [
         {
             "kategorie": 2,
-            "question": "Luxemburg ist der Staat mit der höchsten Wirtschaftskraft pro Kopf in Europa",
+            "question": "Luxemburg war 2021 der Staat mit der höchsten Wirtschaftskraft pro Kopf in Europa",
             "answer": true
         },
         {
@@ -45,7 +45,8 @@
         {
             "kategorie": 2,
             "question": "Zahlungsunfähigkeit nennt man auch Insolation.",
-            "answer": false
+            "answer": false,
+            "right-answer": "Insolvenz wäre richtig."
         },
         {
             "kategorie": 2,
@@ -287,7 +288,8 @@
         {
             "kategorie": 2,
             "question": "Durch eine Leitzinserhöhung wird der gewünschte Effekt auf die Inflation sofort erzielt.",
-            "answer": false
+            "answer": false,
+            "right-answer": "Der Effekt tritt für gewöhnlich erst verzögert auf."
         },
         {
             "kategorie": 2,
@@ -443,7 +445,7 @@
             "kategorie": 2,
             "question": "Übervolle Lager und ein Rückgang der Nachfrage sind Zeichen einer Expansion.",
             "answer": false,
-            "right-answer": "Ein Rückgang der Nachfrage und geringe Auslastung sind Zeichen einer Depression."
+            "right-answer": "Ein Rückgang der Nachfrage und geringe Auslastung sind Zeichen einer Rezession."
         },
         {
             "kategorie": 2,
@@ -497,7 +499,8 @@
         {
             "kategorie": 2,
             "question": "Unter dem Produktionsfaktor Arbeit versteht man ausschließlich anstrengende körperliche Tätigkeiten.",
-            "answer": false
+            "answer": false,
+            "right-answer": "Arbeit kann dabei jede dem eigentlichen Betriebszweck zugehörige Tätigkeit sein."
         },
         {
             "kategorie": 2,
