@@ -1,0 +1,23 @@
+video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 90%;
+
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: black;
+}
+
+a {
+
+	color: white !important;
+	font-size: 40px !important;
+
+}
