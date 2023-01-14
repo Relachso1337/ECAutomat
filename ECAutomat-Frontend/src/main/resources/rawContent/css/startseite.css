@@ -1,28 +1,30 @@
-body {
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100% !important;
-    min-height: 88vh !important;
-}
-
 .buttons {
-    width: 75%;
-    height: 75%;
+    width: 50%;
+    left: 25%;
+    top: 30%;
     margin: auto;
-    padding: 10px;
+    padding: 15px;
+    position: absolute;
 
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
+    text-align: center;
 }
 
 a {
-    color: black !important;
-    font-size: 51px !important;
+    color: white !important;
+    font-size: 50px !important;
+}
+
+.navbar {
+    display: inline-block;
+    background-color: #0066B3;
+    text-align: center;
+    
+    width: 100%;
+    padding: 30px;
+  }
+  
+.balkenorange{
+      height: 30px;
+      width: 100%;
+      background-color: #FF6600;
 }
