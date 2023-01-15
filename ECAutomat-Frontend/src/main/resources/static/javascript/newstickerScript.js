@@ -60,7 +60,7 @@ function displayAllContent(delay) {
 		}
 		if (isDoneReading) {
 			setTimeout(function() {
-				window.location.replace("/mensa");
+				window.location.replace("http://127.0.0.1:5500/ECAutomat-Frontend/src/main/resources/rawContent/html/mensa.html");
 			}, delay);			
 		}
 	}, delay);
