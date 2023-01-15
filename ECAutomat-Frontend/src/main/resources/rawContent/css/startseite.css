@@ -1,13 +1,25 @@
 
 .buttons {
     width: 50%;
-    left: 25%;
-    top: 40%;
+    left: 37%;
+    top: 35%;
     margin: auto;
     padding: 15px;
     position: absolute;
+}
 
-    text-align: center;
+#video {
+  background-color: #0066B3;
+
+  height: 2em;
+  width: 10em;
+}
+
+#quiz {
+  background-color: #0066B3;
+  
+  height: 2em;
+  width: 10em;
 }
 
 a {
@@ -26,7 +38,7 @@ a {
   }
   
   .balkenorange{
-    height: 2em;
+    height: 2.5em;
     width: 100%;
     background-color: #FF6600;
   }
