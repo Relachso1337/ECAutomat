@@ -1,7 +1,8 @@
+
 .buttons {
     width: 50%;
     left: 25%;
-    top: 30%;
+    top: 40%;
     margin: auto;
     padding: 15px;
     position: absolute;
@@ -16,15 +17,16 @@ a {
 
 .navbar {
     display: inline-block;
+    overflow: hidden;
     background-color: #0066B3;
     text-align: center;
-    
+    top: 0;
     width: 100%;
-    padding: 30px;
+    padding: 1.5%;
   }
   
-.balkenorange{
-      height: 30px;
-      width: 100%;
-      background-color: #FF6600;
-}
+  .balkenorange{
+    height: 2em;
+    width: 100%;
+    background-color: #FF6600;
+  }

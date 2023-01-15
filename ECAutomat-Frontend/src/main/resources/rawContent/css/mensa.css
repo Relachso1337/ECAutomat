@@ -52,14 +52,14 @@ a:link {
   text-align: center;
   top: 0;
   width: 100%;
-  padding: 30px;
+  padding: 1.5%;
 }
 
 .balkenorange{
-    height: 30px;
-    width: 100%;
-    background-color: #FF6600;
-  }
+  height: 2em;
+  width: 100%;
+  background-color: #FF6600;
+}
 
 /*ESSEN MENÜ*/
 
