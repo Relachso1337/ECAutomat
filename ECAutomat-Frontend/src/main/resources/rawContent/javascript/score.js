@@ -23715,6 +23715,7 @@
             obj = data;
           })
           .then(() => {
+            let randomIndex;
             trueBtn.addEventListener('click', () => {
               let anser = isCorrect(true, obj.questions[randomNumber].answer);
               if (anser) {
@@ -23724,7 +23725,11 @@
                   trueBtn.disabled = false;
                   falseBtn.disabled = false;
                   trueBtn.style.backgroundColor = "#0066B3";
-                }, "2000")
+                  randomIndex = getRandomNumber(0, numbersArray.length - 1);
+                  randomNumber = numbersArray[randomIndex];
+                  numbersArray.splice(randomIndex, 1);
+                  questionElement.innerText = obj.questions[randomNumber].question;
+                }, "1500")
                 trueBtn.style.backgroundColor = "#B4C424"
                 window.score++;
                 console.log(window.score);
@@ -23747,11 +23752,11 @@
                   trueBtn.style.backgroundColor = "#0066B3";
                   falseBtn.style.backgroundColor = "#0066B3";
                 }, "3000")
+                randomIndex = getRandomNumber(0, numbersArray.length - 1);
+                randomNumber = numbersArray[randomIndex];
+                numbersArray.splice(randomIndex, 1);
+                questionElement.innerText = obj.questions[randomNumber].question;
               }
-              let randomIndex = getRandomNumber(0, numbersArray.length - 1);
-              randomNumber = numbersArray[randomIndex];
-              numbersArray.splice(randomIndex, 1);
-              questionElement.innerText = obj.questions[randomNumber].question;
             })
 
             falseBtn.addEventListener('click', () => {
@@ -23763,17 +23768,17 @@
                   falseBtn.style.backgroundColor = "#0066B3";
                   trueBtn.disabled = false;
                   falseBtn.disabled = false;
-                }, "2000")
+                randomIndex = getRandomNumber(0, numbersArray.length - 1);
+                randomNumber = numbersArray[randomIndex];
+                numbersArray.splice(randomIndex, 1);
+                questionElement.innerText = obj.questions[randomNumber].question;
+                }, "1500")
                 falseBtn.style.backgroundColor = "#B4C424"
                 points++;
                 window.score++;
                 console.log(window.score);
                 pointsButton.innerText = points;
                 trueBtn.style.backgroundColor = "#0066B3";
-                let randomIndex = getRandomNumber(0, numbersArray.length - 1);
-                randomNumber = numbersArray[randomIndex];
-                numbersArray.splice(randomIndex, 1);
-                questionElement.innerText = obj.questions[randomNumber].question;
               } else {
                 clearInterval(interval);
                 questionElement.innerText = "Die Aussage ist richtig.";
@@ -23789,13 +23794,13 @@
                   countdown();
                   trueBtn.style.backgroundColor = "#0066B3";
                   falseBtn.style.backgroundColor = "#0066B3";
-                  let randomIndex = getRandomNumber(0, numbersArray.length - 1);
+                  randomIndex = getRandomNumber(0, numbersArray.length - 1);
                   randomNumber = numbersArray[randomIndex];
                   numbersArray.splice(randomIndex, 1);
                   questionElement.innerText = obj.questions[randomNumber].question;
                 }, "3000")
               }
-              if(numbersArray.length == 0){
+              if (numbersArray.length == 0) {
                 gameOver(points);
               }
             })
@@ -23860,17 +23865,17 @@
 
         backButton.addEventListener('click', () => {
           console.log(currentPage)
-          if (currentPage == 1){
+          if (currentPage == 1) {
             window.location.href = 'startseite.html';
           }
-          else if(currentPage == 2){
+          else if (currentPage == 2) {
             setScreen(2);
-          }else if(currentPage == 3){
+          } else if (currentPage == 3) {
             setScreen(3);
-          }else if (currentPage == 4){
+          } else if (currentPage == 4) {
             currentPage -= 3;
             setScreen(4);
-          }else if (currentPage == 5){
+          } else if (currentPage == 5) {
             setScreen(5);
           }
         })
@@ -23957,28 +23962,28 @@
           }
         }
 
-        function setCurrentScore(isSpeedmode){
+        function setCurrentScore(isSpeedmode) {
           getScore();
-          if(isSpeedmode){
-            if(k1){
+          if (isSpeedmode) {
+            if (k1) {
               currentHsNum = genHsBtnTime.innerHTML;
               currentHs.innerText = "Highscore: " + genHsBtnTime.innerHTML;
-            }else if(k2){
+            } else if (k2) {
               currentHsNum = ecoHsBtnTime.innerHTML;
               currentHs.innerText = "Highscore: " + ecoHsBtnTime.innerHTML;
-            }else{
+            } else {
               currentHsNum = techHsBtnTime.innerHTML;
               currentHs.innerText = "Highscore: " + techHsBtnTime.innerHTML;
             }
           }
-          if(!isSpeedmode){
-            if(k1){
+          if (!isSpeedmode) {
+            if (k1) {
               currentHsNum = genHsBtn.innerHTML;
               currentHs.innerText = "Highscore: " + genHsBtn.innerHTML;
-            }else if(k2){
+            } else if (k2) {
               currentHsNum = ecoHsBtn.innerHTML;
               currentHs.innerText = "Highscore: " + ecoHsBtn.innerHTML;
-            }else{
+            } else {
               currentHsNum = techHsBtn.innerHTML;
               currentHs.innerText = "Highscore: " + techHsBtn.innerHTML;
             }
@@ -24030,20 +24035,20 @@
           currentHs.classList.add('hide');
           questionContainerElement.style.display = 'none';
           gameoverPoints.innerHTML = nScore;
-          if(nScore > currentHsNum){
+          if (nScore > currentHsNum) {
             gameoverText.innerText = "Neuer Highscore! Glückwunsch!"
-          }else{
-          if (nScore <= 1) { gameoverText.innerText = "Weißt du etwa nicht wie ein Touchscreen funktioniert?" }
-          else if (nScore <= 5) { gameoverText.innerText = "Das war nichts!" }
-          else if (nScore <= 10) { gameoverText.innerText = "Da geht aber noch mehr!" }
-          else if (nScore <= 15) { gameoverText.innerText = "Nicht schlecht, aber da ist noch Luft nach oben!" }
-          else if (nScore <= 20) { gameoverText.innerText = "Dieses Ergebnis lässt sich doch sehen!" }
-          else if (nScore <= 25) { gameoverText.innerText = "Gut gemacht!" }
-          else if (nScore <= 30) { gameoverText.innerText = "Starke Leistung!" }
-          else if (nScore <= 50) { gameoverText.innerText = "Du bist ein Genie!" }
-          else if (nScore <= 70) { gameoverText.innerText = "Uns gehen noch die Fragen aus!" }
-          else if (nScore <= 90) { gameoverText.innerText = "Wo hast du die Lösungen her?!" }
-          else if (nScore >= 100) { gameoverText.innerText = "Uns sind die Fragen ausgegangen!" }
+          } else {
+            if (nScore <= 1) { gameoverText.innerText = "Weißt du etwa nicht wie ein Touchscreen funktioniert?" }
+            else if (nScore <= 5) { gameoverText.innerText = "Das war nichts!" }
+            else if (nScore <= 10) { gameoverText.innerText = "Da geht aber noch mehr!" }
+            else if (nScore <= 15) { gameoverText.innerText = "Nicht schlecht, aber da ist noch Luft nach oben!" }
+            else if (nScore <= 20) { gameoverText.innerText = "Dieses Ergebnis lässt sich doch sehen!" }
+            else if (nScore <= 25) { gameoverText.innerText = "Gut gemacht!" }
+            else if (nScore <= 30) { gameoverText.innerText = "Starke Leistung!" }
+            else if (nScore <= 50) { gameoverText.innerText = "Du bist ein Genie!" }
+            else if (nScore <= 70) { gameoverText.innerText = "Uns gehen noch die Fragen aus!" }
+            else if (nScore <= 90) { gameoverText.innerText = "Wo hast du die Lösungen her?!" }
+            else if (nScore >= 100) { gameoverText.innerText = "Uns sind die Fragen ausgegangen!" }
           }
           setScore();
         }
