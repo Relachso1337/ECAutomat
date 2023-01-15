@@ -1,23 +1,23 @@
 
 .buttons {
-    width: 50%;
-    left: 37%;
-    top: 35%;
-    margin: auto;
+    left: 36%;
+    top: 36%;
     padding: 15px;
     position: absolute;
 }
 
 #video {
   background-color: #0066B3;
-
   height: 2em;
   width: 10em;
 }
 
+#hsLogo{
+    margin-left: 3%;
+}
+
 #quiz {
   background-color: #0066B3;
-  
   height: 2em;
   width: 10em;
 }
@@ -27,14 +27,16 @@ a {
     font-size: 50px !important;
 }
 
+
 .navbar {
     display: inline-block;
     overflow: hidden;
     background-color: #0066B3;
     text-align: center;
     top: 0;
+    margin-bottom: -2px;
     width: 100%;
-    padding: 1.5%;
+    padding: 1.7%;
   }
   
   .balkenorange{
