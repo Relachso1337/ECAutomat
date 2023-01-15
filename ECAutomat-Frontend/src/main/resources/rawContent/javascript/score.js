@@ -23668,7 +23668,6 @@
       (function () {
         var fs = require('browserify-fs');
         global.window.score = 0;
-
         const startButton = document.getElementById('startBtn')
         const k1button = document.getElementById('k1-btn')
         const k2button = document.getElementById('k2-btn')
@@ -23707,6 +23706,7 @@
         var interval;
         let randomNumber;
         let currentHsNum;
+        let gameoverTimeout;
         // ------------------Create Random Number-----------------------------------
 
         fetch(fetchString)
@@ -23909,7 +23909,7 @@
           questionContainerElement.style.display = 'block';
           gameoverScreen.classList.add('hide');
           if (isSpeedmode) {
-            setTimeout(() => {
+            gameoverTimeout = setTimeout(() => {
               gameOver();
             }, "121000")
           }
@@ -23951,6 +23951,7 @@
           } else if (page == 4) {
             currentPage = 3;
             isSpeedmode = false;
+            clearTimeout(gameoverTimeout)
             gameoverScreen.classList.add('hide');
             questionContainerElement.classList.add('hide')
             currentHs.classList.add('hide');
