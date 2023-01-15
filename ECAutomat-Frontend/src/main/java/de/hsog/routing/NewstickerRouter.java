@@ -12,7 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import de.hsog.utils.NewsArticle;
-import de.hsog.utils.Webscraper;
+import de.hsog.utils.NewsWebscraper;
 
 @RestController
 @RequestMapping("/news")
@@ -36,7 +36,7 @@ public class NewstickerRouter {
 	@GetMapping(value = "/scrapeNews", produces = "appplication/json")
 	public String scrapenews() throws IOException {
 		FileOutputStream outputStream = null;
-		Webscraper scraper = new Webscraper();
+		NewsWebscraper scraper = new NewsWebscraper();
 		ArrayList<String> linkList = new ArrayList<>();
 		linkList.addAll(scraper.scrapeLinks());
 		if (counter > linkList.size())
