@@ -60,7 +60,7 @@ async function scrapeLinks() {
     fs.writeFile('../media/news/news.json', JSON.stringify(jsonResponse), function(err) {
         if(err) throw err;
     })
-
+    browser.close();
 }
 
-console.log(scrapeLinks());
+scrapeLinks();
