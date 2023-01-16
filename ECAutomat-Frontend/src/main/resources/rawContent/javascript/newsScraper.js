@@ -16,7 +16,8 @@ async function scrapeLinks() {
     });
     // Creates new Page object of Newspage
     const newsPage = await browser.newPage();
-    await newsPage.goto(newsLinks[1]);
+    const randomNbr = Math.floor(Math.random() * ((newsLinks.length-1)+ 1))  // Math.floor(Math.random() * (max - min + 1) + min)
+    await newsPage.goto(newsLinks[randomNbr]);
     await newsPage.setViewport({
         width: 1920,
         height: 1080
