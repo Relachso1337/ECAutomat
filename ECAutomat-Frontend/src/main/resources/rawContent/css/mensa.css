@@ -51,12 +51,13 @@ a:link {
   background-color: #0066B3;
   text-align: center;
   top: 0;
-  width: 97%;
-  padding: 1.5%;
+  margin-bottom: -2px;
+  width: 100%;
+  padding: 1.7%;
 }
 
 .balkenorange{
-  height: 2em;
+  height: 2.5em;
   width: 100%;
   background-color: #FF6600;
 }
@@ -66,7 +67,7 @@ a:link {
 div.essen_menu {
     position: absolute;
     left: 27.5%;
-    top: 20%;
+    top: 22%;
 
     font-size: 35px;
 
@@ -86,7 +87,7 @@ div.essen_menu ul {
 
 #essen_kosten {
     position: absolute;
-    top: 85%;
+    top: 90%;
     left: 27.5%;
 
     font-size: 30px;
