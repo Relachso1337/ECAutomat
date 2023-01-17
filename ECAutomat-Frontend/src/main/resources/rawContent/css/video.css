@@ -1,29 +1,49 @@
-video {
-	position: absolute;
-	top: 52.5%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+.navbar {
+	display: inline-block;
+	overflow: hidden;
+	background-color: #0066B3;
+	text-align: center;
+	width: 97%;
+	padding: 1.5%;
+  }
+  
+  .balkenorange{
+	height: 2em;
 	width: 100%;
-	height: 85%;
-
-}
-
-body {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: black;
-}
-
-a {
-
-	color: white !important;
-	font-size: 25px !important;
-}
-
-#home {
+	background-color: #FF6600;
+  }
+  
+  #vid {
 	position: absolute;
-
-	left: 1%;
-	top: 1%;
-}
+  
+	width: 70%;
+	left: 15%;
+	top: 23%;
+  }
+  
+  .control-buttons {
+	position: absolute;
+	left: 5%;
+	top: 30%;
+  }
+  
+  .skip-buttons {
+	position: absolute;
+	left: 90%;
+	top: 40%;
+  }
+  
+  #back-btn, #volume-up-btn, #volume-down-btn, #play-btn, #forward-btn, #backward-btn {
+	background-color: #0066B3;
+	color: white;
+	border: #0066B3;
+	border-radius: 70%;
+	font-size: 24px;
+	height:4em;
+	width: 4em;
+  }
+  
+  #back-btn:hover, #volume-up-btn:hover, #volume-down-btn:hover, #play-btn:hover, #forward-btn:hover, #backward-btn:hover{
+	background-color: lightblue !important;
+	color: white;
+  }
