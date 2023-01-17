@@ -47,3 +47,22 @@ body, html, main {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#back-btn {
+	background-color: #0066B3;
+	color: white;
+	border: #0066B3;
+	border-radius: 70%;
+	font-size: 24px;
+	height:4em;
+	width: 4em;
+
+    position: absolute;
+    left: 1%;
+    top: 2%;
+  }
+  
+  #back-btn:hover {
+	background-color: lightblue !important;
+	color: white;
+  }
