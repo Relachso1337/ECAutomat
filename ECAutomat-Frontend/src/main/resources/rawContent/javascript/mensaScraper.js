@@ -208,6 +208,34 @@ async function scrapeProduct(url) {
     
         ///////////////////////////////////////////////////////////////////////////////////////////////////
 
+        //DATUM
+
+        const [elmontag] = await page.$x('//*[@id="tab-mon"]/h3');
+        const datum = await elmontag.getProperty('textContent');
+        const datumTxt = await datum.jsonValue();
+
+        const [eldienstag] = await page.$x('//*[@id="tab-tue"]/h3');
+        const datum2 = await eldienstag.getProperty('textContent');
+        const datumTxt2 = await datum2.jsonValue();
+
+        const [elmittwoch] = await page.$x('//*[@id="tab-wed"]/h3');
+        const datum3 = await elmittwoch.getProperty('textContent');
+        const datumTxt3 = await datum3.jsonValue();
+
+        const [eldonnerstag] = await page.$x('//*[@id="tab-thu"]/h3');
+        const datum4 = await eldonnerstag.getProperty('textContent');
+        const datumTxt4 = await datum4.jsonValue();
+
+        const [elfreitag] = await page.$x('//*[@id="tab-fri"]/h3');
+        const datum5 = await elfreitag.getProperty('textContent');
+        const datumTxt5 = await datum5.jsonValue();
+
+        obj.menu.push({datum: datumTxt});
+        obj.menu.push({datum: datumTxt2});
+        obj.menu.push({datum: datumTxt3});
+        obj.menu.push({datum: datumTxt4});
+        obj.menu.push({datum: datumTxt5});
+
     var json = JSON.stringify(obj, null, 2);
 
     fs.writeFile('../menu.json', json, function(err, result) {

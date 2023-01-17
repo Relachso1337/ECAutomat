@@ -1,22 +1,24 @@
 .navbar {
-	display: inline-block;
-	overflow: hidden;
-	background-color: #0066B3;
-	text-align: center;
-	width: 97%;
-	padding: 1.5%;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #0066B3;
+    text-align: center;
+    top: 0;
+    margin-bottom: -2px;
+    width: 100%;
+    padding: 1.7%;
   }
   
   .balkenorange{
-	height: 2em;
-	width: 100%;
-	background-color: #FF6600;
+    height: 2.5em;
+    width: 100%;
+    background-color: #FF6600;
   }
   
   #vid {
 	position: absolute;
   
-	width: 70%;
+	width: 67.5%;
 	left: 15%;
 	top: 23%;
   }
@@ -32,6 +34,10 @@
 	left: 90%;
 	top: 40%;
   }
+
+  #hsLogo{
+    margin-left: 3%;
+}
   
   #back-btn, #volume-up-btn, #volume-down-btn, #play-btn, #forward-btn, #backward-btn {
 	background-color: #0066B3;

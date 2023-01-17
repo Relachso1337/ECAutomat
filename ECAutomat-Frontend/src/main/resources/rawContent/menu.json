@@ -59,6 +59,21 @@
     {
       "tag": "Freitag",
       "essen": "-"
+    },
+    {
+      "datum": "Montag 16.01."
+    },
+    {
+      "datum": "Dienstag 17.01."
+    },
+    {
+      "datum": "Mittwoch 18.01."
+    },
+    {
+      "datum": "Donnerstag 19.01."
+    },
+    {
+      "datum": "Freitag 20.01."
     }
   ]
 }
