@@ -6,9 +6,16 @@ window.onload = function() {
 	mediaToArray();
 }
 
+const randomNbr = Math.floor(Math.random() * ((10-1)+ 1))  // Math.floor(Math.random() * (max - min + 1) + min)
+
 async function mediaToArray() {
+	const res = await fetch(`../media/news/news${randomNbr}.json`)
+	var maincontainer = document.getElementById("imageandnewscontainer");
+	maincontainer.style.backgroundImage = `linear-gradient(180deg, rgba(0,102,127,0.4) 0%, rgba(0,102,127,1) 100%), url("../media/news/${randomNbr}.jpg")`;
+	maincontainer.style.backgroundPosition = 'center';
+	maincontainer.style.backgroundRepeat = 'no-repeat';
+	maincontainer.style.backgroundSize = 'cover';
 	let obj;
-	const res = await fetch('../media/news/news.json')
 	obj = await res.json();
 	obj.paragraphs.forEach(element => {
 		paragraphs.push(element.content);
@@ -17,14 +24,14 @@ async function mediaToArray() {
 	var author = document.getElementById("author");
 	headline.innerHTML = obj.headline;
 	author.innerHTML = "Author: " + obj.author;
-	var qrcode = new QRCode("qrcode", {
-		text: "wdaawd",
-		width: 128,
-		height: 128,
-		correctionLevel: QRCode.CorrectLevel.H
-	})
-	qrcode.clear(); // clear the code.
-	qrcode.makeCode(obj.url); // make another code.
+	// var qrcode = new QRCode("qrcode", {
+	// 	text: "wdaawd",
+	// 	width: 128,
+	// 	height: 128,
+	// 	correctionLevel: QRCode.CorrectLevel.H
+	// })
+	// qrcode.clear(); // clear the code.
+	// qrcode.makeCode(obj.url); // make another code.
 }
 
 function convertContent(content) {
@@ -60,34 +67,17 @@ function displayAllContent(delay) {
 		}
 		if (isDoneReading) {
 			setTimeout(function() {
-				window.location.reload();
+				// window.location.reload();
 			}, delay);			
 		}
 	}, delay);
 }
 setTimeout(function() {
 	var headlines = document.getElementById("headlinecontainer");
-	var maincontainer = document.getElementById("imageandnewscontainer");
 	headlines.classList.remove("fadeOut");
 	headlines.classList.add("fadeOut");
 	setTimeout(function() {
-		maincontainer.style.backgroundImage = 'linear-gradient(180deg, rgba(0,102,127,0.4) 0%, rgba(0,102,127,1) 100%), url("../media/news/1.jpg")';
-		maincontainer.style.backgroundPosition = 'center';
-		maincontainer.style.backgroundRepeat = 'no-repeat';
-		maincontainer.style.backgroundSize = 'cover';
 		headlines.remove();
-		displayAllContent(25000);
+		displayAllContent(5000);
 	}, 1500);
 }, 5000);
-
-
-// setTimeout(function() {
-// 	// var container = document.getElementById("redcontainer");
-// 	// container.classList.remove("slideOut");
-// 	// void container.offsetWidth;
-// 	// container.classList.add("slideOut");
-// 	setTimeout(function() {
-// 		window.location.replace("../html/mensa.html");
-// 	}, 1400);
-
-// }, 180000);
