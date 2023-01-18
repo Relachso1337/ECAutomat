@@ -67,7 +67,8 @@ function displayAllContent(delay) {
 		}
 		if (isDoneReading) {
 			setTimeout(function() {
-				// window.location.reload();
+				window.location.reload("./newsticker.html");
+
 			}, delay);			
 		}
 	}, delay);
@@ -78,6 +79,6 @@ setTimeout(function() {
 	headlines.classList.add("fadeOut");
 	setTimeout(function() {
 		headlines.remove();
-		displayAllContent(5000);
+		displayAllContent(20000);
 	}, 1500);
 }, 5000);
