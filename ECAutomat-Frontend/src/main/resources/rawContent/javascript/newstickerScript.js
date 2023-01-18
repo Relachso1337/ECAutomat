@@ -67,7 +67,7 @@ function displayAllContent(delay) {
 		}
 		if (isDoneReading) {
 			setTimeout(function() {
-				// window.location.reload();
+				window.location.reload();
 			}, delay);			
 		}
 	}, delay);
