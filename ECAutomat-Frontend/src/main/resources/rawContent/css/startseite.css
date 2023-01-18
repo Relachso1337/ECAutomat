@@ -2,9 +2,6 @@
   height: 100%;
 }
 
-#video{
-  background-color: #0066B3;
-}
 .buttons {
   height: 100%;
 
@@ -22,10 +19,12 @@
   margin-left: 3%;
 }
 
-#quiz {
+#quiz, #video, #news {
   background-color: #0066B3;
   height: 2em;
   width: 10em;
+  
+  margin-bottom: 20px;
 }
 
 a {

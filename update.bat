@@ -1,8 +1,8 @@
-cd ECAutomat-Frontend\src\main\resources\rawContent\javascript
+cd C:\Users\Truong\Desktop\ECAutomat\ECAutomat-Frontend\src\main\resources\rawContent\javascript
 node mensaScraper.js
 node newsScraper.js
 
-cd ..\..\..\..\..\..
+cd C:\Users\Truong\Desktop\ECAutomat
 start server.bat
 
 timeout 3
