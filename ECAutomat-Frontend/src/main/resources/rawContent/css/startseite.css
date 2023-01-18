@@ -1,40 +1,51 @@
+.menu {
+  height: 100%;
+}
 
 .buttons {
-    left: 36%;
-    top: 36%;
-    padding: 15px;
-    position: absolute;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
 }
 
-#hsLogo{
-    margin-left: 3%;
+#hsLogo {
+  margin-left: 3%;
 }
 
-#quiz {
+#quiz, #video, #news {
   background-color: #0066B3;
   height: 2em;
   width: 10em;
+  
+  margin-bottom: 20px;
 }
 
 a {
-    color: white !important;
-    font-size: 50px !important;
+  color: white !important;
+  font-size: 50px !important;
 }
 
 
 .navbar {
-    display: inline-block;
-    overflow: hidden;
-    background-color: #0066B3;
-    text-align: center;
-    top: 0;
-    margin-bottom: -2px;
-    width: 100%;
-    padding: 1.7%;
-  }
-  
-  .balkenorange{
-    height: 2.5em;
-    width: 100%;
-    background-color: #FF6600;
-  }
+  display: inline-block;
+  overflow: hidden;
+  background-color: #0066B3;
+  text-align: center;
+  top: 0;
+  margin-bottom: -2px;
+  width: 100%;
+  padding: 1.7%;
+}
+
+.balkenorange {
+  height: 2.5em;
+  width: 100%;
+  background-color: #FF6600;
+}

@@ -19,19 +19,19 @@
 	position: absolute;
   
 	width: 67.5%;
-	left: 15%;
-	top: 23%;
+	left: 17%;
+	top: 25%;
   }
   
   .control-buttons {
 	position: absolute;
-	left: 5%;
-	top: 30%;
+	left: 2%;
+	top: 27%;
   }
   
   .skip-buttons {
 	position: absolute;
-	left: 90%;
+	left: 89%;
 	top: 40%;
   }
 

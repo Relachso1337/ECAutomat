@@ -67,8 +67,12 @@ function displayAllContent(delay) {
 		}
 		if (isDoneReading) {
 			setTimeout(function() {
+<<<<<<< HEAD
 				window.location.reload("./newsticker.html");
 
+=======
+				window.location.reload();
+>>>>>>> c7429cfc4f655ee009a24ff6401bc475d324606b
 			}, delay);			
 		}
 	}, delay);
