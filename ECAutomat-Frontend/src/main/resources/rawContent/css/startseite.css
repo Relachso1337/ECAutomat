@@ -27,6 +27,11 @@
   margin-bottom: 20px;
 }
 
+#quiz:hover, #video:hover, #news:hover {
+  background-color: lightblue;
+  border-color: lightblue;
+}
+
 a {
   color: white !important;
   font-size: 50px !important;
