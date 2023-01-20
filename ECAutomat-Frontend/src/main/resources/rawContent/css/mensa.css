@@ -1,35 +1,5 @@
-a:link {
-    text-decoration: none;
-    color: black;
-}
-  
-  li {
-    float: left;
-  }
-
-  button {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    padding: 10px;
-    background-color: #333;
-    text-decoration: none;
-    color: white;
-  }
-
-  li a:hover {
-    background-color: black;
-  }
-
-#title {
-    position: absolute;
-    font-size: 50px;
-
-    color: black;
-
-    left: 25%;
+li {
+  float: left;
 }
 
 #img_koch {
@@ -42,7 +12,7 @@ a:link {
 #date {
     text-decoration: underline;
 
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .navbar {
@@ -69,7 +39,7 @@ div.essen_menu {
     left: 27.5%;
     top: 22%;
 
-    font-size: 35px;
+    font-size: 30px;
 
 }
 
@@ -83,12 +53,4 @@ div.essen_menu ul {
 
 #essen_title, #essen_kosten, #date {
     font-weight: bold;
-}
-
-#essen_kosten {
-    position: absolute;
-    top: 90%;
-    left: 27.5%;
-
-    font-size: 30px;
 }
