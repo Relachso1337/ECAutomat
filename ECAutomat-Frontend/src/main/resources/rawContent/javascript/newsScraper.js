@@ -1,6 +1,12 @@
 const puppeteer = require('puppeteer');
-const http = require("http");
 const fs = require('fs');
+
+
+function delay(time) {
+    return new Promise(function(resolve) {
+        setTimeout(resolve, time);
+    });
+}
 
 /**
  * Helper Method for async for loop in scrapeLinks.
@@ -53,8 +59,12 @@ async function scrapeLinks() {
         var headlineList = await newsPage.$x('//h3[@itemprop="headline"]');
         var headline = await newsPage.evaluate(el => el.textContent, headlineList[0])
         // Author
-        var authorList= await newsPage.$x('//span[@itemprop="author"]//span[@itemprop="name"]');
-        var author = await newsPage.evaluate(el => el.textContent, authorList[0]);
+        try {
+            var authorList= await newsPage.$x('//span[@itemprop="author"]//span[@itemprop="name"]');
+            var author = await newsPage.evaluate(el => el.textContent, authorList[0]);
+        } catch(e) {
+            // pass
+        }
         // Date
         var dateList = await newsPage.$x('//time[@itemprop="datePublished"]');
         var date_ = await newsPage.evaluate(el => el.textContent, dateList[0]);
