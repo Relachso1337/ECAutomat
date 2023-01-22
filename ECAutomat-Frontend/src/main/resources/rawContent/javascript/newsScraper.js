@@ -1,7 +1,11 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-
+/**
+ * sets delay for async / await methods.
+ * @param {int} time time delay in ms.
+ * @returns 
+ */
 function delay(time) {
     return new Promise(function(resolve) {
         setTimeout(resolve, time);
@@ -10,7 +14,7 @@ function delay(time) {
 
 /**
  * Helper Method for async for loop in scrapeLinks.
- * Scrapes 10 news from http://hs-offenburg.de and its subdomains
+ * Scrapes 11 news from http://hs-offenburg.de and its subdomains
  */
 async function* foo() {
     yield 0;
