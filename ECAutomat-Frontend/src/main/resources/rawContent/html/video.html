@@ -54,10 +54,12 @@
 		var isPlaying = true;
 		
 		function playVideo() {
+			//Abfrage ob Video bereits abspielt
 			if(isPlaying == true) {
 				vid.pause();
 
 				isPlaying = false;
+			//Wenn nicht Video wird abgespielt
 			} else {
 				vid.play();
 
@@ -66,6 +68,7 @@
 		}
 
 		function volumeUp() {
+			//Abfrage ob die Lautstärke vom Video kleiner als 80% ist
 			if(vid.volume < 0.8) {
 				vid.volume += 0.2;
 			} else {
@@ -74,17 +77,20 @@
 		}
 
 		function volumeDown() {
+			//Abfrage ob die Lautstärke vom Video größer als 20% ist
 			if(vid.volume > 0.2) {
 				vid.volume -= 0.2;
 			} else {
 				vid.volume = 0;
 			}
 		}
-
+		
+		//Video wird 10 Sekunden vorgespult
 		function forwardVideo() {
 			vid.currentTime += 10;
 		}
 
+		//Video wird 10 Sekunden zurückgespult
 		function backwardVideo() {
 			vid.currentTime -= 10;
 		}
