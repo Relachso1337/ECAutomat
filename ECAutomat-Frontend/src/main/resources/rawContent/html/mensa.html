@@ -57,49 +57,52 @@
 			
 			const date = new Date();
 
-			setTimeout(() => {
-				document.getElementById('date').innerHTML = data.menu[15].datum + date.getFullYear();
+			document.getElementById('date').innerHTML = data.menu[15].datum + date.getFullYear();
 
-				document.getElementById('essen_1').innerHTML = data.menu[0].essen;
-				document.getElementById('essen_2').innerHTML = data.menu[1].essen;
-				document.getElementById('essen_3').innerHTML = data.menu[2].essen;
-			}, 0);
+			document.getElementById('essen_1').innerHTML = data.menu[0].essen;
+			document.getElementById('essen_2').innerHTML = data.menu[1].essen;
+			document.getElementById('essen_3').innerHTML = data.menu[2].essen;
 
+			//Scheduler der die Menüs auf der HTML Seite updated (Nach 5 Sekunden)
 			setTimeout(() => {
 				document.getElementById('date').innerHTML = data.menu[16].datum + date.getFullYear();
 
 				document.getElementById('essen_1').innerHTML = data.menu[3].essen;
 				document.getElementById('essen_2').innerHTML = data.menu[4].essen;
 				document.getElementById('essen_3').innerHTML = data.menu[5].essen;
-			}, 10*1000);
+			}, 5*1000);
 
+			//Scheduler der die Menüs auf der HTML Seite updated (Nach 5 Sekunden)
 			setTimeout(() => {
 				document.getElementById('date').innerHTML = data.menu[17].datum + date.getFullYear();
 
 				document.getElementById('essen_1').innerHTML = data.menu[6].essen;
 				document.getElementById('essen_2').innerHTML = data.menu[7].essen;
 				document.getElementById('essen_3').innerHTML = data.menu[8].essen;
-			}, 20*1000);
+			}, 10*1000);
 			
+			//Scheduler der die Menüs auf der HTML Seite updated (Nach 10 Sekunden)
 			setTimeout(() => {
 				document.getElementById('date').innerHTML = data.menu[18].datum + date.getFullYear();
 
 				document.getElementById('essen_1').innerHTML = data.menu[9].essen;
 				document.getElementById('essen_2').innerHTML = data.menu[10].essen;
 				document.getElementById('essen_3').innerHTML = data.menu[11].essen;
-			}, 30*1000);
+			}, 15*1000);
 
+			//Scheduler der die Menüs auf der HTML Seite updated (Nach 20 Sekunden)
 			setTimeout(() => {
 				document.getElementById('date').innerHTML = data.menu[19].datum + date.getFullYear();
 
 				document.getElementById('essen_1').innerHTML = data.menu[12].essen;
 				document.getElementById('essen_2').innerHTML = data.menu[13].essen;
 				document.getElementById('essen_3').innerHTML = data.menu[14].essen;
-			}, 40*1000);
+			}, 20*1000);
 
+			//Scheduler der die Menüs auf der HTML Seite updated (Nach 25 Sekunden)
 			setTimeout(() => {
 				window.location.reload();
-			}, 50*1000);
+			}, 25*1000);
 		});
 	</script>
 

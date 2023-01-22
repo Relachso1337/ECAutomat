@@ -13,6 +13,7 @@ async function scrapeProduct(url) {
     //MENÜ 1
     const [el] = await page.$x('//*[@id="tab-mon"]/div/div[1]/small');
 
+    //Abfrage ob Menü vorhanden ist
     if(el != null) {
         const menu = await el.getProperty('textContent');
         const menuTxt = await menu.jsonValue();
@@ -25,6 +26,7 @@ async function scrapeProduct(url) {
     //MENÜ 2
     const [el2] = await page.$x('//*[@id="tab-mon"]/div/div[2]/small');
 
+    //Abfrage ob Menü vorhanden ist
     if(el2 != null) {
         const menu2 = await el2.getProperty('textContent');
         const menuTxt2 = await menu2.jsonValue();
@@ -37,6 +39,7 @@ async function scrapeProduct(url) {
     //MENÜ 3
     const [el3] = await page.$x('//*[@id="tab-mon"]/div/div[3]/small');
 
+    //Abfrage ob Menü vorhanden ist
     if(el3 != null) {
         const menu3 = await el3.getProperty('textContent');
         const menuTxt3 = await menu3.jsonValue();
@@ -53,6 +56,7 @@ async function scrapeProduct(url) {
     //MENÜ 1
     const [el4] = await page.$x('//*[@id="tab-tue"]/div/div[1]/small');
 
+    //Abfrage ob Menü vorhanden ist
     if(el4 != null) {
         const menu4 = await el4.getProperty('textContent');
         const menuTxt4 = await menu4.jsonValue();
@@ -65,6 +69,7 @@ async function scrapeProduct(url) {
     //MENÜ 2
     const [el5] = await page.$x('//*[@id="tab-tue"]/div/div[2]/small');
 
+    //Abfrage ob Menü vorhanden ist
     if(el5 != null) {
         const menu5 = await el5.getProperty('textContent');
         const menuTxt5 = await menu5.jsonValue();
@@ -77,6 +82,7 @@ async function scrapeProduct(url) {
     //MENÜ 3
     const [el6] = await page.$x('//*[@id="tab-tue"]/div/div[3]/small');
 
+    //Abfrage ob Menü vorhanden ist
     if(el6 != null) {
         const menu6 = await el6.getProperty('textContent');
         const menuTxt6 = await menu6.jsonValue();
@@ -93,6 +99,7 @@ async function scrapeProduct(url) {
     //MENÜ 1
     const [el7] = await page.$x('//*[@id="tab-wed"]/div/div[1]/small');
 
+    //Abfrage ob Menü vorhanden ist
     if(el7 != null) {
         const menu7 = await el7.getProperty('textContent');
         const menuTxt7 = await menu7.jsonValue();
@@ -105,6 +112,7 @@ async function scrapeProduct(url) {
     //MENÜ 2
     const [el8] = await page.$x('//*[@id="tab-wed"]/div/div[2]/small');
 
+    //Abfrage ob Menü vorhanden ist
     if(el8 != null) {
         const menu8 = await el8.getProperty('textContent');
         const menuTxt8 = await menu8.jsonValue();
@@ -117,6 +125,7 @@ async function scrapeProduct(url) {
     //MENÜ 3
     const [el9] = await page.$x('//*[@id="tab-wed"]/div/div[3]/small');
 
+    //Abfrage ob Menü vorhanden ist
     if(el9 != null) {
         const menu9 = await el9.getProperty('textContent');
         const menuTxt9 = await menu9.jsonValue();
@@ -133,6 +142,7 @@ async function scrapeProduct(url) {
     //MENÜ 1
     const [el10] = await page.$x('//*[@id="tab-thu"]/div/div[1]/small');
 
+    //Abfrage ob Menü vorhanden ist
     if(el10 != null) {
         const menu10 = await el10.getProperty('textContent');
         const menuTxt10 = await menu10.jsonValue();
@@ -145,6 +155,7 @@ async function scrapeProduct(url) {
     //MENÜ 2
     const [el11] = await page.$x('//*[@id="tab-thu"]/div/div[2]/small');
 
+    //Abfrage ob Menü vorhanden ist
     if(el11 != null) {
         const menu11 = await el11.getProperty('textContent');
         const menuTxt11 = await menu11.jsonValue();
@@ -157,6 +168,7 @@ async function scrapeProduct(url) {
     //MENÜ 3
     const [el12] = await page.$x('//*[@id="tab-thu"]/div/div[3]/small');
 
+    //Abfrage ob Menü vorhanden ist
     if(el12 != null) {
         const menu12 = await el12.getProperty('textContent');
         const menuTxt12 = await menu12.jsonValue();
@@ -173,68 +185,71 @@ async function scrapeProduct(url) {
         //MENÜ 1
         const [el13] = await page.$x('//*[@id="tab-fri"]/div/div[1]/small');
 
-        if(el13 != null) {
-            const menu13 = await el13.getProperty('textContent');
-            const menuTxt13 = await menu13.jsonValue();
+    //Abfrage ob Menü vorhanden ist
+    if(el13 != null) {
+        const menu13 = await el13.getProperty('textContent');
+        const menuTxt13 = await menu13.jsonValue();
     
-            obj.menu.push({tag: "Freitag", essen: menuTxt13.replace(/([A-Z])/g, ' $1').trim()});
-        } else {
-            obj.menu.push({tag: "Freitag", essen: "-"});
-        }
+         obj.menu.push({tag: "Freitag", essen: menuTxt13.replace(/([A-Z])/g, ' $1').trim()});
+    } else {
+        obj.menu.push({tag: "Freitag", essen: "-"});
+    }
     
-        //MENÜ 2
-        const [el14] = await page.$x('//*[@id="tab-fri"]/div/div[2]/small');
+    //MENÜ 2
+    const [el14] = await page.$x('//*[@id="tab-fri"]/div/div[2]/small');
     
-        if(el14 != null) {
-            const menu14 = await el14.getProperty('textContent');
-            const menuTxt14 = await menu14.jsonValue();
+    //Abfrage ob Menü vorhanden ist
+    if(el14 != null) {
+        const menu14 = await el14.getProperty('textContent');
+        const menuTxt14 = await menu14.jsonValue();
     
-            obj.menu.push({tag: "Freitag", essen: menuTxt14.replace(/([A-Z])/g, ' $1').trim()});
-        } else {
-            obj.menu.push({tag: "Freitag", essen: "-"});
-        }
+        obj.menu.push({tag: "Freitag", essen: menuTxt14.replace(/([A-Z])/g, ' $1').trim()});
+    } else {
+        obj.menu.push({tag: "Freitag", essen: "-"});
+    }
         
-        //MENÜ 3
-        const [el15] = await page.$x('//*[@id="tab-fri"]/div/div[3]/small');
+    //MENÜ 3
+    const [el15] = await page.$x('//*[@id="tab-fri"]/div/div[3]/small');
     
-        if(el15 != null) {
-            const menu15 = await el15.getProperty('textContent');
-            const menuTxt15 = await menu15.jsonValue();
+    //Abfrage ob Menü vorhanden ist
+    if(el15 != null) {
+        const menu15 = await el15.getProperty('textContent');
+        const menuTxt15 = await menu15.jsonValue();
     
-            obj.menu.push({tag: "Freitag", essen: menuTxt15.replace(/([A-Z])/g, ' $1').trim()});
-        } else {
-            obj.menu.push({tag: "Freitag", essen: "-"});
-        }
+        obj.menu.push({tag: "Freitag", essen: menuTxt15.replace(/([A-Z])/g, ' $1').trim()});
+    } else {
+        obj.menu.push({tag: "Freitag", essen: "-"});
+    }
     
-        ///////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-        //DATUM
+    //DATUM
 
-        const [elmontag] = await page.$x('//*[@id="tab-mon"]/h3');
-        const datum = await elmontag.getProperty('textContent');
-        const datumTxt = await datum.jsonValue();
+    const [elmontag] = await page.$x('//*[@id="tab-mon"]/h3');
+    const datum = await elmontag.getProperty('textContent');
+    const datumTxt = await datum.jsonValue();
 
-        const [eldienstag] = await page.$x('//*[@id="tab-tue"]/h3');
-        const datum2 = await eldienstag.getProperty('textContent');
-        const datumTxt2 = await datum2.jsonValue();
+    const [eldienstag] = await page.$x('//*[@id="tab-tue"]/h3');
+    const datum2 = await eldienstag.getProperty('textContent');
+    const datumTxt2 = await datum2.jsonValue();
 
-        const [elmittwoch] = await page.$x('//*[@id="tab-wed"]/h3');
-        const datum3 = await elmittwoch.getProperty('textContent');
-        const datumTxt3 = await datum3.jsonValue();
+    const [elmittwoch] = await page.$x('//*[@id="tab-wed"]/h3');
+    const datum3 = await elmittwoch.getProperty('textContent');
+    const datumTxt3 = await datum3.jsonValue();
 
-        const [eldonnerstag] = await page.$x('//*[@id="tab-thu"]/h3');
-        const datum4 = await eldonnerstag.getProperty('textContent');
-        const datumTxt4 = await datum4.jsonValue();
+    const [eldonnerstag] = await page.$x('//*[@id="tab-thu"]/h3');
+    const datum4 = await eldonnerstag.getProperty('textContent');
+    const datumTxt4 = await datum4.jsonValue();
 
-        const [elfreitag] = await page.$x('//*[@id="tab-fri"]/h3');
-        const datum5 = await elfreitag.getProperty('textContent');
-        const datumTxt5 = await datum5.jsonValue();
+    const [elfreitag] = await page.$x('//*[@id="tab-fri"]/h3');
+    const datum5 = await elfreitag.getProperty('textContent');
+    const datumTxt5 = await datum5.jsonValue();
 
-        obj.menu.push({datum: datumTxt});
-        obj.menu.push({datum: datumTxt2});
-        obj.menu.push({datum: datumTxt3});
-        obj.menu.push({datum: datumTxt4});
-        obj.menu.push({datum: datumTxt5});
+    obj.menu.push({datum: datumTxt});
+    obj.menu.push({datum: datumTxt2});
+    obj.menu.push({datum: datumTxt3});
+    obj.menu.push({datum: datumTxt4});
+    obj.menu.push({datum: datumTxt5});
 
     var json = JSON.stringify(obj, null, 2);
 
