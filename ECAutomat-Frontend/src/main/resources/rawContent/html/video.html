@@ -17,8 +17,6 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css">
     <link rel="stylesheet" href="../css/video.css">
-    
-    <link rel="stylesheet" href="../css/video.css">
 </head>
 
 <body>
@@ -35,8 +33,6 @@
 		<button onclick="volumeUp()" id="volume-up-btn" class="start-btn btn"><i class="fa-sharp fa-solid fa fa-volume-up"></i></button></a>
 		<br><br><br>
 		<button onclick="volumeDown()" id="volume-down-btn" class="start-btn btn"><i class="fa-sharp fa-solid fa fa-volume-down"></i></button>
-		<br><br><br>
-		<button onclick="playVideo()" id="play-btn" class="start-btn btn"><i class="fa-sharp fa-solid fa fa-play"></i></button>
 	</div>
 
 	<!--    Steuerelemente rechts (vor- und zurück)    -->
@@ -44,19 +40,19 @@
 		<button onclick="forwardVideo()" id="forward-btn" class="start-btn btn"><i class="fa-sharp fa-solid fa fa-forward"></i></button>
 		<br><br><br>
 		<button onclick="backwardVideo()" id="backward-btn" class="start-btn btn"><i class="fa-sharp fa-solid fa fa-backward"></i></button>
+		<br><br><br>
+		<button onclick="playVideo()" id="play-btn" class="start-btn btn"><i class="fa-sharp fa-solid fa fa-play"></i></button>
 	</div>
 
-	<video id="vid" playsinline loop>
+	<video id="vid" autoplay playsinline loop>
 		<source src="../media/videos/videoplayback.mp4" type="video/mp4">
 	</video>
 
 	<!--    JS Steuerfunktionen    -->
 	<script>
 		var vid = document.getElementById('vid');
-		
-		vid.play();
 		var isPlaying = true;
-
+		
 		function playVideo() {
 			if(isPlaying == true) {
 				vid.pause();
