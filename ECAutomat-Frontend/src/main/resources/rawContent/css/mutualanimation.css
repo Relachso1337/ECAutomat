@@ -16,6 +16,34 @@
     }
 }
 
+@keyframes slideUp {
+    0% {
+        transform: 0;
+    }
+    100% {
+        transform: translateY(calc(-200vh));
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+
 .slideIn {
     animation-name: appearFromLeft;
     animation-duration: 2s;
@@ -26,4 +54,22 @@
     animation-name: disappearToRight;
     animation-duration: 2s;
     animation-timing-function: ease-out;
+}
+
+.slideUp {
+    animation-name: slideUp;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+}
+
+.fadeOut {
+    animation-name: fadeOut;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
 }
