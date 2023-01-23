@@ -211,7 +211,7 @@ function startGame() {
   gameoverScreen.classList.add('hide');
   if (isSpeedmode) {
     setTimeout(() => {
-      gameOver();
+      gameOver(points);
     }, "121000")
   }
   //setNextQuestion()

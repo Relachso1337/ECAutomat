@@ -23917,7 +23917,7 @@
           // Starten des Timers, falls wir uns im Zeitmodus befinden
           if (isSpeedmode) {
             gameoverTimeout = setTimeout(() => {
-              gameOver();
+              gameOver(points);
             }, "121000")
           }
         }
